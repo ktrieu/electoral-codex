@@ -33,14 +33,7 @@ def load_ridings():
         for line in ridings_reader:
             riding = common_defs.Riding()
             riding.riding_id = int(line[0])
-            name_raw = line[1]
-            #deal with ridings that have different names in French and English
-            slash_idx = name_raw.find('/')
-            if slash_idx == -1:
-                riding.name = name_raw.strip()
-            else:
-                riding.name = name_raw[0:slash_idx]
-            ridings[riding.riding_id] = riding
+            
     return ridings
 
 def read_candidate_cols(header, candidates):
@@ -49,6 +42,20 @@ def read_candidate_cols(header, candidates):
         if item in candidates:
             candidate_cols[idx] = candidates[item]
     return candidate_cols
+
+def load_riding_from_poll_csv(id, ridings, line):
+    riding = common_defs.Riding()
+    riding.riding_id = id
+    name_raw = line[0]
+    #deal with ridings that have different names in French and English
+    slash_idx = name_raw.find('/')
+    if slash_idx == -1:
+        riding.name = name_raw.strip()
+    else:
+        riding.name = name_raw[0:slash_idx]
+    ridings[riding.riding_id] = riding
+    ridings[id] = riding
+
 
 def poll_divs_from_file(ridings, candidates, file_name):
     RIDING_ID_BEGIN = 10
@@ -59,6 +66,12 @@ def poll_divs_from_file(ridings, candidates, file_name):
     poll_divs = dict()
     with open(DATA_PATH + POLL_DIV_FOLDER + file_name, 'r') as poll_div_file:
         poll_div_reader = csv.reader(poll_div_file)
+        #skip the header
+        next(poll_div_reader)
+        #load the riding
+        load_riding_from_poll_csv(riding_id, ridings, next(poll_div_reader))
+        #reset the file
+        poll_div_file.seek(0)
         header = next(poll_div_reader)
         cand_cols = read_candidate_cols(header, candidates)
         for line in poll_div_reader:
@@ -98,6 +111,7 @@ def poll_divs_from_file(ridings, candidates, file_name):
                     poll_div = poll_divs[merge_to_id]
                     poll_div.results[cand] = result / divisor
         print('Merged poll divisions split.')
+    print(f'Poll divisions loaded for riding {ridings[riding_id].name}, id {riding_id}.')
     return poll_divs
             
 
@@ -114,10 +128,11 @@ def process_data():
     print('Loading candidates...')
     cand_dict = load_candidates()
     print('Candidates loaded.')
-    print('Loading ridings...')
-    ridings_dict = load_ridings()
-    print('Ridings loaded.')
-    print('Loading poll divisions....')
+    ridings_dict = dict()
+    #there is no global list of ridings and their ids
+    #so we have to load them along with poll divisions
+    print('Loading poll divisions and ridings....')
     poll_divs = load_poll_divs(ridings_dict, cand_dict)
-    print('Poll divisions loaded.')
+    print('Poll divisions and ridings loaded.')
     print('2004 data loaded.')
+    return cand_dict, ridings_dict, poll_divs
