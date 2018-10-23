@@ -83,7 +83,7 @@ def poll_divs_from_file(ridings, candidates, file_name):
             if line[1] == '':
                 poll_div.div_id = poll_div.name
             else:
-                poll_div.div_id = line[1]
+                poll_div.div_id = line[1].strip()
             poll_div.riding_id = riding_id
             if 'Merged with No.' in line[3]:
                 #this poll has been merged with another one, record that and move on
