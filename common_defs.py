@@ -1,4 +1,5 @@
 import enum
+import collections
 
 class Party(enum.Enum):
     LIB = enum.auto(),
@@ -36,11 +37,11 @@ class Riding:
     def __init__(self):
         self.riding_id = 0
         self.name = ''
-        self.results = dict()
+        self.results = collections.Counter()
 
 class PollDivision:
     def __init__(self):
         self.div_id = 0
         self.riding_id = 0
         self.name = ''
-        self.results = dict()
+        self.results = collections.Counter()

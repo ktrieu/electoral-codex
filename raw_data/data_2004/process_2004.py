@@ -80,6 +80,7 @@ def poll_divs_from_file(ridings, candidates, file_name):
                 continue
             poll_div = common_defs.PollDivision()
             poll_div.name = line[2].strip()
+            #handle polling divisions with no id, i.e Group 1 and 2 divisions
             if line[1] == '':
                 poll_div.div_id = poll_div.name
             else:
@@ -95,6 +96,9 @@ def poll_divs_from_file(ridings, candidates, file_name):
                 for idx, cand in cand_cols.items():
                     poll_div.results[cand] = int(line[idx])
             poll_divs[poll_div.div_id] = poll_div
+            #add results to the riding-wide total
+            for cand, result in poll_div.results.items():
+                ridings[riding_id].results[cand] += result
     if len(merged_dict) > 0:
         print('Splitting merged poll divisions...')
         for merged, merge_to in merged_dict.items():
@@ -117,7 +121,6 @@ def load_poll_divs(ridings, candidates):
         divs_from_file = poll_divs_from_file(ridings, candidates, poll_file_name)
         poll_divs.extend(divs_from_file.values())
     return poll_divs
-            
 
 def process_data():
     print('Loading data for 2004...')
