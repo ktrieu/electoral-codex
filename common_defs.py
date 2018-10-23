@@ -37,3 +37,10 @@ class Riding:
         self.riding_id = 0
         self.name = ''
         self.results = dict()
+
+class PollDivision:
+    def __init__(self):
+        self.div_id = 0
+        self.riding_id = 0
+        self.name = ''
+        self.results = dict()
