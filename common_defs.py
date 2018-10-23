@@ -26,9 +26,14 @@ party_str_table = {
 }
 
 class Candidate:
-    
     def __init__(self):
         self.cand_id = 0
         self.riding_id = 0
         self.name = ''
         self.party = None
+
+class Riding:
+    def __init__(self):
+        self.riding_id = 0
+        self.name = ''
+        self.results = dict()
