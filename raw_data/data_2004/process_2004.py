@@ -56,11 +56,12 @@ def load_riding_from_poll_csv(id, ridings, line):
     ridings[riding.riding_id] = riding
     ridings[id] = riding
 
+def reject_poll(line):
+    return (line[3] == 'Void' or line[3] == 'No poll held')
 
 def poll_divs_from_file(ridings, candidates, file_name):
     RIDING_ID_BEGIN = 10
     RIDING_ID_LEN = 5
-    MOBILE_POLL_NAME = 'Mobile poll/Bureau itinérant'
     riding_id = int(file_name[RIDING_ID_BEGIN:RIDING_ID_BEGIN + RIDING_ID_LEN])
     merged_dict = dict()
     poll_divs = dict()
@@ -75,12 +76,10 @@ def poll_divs_from_file(ridings, candidates, file_name):
         header = next(poll_div_reader)
         cand_cols = read_candidate_cols(header, candidates)
         for line in poll_div_reader:
+            if reject_poll(line):
+                continue
             poll_div = common_defs.PollDivision()
             poll_div.name = line[2].strip()
-            if poll_div.name == MOBILE_POLL_NAME:
-                #mobile polls don't show up on the map and get folded into a different division
-                #we can skip them
-                continue
             if line[1] == '':
                 poll_div.div_id = poll_div.name
             else:
@@ -92,9 +91,6 @@ def poll_divs_from_file(ridings, candidates, file_name):
                 if merged_dict.get(merged_id) == None:
                     merged_dict[merged_id] = list()
                 merged_dict[merged_id].append(poll_div.div_id)
-            elif line[3] == 'Void' or line[3] == 'No poll held':
-                #no one voted here
-                pass
             else:
                 for idx, cand in cand_cols.items():
                     poll_div.results[cand] = int(line[idx])
