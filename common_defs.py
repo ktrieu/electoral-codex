@@ -7,10 +7,15 @@ class Party(enum.Enum):
     GRN = enum.auto(),
     BQ = enum.auto(),
     PPC = enum.auto()
+    OTH = enum.auto()
 
     @classmethod
     def from_string(cls, str):
-        return party_str_table.get(str)
+        party = party_str_table.get(str)
+        if party is None:
+            return cls.OTH
+        else:
+             return party
 
 party_str_table = {
     'Liberal' : Party.LIB,
@@ -24,5 +29,6 @@ class Candidate:
     
     def __init__(self):
         self.cand_id = 0
+        self.riding_id = 0
         self.name = ''
         self.party = None
