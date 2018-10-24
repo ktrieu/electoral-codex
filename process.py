@@ -1,6 +1,6 @@
 import common_defs
 import sqlite3
-from raw_data.data_2004 import process_2004
+import processor
 
 #barring some kind of royal rumble, this should be more than enough
 MAX_CANDIDATES = 12
@@ -29,6 +29,8 @@ def save_to_db(candidates, ridings, poll_divs, year):
     c.executemany('INSERT INTO poll_divisions VALUES ' + generate_value_placeholder(3 + (MAX_CANDIDATES * 2)), 
                     map(polling_div_to_tuple, poll_divs))
     conn.commit()
+    conn.close()
+    print(f'{year} data saved.')
 
 def generate_value_placeholder(n):
     return '(' + ', '.join(['?'] * n) + ')'
@@ -52,6 +54,9 @@ def riding_to_tuple(riding):
 def polling_div_to_tuple(polling_div):
     return (polling_div.div_id, polling_div.riding_id, polling_div.name, *gen_result_columns(polling_div.results))
 
-cand_dict, riding_dict, poll_divs = process_2004.process_data()
-save_to_db(cand_dict, riding_dict, poll_divs, '2004')
-print('2004 data saved.')
+years = ['2004']
+
+for year in years:
+    processor = processor.Processor(year)
+    cand_dict, riding_dict, poll_divs = processor.process_data()
+    save_to_db(cand_dict, riding_dict, poll_divs, year)
