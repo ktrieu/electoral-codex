@@ -38,9 +38,12 @@ def load_ridings():
 
 def read_candidate_cols(header, candidates):
     candidate_cols = dict()
-    for idx, item in enumerate(header):
+    #start enumerating at candidate names
+    for idx, item in enumerate(header[3:]):
         if item in candidates:
-            candidate_cols[idx] = candidates[item]
+            candidate_cols[idx + 3] = candidates[item]
+        elif item != 'Rejected Ballots' and item != 'Total Vote' and item != 'Electors':
+            print(f'Unmatched candidate {item}. Verify candidate list.')
     return candidate_cols
 
 def load_riding_from_poll_csv(id, ridings, line):
