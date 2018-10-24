@@ -23,7 +23,11 @@ def save_to_db(candidates, ridings, poll_divs, year):
         c.execute(f'ALTER TABLE ridings ADD COLUMN cand{i}_result INTEGER') 
     conn.commit()
     #load data
-    c.executemany('INSERT INTO candidates VALUES (?, ?, ?, ?)', map(candidate_to_tuple, candidates.values()))
+    #build a list of candidates separately because they're in a double nested dict
+    cand_list = list()
+    for riding_cands in candidates.values():
+        cand_list.extend(riding_cands.values())
+    c.executemany('INSERT INTO candidates VALUES (?, ?, ?, ?)', map(candidate_to_tuple, cand_list))
     c.executemany('INSERT INTO ridings VALUES ' + generate_value_placeholder(2 + (MAX_CANDIDATES * 2)), 
                     map(riding_to_tuple, ridings.values()))
     c.executemany('INSERT INTO poll_divisions VALUES ' + generate_value_placeholder(3 + (MAX_CANDIDATES * 2)), 

@@ -20,7 +20,7 @@ class Processor:
             return text[0:slash_idx]
 
     def load_candidates(self):
-        candidates = dict()
+        candidates = collections.defaultdict(dict)
         cand_id = 0
         with open(self.data_path + 'candidates.tsv', 'r') as cand_file:
             cand_reader = csv.reader(cand_file, delimiter='\t')
@@ -34,18 +34,18 @@ class Processor:
                 #join together first, middle and last
                 name_list = [line[6].strip(), line[7].strip(), line[5].strip()]
                 cand.name = ' '.join(filter(None, name_list))
-                candidates[cand.name] = cand
+                candidates[cand.riding_id][cand.name] = cand
                 cand_id += 1
         return candidates
 
-    def read_candidate_cols(self, header, candidates):
+    def read_candidate_cols(self, header, candidates, riding_id):
         candidate_cols = dict()
         #start enumerating at candidate names
         for idx, item in enumerate(header[3:]):
-            if item in candidates:
-                candidate_cols[idx + 3] = candidates[item]
+            if item in candidates[riding_id]:
+                candidate_cols[idx + 3] = candidates[riding_id][item]
             elif 'Rejected Ballots' not in item and 'Total Vote' not in item and 'Electors' not in item:
-                print(f'Unmatched candidate {item}. Verify candidate list.')
+                print(f'Unmatched candidate {item} in riding number {riding_id}. Verify candidate list.')
         return candidate_cols
 
     def load_riding_from_poll_csv(self, id, ridings, line):
@@ -104,7 +104,7 @@ class Processor:
             #reset the file
             poll_div_file.seek(0)
             header = next(poll_div_reader)
-            cand_cols = self.read_candidate_cols(header, candidates)
+            cand_cols = self.read_candidate_cols(header, candidates, riding_id)
             for line in poll_div_reader:
                 poll_div = self.read_poll_div(riding_id, merged_dict, cand_cols, line)
                 if poll_div is None:
