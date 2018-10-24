@@ -66,7 +66,7 @@ class Processor:
         ridings[id] = riding
 
     def reject_poll(self, line):
-        return (line[3] == 'Void' or line[3] == 'No poll held')
+        return ('Void' in line[3] or 'No poll held' in line[3])
 
     def riding_num_from_file_name(self, file_name):
         match = re.search(r'\d+', file_name)

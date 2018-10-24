@@ -58,9 +58,9 @@ def riding_to_tuple(riding):
 def polling_div_to_tuple(polling_div):
     return (polling_div.div_id, polling_div.riding_id, polling_div.name, *gen_result_columns(polling_div.results))
 
-years = ['2004']
+years = ['2004', '2006']
 
 for year in years:
-    processor = processor.Processor(year)
-    cand_dict, riding_dict, poll_divs = processor.process_data()
+    processor_obj = processor.Processor(year)
+    cand_dict, riding_dict, poll_divs = processor_obj.process_data()
     save_to_db(cand_dict, riding_dict, poll_divs, year)

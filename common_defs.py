@@ -24,6 +24,12 @@ party_str_table = {
     'Conservative' : Party.CON,
     'Green Party' : Party.GRN,
     'Bloc Québécois' : Party.BQ,
+    #2006 text mappings, because they changed them
+    'Liberal Party of Canada' : Party.LIB,
+    'Conservative Party of Canada' : Party.CON,
+    'New Democratic Party' : Party.NDP,
+    'Green Party of Canada' : Party.GRN,
+    'Bloc Québécois' : Party.BQ
 }
 
 class Candidate:
