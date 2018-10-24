@@ -100,7 +100,6 @@ def poll_divs_from_file(ridings, candidates, file_name):
             for cand_id, result in poll_div.results.items():
                 ridings[riding_id].results[cand_id] += result
     if len(merged_dict) > 0:
-        print('Splitting merged poll divisions...')
         for merged, merge_to in merged_dict.items():
             #plus one because the merged poll division gets a share as well
             divisor = len(merge_to) + 1
@@ -110,8 +109,6 @@ def poll_divs_from_file(ridings, candidates, file_name):
                 for merge_to_id in merge_to:
                     poll_div = poll_divs[merge_to_id]
                     poll_div.results[cand_id] = result / divisor
-        print('Merged poll divisions split.')
-    print(f'Poll divisions loaded for riding {ridings[riding_id].name}, id {riding_id}.')
     return poll_divs
             
 
