@@ -7,3 +7,7 @@ class Adapter2006(csv_adapter.CsvAdapter):
     #this space is here on purpose, someone left it in the csv file
     CAND_INITIAL = ' Candidate\'s Initial(s) / Initiale(s) du candidat'
     CAND_LAST_NAME = 'Candidate\'s Family Name / Nom de famille du candidat'
+
+    POLL_RIDING_NAME = 'Electoral District/Circonscription'
+    POLL_ID = 'Polling Station Number/Numéro du bureau de scrutin'
+    POLL_NAME = 'Polling Station Name/Nom du bureau de scrutin'

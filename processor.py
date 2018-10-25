@@ -36,26 +36,26 @@ class Processor:
                 cand_id += 1
         return candidates
 
-    def read_candidate_cols(self, header, candidates, riding_id):
-        candidate_cols = dict()
+    def candidates_from_fields(self, fields, cand_dict, riding_id):
+        candidates = list()
         parties_used = set()
         #start enumerating at candidate names
-        for idx, item in enumerate(header):
-            if item in candidates[riding_id]:
-                candidate_cols[idx] = candidates[riding_id][item]
-                parties_used.add(candidates[riding_id][item].party)
+        for item in fields:
+            if item in cand_dict[riding_id]:
+                candidates.append(cand_dict[riding_id][item])
+                parties_used.add(cand_dict[riding_id][item].party)
         if common_defs.Party.LIB not in parties_used or common_defs.Party.NDP not in parties_used or common_defs.Party.CON not in parties_used:
             print(f'Major party candidate missing in riding number {riding_id}. Check party enum mappings.')
-        if (len(candidate_cols) != len(candidates[riding_id])):
+        if (len(candidates) != len(cand_dict[riding_id])):
             for cand, _ in candidates[riding_id].items():
-                if cand not in candidate_cols:
+                if cand not in candidates:
                     print(f'Unmatched candidate {cand} in riding number {riding_id}. Verify candidate list.')
-        return candidate_cols
+        return candidates
 
     def load_riding_from_poll_csv(self, id, ridings, line):
         riding = common_defs.Riding()
         riding.riding_id = id
-        name_raw = line[0]
+        name_raw = self.csv_adapter.poll_get_riding_name(line)
         #deal with ridings that have different names in French and English
         slash_idx = name_raw.find('/')
         if slash_idx == -1:
@@ -65,34 +65,34 @@ class Processor:
         ridings[riding.riding_id] = riding
         ridings[id] = riding
 
-    def reject_poll(self, line):
-        return ('Void' in line[3] or 'No poll held' in line[3])
+    def reject_poll(self, result_info):
+        return ('Void' in result_info or 'No poll held' in result_info or 'Electors voted' in result_info)
 
     def riding_num_from_file_name(self, file_name):
         match = re.search(r'\d+', file_name)
         return int(match.group(0))
 
-    def find_merge_id(self, line):
-        if 'Merged with' in line[3] or 'Combined with' in line[3]:
+    def find_merge_id(self, result_info):
+        if 'Merged with' in result_info or 'Combined with' in result_info:
             #match possible riding ids
-            return re.search(r'\d+[A-Z]?(-\d+[A-Z]?)?', line[3]).group(0)
+            return re.search(r'\d+[A-Z]?(-\d+[A-Z]?)?', result_info).group(0)
         else:
             return None
 
-    def read_poll_div(self, riding_id, merged_dict, cand_cols, line):
-        if self.reject_poll(line):
+    def read_poll_div(self, riding_id, merged_dict, candidates, line):
+        result_info = line[candidates[0].name]
+        if self.reject_poll(result_info):
             return None
         poll_div = common_defs.PollDivision()
-        poll_div.name = line[2].strip()
-        #handle polling divisions with no id, i.e Group 1 and 2 divisions
-        poll_div.div_id = line[1].strip() if line[1] != '' else poll_div.name
+        poll_div.name = self.csv_adapter.poll_get_name(line)
+        poll_div.div_id = self.csv_adapter.poll_get_id(line)
         poll_div.riding_id = riding_id
-        merged_id = self.find_merge_id(line)
+        merged_id = self.find_merge_id(result_info)
         if merged_id:
             merged_dict[merged_id].append(poll_div.div_id)
         else:
-            for idx, cand in cand_cols.items():
-                poll_div.results[cand.cand_id] = int(line[idx])
+            for cand in candidates:
+                poll_div.results[cand.cand_id] = int(line[cand.name])
         return poll_div
 
     def poll_divs_from_file(self, ridings, candidates, file_name):
@@ -100,17 +100,15 @@ class Processor:
         merged_dict = collections.defaultdict(list)
         poll_divs = dict()
         with open(self.data_path + POLL_DIV_FOLDER + file_name, 'r') as poll_div_file:
-            poll_div_reader = csv.reader(poll_div_file)
-            #skip the header
-            next(poll_div_reader)
+            poll_div_reader = csv.DictReader(poll_div_file)
             #load the riding
             self.load_riding_from_poll_csv(riding_id, ridings, next(poll_div_reader))
-            #reset the file
+            #reset the file and skip the header
             poll_div_file.seek(0)
-            header = next(poll_div_reader)
-            cand_cols = self.read_candidate_cols(header, candidates, riding_id)
+            next(poll_div_reader)
+            cand_list = self.candidates_from_fields(poll_div_reader.fieldnames, candidates, riding_id)
             for line in poll_div_reader:
-                poll_div = self.read_poll_div(riding_id, merged_dict, cand_cols, line)
+                poll_div = self.read_poll_div(riding_id, merged_dict, cand_list, line)
                 if poll_div is None:
                     continue
                 poll_divs[poll_div.div_id] = poll_div

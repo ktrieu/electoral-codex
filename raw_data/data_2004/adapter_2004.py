@@ -6,3 +6,6 @@ class Adapter2004(csv_adapter.CsvAdapter):
     CAND_FIRST_NAME = 'Candidate\'s First Name / Prénom du candidat'
     CAND_INITIAL = 'Candidate\'s Initial / Initiale du candidat'
     CAND_LAST_NAME = 'Candidate\'s Family Name / Nom de famille du candidat'
+
+    POLL_NAME = 'Poll Number'
+    POLL_RIDING_NAME = 'Poll Name'
