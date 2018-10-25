@@ -58,15 +58,15 @@ def riding_to_tuple(riding):
 def polling_div_to_tuple(polling_div):
     return (polling_div.div_id, polling_div.riding_id, polling_div.name, *gen_result_columns(polling_div.results))
 
-import raw_data.data_2004.csv_adapter
-import raw_data.data_2006.csv_adapter
-import raw_data.data_2008.csv_adapter
+import raw_data.data_2004.adapter_2004
+import raw_data.data_2006.adapter_2006
+import raw_data.data_2008.adapter_2008
 
 years = ['2004', '2006', '2008']
 csv_adapters = {
-    '2004' : raw_data.data_2004.csv_adapter.CsvAdapter,
-    '2006' : raw_data.data_2006.csv_adapter.CsvAdapter,
-    '2008' : raw_data.data_2008.csv_adapter.CsvAdapter
+    '2004' : raw_data.data_2004.adapter_2004.Adapter2004,
+    '2006' : raw_data.data_2006.adapter_2006.Adapter2006,
+    '2008' : raw_data.data_2008.adapter_2008.Adapter2008
 }
 
 for year in years:
