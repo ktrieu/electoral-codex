@@ -42,14 +42,16 @@ class Processor:
         candidate_cols = dict()
         parties_used = set()
         #start enumerating at candidate names
-        for idx, item in enumerate(header[3:]):
+        for idx, item in enumerate(header):
             if item in candidates[riding_id]:
-                candidate_cols[idx + 3] = candidates[riding_id][item]
+                candidate_cols[idx] = candidates[riding_id][item]
                 parties_used.add(candidates[riding_id][item].party)
-            elif 'Rejected Ballots' not in item and 'Total Vote' not in item and 'Electors' not in item:
-                print(f'Unmatched candidate {item} in riding number {riding_id}. Verify candidate list.')
         if common_defs.Party.LIB not in parties_used or common_defs.Party.NDP not in parties_used or common_defs.Party.CON not in parties_used:
             print(f'Major party candidate missing in riding number {riding_id}. Check party enum mappings.')
+        if (len(candidate_cols) != len(candidates[riding_id])):
+            for cand, _ in candidates[riding_id].items():
+                if cand not in candidate_cols:
+                    print(f'Unmatched candidate {cand} in riding number {riding_id}. Verify candidate list.')
         return candidate_cols
 
     def load_riding_from_poll_csv(self, id, ridings, line):
