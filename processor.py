@@ -8,9 +8,10 @@ POLL_DIV_FOLDER = 'poll_by_poll/'
 
 class Processor:
 
-    def __init__(self, year):
+    def __init__(self, year, csv_adapter):
         self.year = year
         self.data_path = f'raw_data/data_{year}/'
+        self.csv_adapter = csv_adapter
 
     def extract_english(self, text):
         slash_idx = text.rfind('/')
@@ -23,17 +24,14 @@ class Processor:
         candidates = collections.defaultdict(dict)
         cand_id = 0
         with open(self.data_path + 'candidates.tsv', 'r') as cand_file:
-            cand_reader = csv.reader(cand_file, delimiter='\t')
-            #skip header
-            next(cand_reader)
+            cand_reader = csv.DictReader(cand_file, delimiter='\t')
             for line in cand_reader:
                 cand = common_defs.Candidate()
-                cand.riding_id = int(line[0])
+                cand.riding_id = int(self.csv_adapter.cand_get_riding_num(line))
                 cand.cand_id = cand_id
-                cand.party = common_defs.Party.from_string(line[3])
+                cand.party = common_defs.Party.from_string(self.csv_adapter.cand_get_party(line))
                 #join together first, middle and last
-                name_list = [line[6].strip(), line[7].strip(), line[5].strip()]
-                cand.name = ' '.join(filter(None, name_list))
+                cand.name = self.csv_adapter.cand_get_name(line)
                 candidates[cand.riding_id][cand.name] = cand
                 cand_id += 1
         return candidates
