@@ -47,9 +47,9 @@ class Processor:
         if common_defs.Party.LIB not in parties_used or common_defs.Party.NDP not in parties_used or common_defs.Party.CON not in parties_used:
             print(f'Major party candidate missing in riding number {riding_id}. Check party enum mappings.')
         if (len(candidates) != len(cand_dict[riding_id])):
-            for cand, _ in candidates[riding_id].items():
+            for cand in cand_dict[riding_id].values():
                 if cand not in candidates:
-                    print(f'Unmatched candidate {cand} in riding number {riding_id}. Verify candidate list.')
+                    print(f'Unmatched candidate {cand.name} in riding number {riding_id}. Verify candidate list.')
         return candidates
 
     def load_riding_from_poll_csv(self, id, ridings, line):
