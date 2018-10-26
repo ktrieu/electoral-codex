@@ -11,3 +11,5 @@ class Adapter2015(csv_adapter.CsvAdapter):
     POLL_RIDING_NAME = 'Electoral District Name/Nom de circonscription'
     POLL_ID = 'Polling Station Number/Numéro du bureau de scrutin'
     POLL_NAME = 'Polling Station Name/Nom du bureau de scrutin'
+
+    POLL_ENCODING = 'utf-8'

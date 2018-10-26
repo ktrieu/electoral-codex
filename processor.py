@@ -23,7 +23,7 @@ class Processor:
     def load_candidates(self):
         candidates = collections.defaultdict(dict)
         cand_id = 0
-        with open(self.data_path + 'candidates.tsv', 'r') as cand_file:
+        with open(self.data_path + 'candidates.tsv', 'r', encoding=self.csv_adapter.CAND_ENCODING) as cand_file:
             cand_reader = csv.DictReader(cand_file, delimiter='\t')
             for line in cand_reader:
                 cand = common_defs.Candidate()
@@ -99,7 +99,7 @@ class Processor:
         riding_id = self.riding_num_from_file_name(file_name)
         merged_dict = collections.defaultdict(list)
         poll_divs = dict()
-        with open(self.data_path + POLL_DIV_FOLDER + file_name, 'r') as poll_div_file:
+        with open(self.data_path + POLL_DIV_FOLDER + file_name, 'r', encoding=self.csv_adapter.POLL_ENCODING) as poll_div_file:
             poll_div_reader = csv.DictReader(poll_div_file)
             #load the riding
             self.load_riding_from_poll_csv(riding_id, ridings, next(poll_div_reader))

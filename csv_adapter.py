@@ -11,6 +11,10 @@ class CsvAdapter:
     POLL_ID = ''
     POLL_RIDING_NAME = ''
 
+    #encodings
+    CAND_ENCODING = 'cp1252'
+    POLL_ENCODING = 'cp1252'
+
     @classmethod
     def cand_get_riding_num(cls, line):
         return line[cls.CAND_RIDING_NUM]
