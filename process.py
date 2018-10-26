@@ -61,12 +61,14 @@ def polling_div_to_tuple(polling_div):
 import raw_data.data_2004.adapter_2004
 import raw_data.data_2006.adapter_2006
 import raw_data.data_2008.adapter_2008
+import raw_data.data_2011.adapter_2011
 
-years = ['2004', '2006', '2008']
+years = ['2004', '2006', '2008', '2011']
 csv_adapters = {
     '2004' : raw_data.data_2004.adapter_2004.Adapter2004,
     '2006' : raw_data.data_2006.adapter_2006.Adapter2006,
-    '2008' : raw_data.data_2008.adapter_2008.Adapter2008
+    '2008' : raw_data.data_2008.adapter_2008.Adapter2008,
+    '2011' : raw_data.data_2011.adapter_2011.Adapter2011
 }
 
 for year in years:
