@@ -1,0 +1,39 @@
+The data for each election is in the *.db file named for that year.
+Each file is an SQLite database file with three tables:
+
+ridings:
+(riding_id INTEGER, name TEXT)
+
+Notes:
+- riding_id is the electoral district number provided by Elections Canada
+
+candidates:
+(cand_id INTEGER, riding_id INTEGER, name TEXT, party TEXT)
+
+Notes:
+- cand_id is not provided by the data files and is generated in the loading code
+- riding_id is a reference to a row in the table ridings
+- party is a "party code", as given in common_defs.py. Examples: LIB, CON, OTH, etc.
+
+poll_divisions:
+(div_id TEXT, riding_id INTEGER, name TEXT)
+
+Notes:
+- div_id is text, not an integer. This is because poll numbers can be of the form 21A, etc.
+- riding_id is a reference to a row in the table ridings
+
+Results:
+In addition to the given columns, the ridings and poll_divisions tables have additional columns to specify results for each candidate.
+These are in the form:
+(cand<i>_id INTEGER, cand<i>_result INTEGER)
+for 0 <= i <= 11.
+cand<i>_id is a reference to a row in the table candidates, and cand<i>_result is the number of votes for that poll or riding.
+
+Example:
+For a riding with 4 candidates, the result columns would be:
+cand0_id, cand0_result, cand1_id, cand1_result ... cand3_id, cand3_result
+
+Most ridings have less than 12 candidates.
+In the case where there is no candidate with that number, both columns are empty.
+
+
