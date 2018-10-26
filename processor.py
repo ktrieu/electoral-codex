@@ -73,7 +73,7 @@ class Processor:
         return int(match.group(0))
 
     def find_merge_id(self, result_info):
-        if 'Merged with' in result_info or 'Combined with' in result_info:
+        if 'Merged with' in result_info or 'Combined with' in result_info or 'Results combined with' in result_info:
             #match possible riding ids
             return re.search(r'\d+[A-Z]?(-\d+[A-Z]?)?', result_info).group(0)
         else:
