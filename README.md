@@ -9,5 +9,6 @@ Each SQLite database contains three tables: ridings, candidates, and polling div
 
 # Next Steps
 Don't like staring at giant tables? A website to visualize this data is coming soon-ish.
+Need more data? I also plan to add other data points that may be important, like incumbency status, fundraising, and political experience.
 
 
