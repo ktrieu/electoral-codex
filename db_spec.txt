@@ -1,5 +1,5 @@
 The data for each election is in the *.db file named for that year.
-Each file is an SQLite database file with three tables:
+Each file is an SQLite database file with five tables:
 
 ridings:
 (riding_id INTEGER, name TEXT)
@@ -22,18 +22,17 @@ Notes:
 - div_id is text, not an integer. This is because poll numbers can be of the form 21A, etc.
 - riding_id is a reference to a row in the table ridings
 
-Results:
-In addition to the given columns, the ridings and poll_divisions tables have additional columns to specify results for each candidate.
-These are in the form:
-(cand<i>_id INTEGER, cand<i>_result INTEGER)
-for 0 <= i <= 11.
-cand<i>_id is a reference to a row in the table candidates, and cand<i>_result is the number of votes for that poll or riding.
+riding_candidates:
+(cand_id INTEGER, riding_id INTEGER, result INTEGER)
 
-Example:
-For a riding with 4 candidates, the result columns would be:
-cand0_id, cand0_result, cand1_id, cand1_result ... cand3_id, cand3_result
+Notes:
+- this is the relationship between the ridings table and the candidates table.
+- cand_id and riding_id are the same as their respective variables in ridings and candidates
+- result is the reported vote count for that candidate in that riding
 
-Most ridings have less than 12 candidates.
-In the case where there is no candidate with that number, both columns are empty.
+poll_candidates:
+(cand_id INTEGER, riding_id INTEGER, div_id TEXT, result INTEGER)
 
+Notes:
+- similar to riding_candidates, with the addition of a polling division id.
 
