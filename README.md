@@ -9,7 +9,7 @@ Each SQLite database contains three tables: ridings, candidates, and polling div
 
 # Usage
 
-Clone and move into the repository and run:
+Clone this repo and in the directory run:
 
 ```
 python process.py
