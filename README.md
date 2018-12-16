@@ -7,6 +7,16 @@ collect that data into simple, easy-to-use SQLite databases for each year.
 
 Each SQLite database contains three tables: ridings, candidates, and polling divisions. Further documentation of the database format is available in db_spec.txt.
 
+# Usage
+
+Clone this repo and in the directory run:
+
+```
+python process.py
+```
+
+This will build seperate `.db` files for each election year. 
+
 # Next Steps
 Don't like staring at giant tables? A website to visualize this data is coming soon-ish.
 Need more data? I also plan to add other data points that may be important, like incumbency status, fundraising, and political experience.
