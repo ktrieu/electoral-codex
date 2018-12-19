@@ -9,9 +9,9 @@ def save_to_db(candidates, ridings, poll_divs, year):
     c.execute(r'DROP TABLE IF EXISTS candidates')
     c.execute(r'CREATE TABLE candidates (cand_id INTEGER, riding_id INTEGER, name TEXT, party TEXT)')
     c.execute(r'DROP TABLE IF EXISTS ridings')
-    c.execute(r'CREATE TABLE ridings (riding_id INTEGER, name TEXT)')
+    c.execute(r'CREATE TABLE ridings (riding_id INTEGER, name TEXT, winning_party TEXT, margin REAL)')
     c.execute(r'DROP TABLE IF EXISTS poll_divisions')
-    c.execute(r'CREATE TABLE poll_divisions (div_id TEXT, riding_id INTEGER, name TEXT)')
+    c.execute(r'CREATE TABLE poll_divisions (div_id TEXT, riding_id INTEGER, name TEXT, winning_party TEXT, margin REAL)')
     c.execute(r'DROP TABLE IF EXISTS riding_candidates')
     c.execute(r'CREATE TABLE riding_candidates (cand_id INTEGER, riding_id INTEGER, result INTEGER)')
     c.execute(r'DROP TABLE IF EXISTS poll_candidates')
@@ -22,10 +22,10 @@ def save_to_db(candidates, ridings, poll_divs, year):
         cand_list.extend(riding_cands.values())
     cand_values = map(candidate_to_tuple, cand_list)
     c.executemany(r'INSERT INTO candidates VALUES (?, ?, ?, ?)', cand_values)
-    riding_values = map(riding_to_tuple, ridings.values())
-    c.executemany(r'INSERT INTO ridings VALUES (?, ?)', riding_values)
-    poll_div_values = map(polling_div_to_tuple, poll_divs)
-    c.executemany(r'INSERT INTO poll_divisions VALUES (?, ?, ?)', poll_div_values)
+    riding_values = map(lambda x: riding_to_tuple(x, candidates), ridings.values())
+    c.executemany(r'INSERT INTO ridings VALUES (?, ?, ?, ?)', riding_values)
+    poll_div_values = map(lambda x: polling_div_to_tuple(x, candidates), poll_divs)
+    c.executemany(r'INSERT INTO poll_divisions VALUES (?, ?, ?, ?, ?)', poll_div_values)
     riding_candidates = generate_riding_candidates(ridings)
     c.executemany(r'INSERT INTO riding_candidates VALUES (?, ?, ?)', riding_candidates)
     poll_candidates = generate_poll_candidates(poll_divs)
@@ -34,14 +34,24 @@ def save_to_db(candidates, ridings, poll_divs, year):
     conn.close()
     print(f'{year} data saved.')
 
+def calc_margin(results, riding_cands):
+    if len(results) == 0:
+        return ('UNK', 0)
+    sorted_cands = sorted(riding_cands.values(), key=lambda x: results[x.cand_id])
+    winning_party = sorted_cands[-1].party
+    margin = results[sorted_cands[-1].cand_id] - results[sorted_cands[-2].cand_id]
+    return (str(winning_party), margin)
+
 def candidate_to_tuple(candidate):
     return (candidate.cand_id, candidate.riding_id, candidate.name, candidate.party.name)
 
-def riding_to_tuple(riding):
-    return (riding.riding_id, riding.name)
+def riding_to_tuple(riding, cands):
+    winner, margin = calc_margin(riding.results, cands[riding.riding_id])
+    return (riding.riding_id, riding.name, winner, margin)
 
-def polling_div_to_tuple(polling_div):
-    return (polling_div.div_id, polling_div.riding_id, polling_div.name)
+def polling_div_to_tuple(polling_div, cands):
+    winner, margin = calc_margin(polling_div.results, cands[polling_div.riding_id])
+    return (polling_div.div_id, polling_div.riding_id, polling_div.name, winner, margin)
 
 def generate_riding_candidates(ridings):
     riding_candidates = list()

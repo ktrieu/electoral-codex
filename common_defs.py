@@ -18,6 +18,19 @@ class Party(enum.Enum):
         else:
              return party
 
+    def __str__(self):
+        return enum_str_table[self]
+
+enum_str_table = {
+    Party.LIB : 'LIB',
+    Party.NDP : 'NDP',
+    Party.CON : 'CON',
+    Party.GRN : 'GRN',
+    Party.BQ : 'BQ',
+    Party.PPC : 'PC',
+    Party.OTH : 'OTH'
+}
+
 party_str_table = {
     'Liberal' : Party.LIB,
     'N.D.P.' :  Party.NDP,

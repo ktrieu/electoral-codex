@@ -2,10 +2,13 @@ The data for each election is in the *.db file named for that year.
 Each file is an SQLite database file with five tables:
 
 ridings:
-(riding_id INTEGER, name TEXT)
+(riding_id INTEGER, name TEXT, winning_party TEXT, margin REAL)
 
 Notes:
 - riding_id is the electoral district number provided by Elections Canada
+- winning_party is the party code of the party that won the polling division. See common_defs.py
+  for a list of codes
+- margin is the margin of victory for the winning party in that riding
 
 candidates:
 (cand_id INTEGER, riding_id INTEGER, name TEXT, party TEXT)
@@ -16,11 +19,12 @@ Notes:
 - party is a "party code", as given in common_defs.py. Examples: LIB, CON, OTH, etc.
 
 poll_divisions:
-(div_id TEXT, riding_id INTEGER, name TEXT)
+(div_id TEXT, riding_id INTEGER, name TEXT, winning_party TEXT, margin REAL)
 
 Notes:
 - div_id is text, not an integer. This is because poll numbers can be of the form 21A, etc.
 - riding_id is a reference to a row in the table ridings
+- winning_party and margin are the same as their respective columns in ridings
 
 riding_candidates:
 (cand_id INTEGER, riding_id INTEGER, result INTEGER)
