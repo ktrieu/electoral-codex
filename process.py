@@ -1,5 +1,6 @@
 import common_defs
 import sqlite3
+import csv
 import processor
 
 def save_to_db(candidates, ridings, poll_divs, year):
@@ -16,6 +17,8 @@ def save_to_db(candidates, ridings, poll_divs, year):
     c.execute(r'CREATE TABLE riding_candidates (cand_id INTEGER, riding_id INTEGER, result INTEGER)')
     c.execute(r'DROP TABLE IF EXISTS poll_candidates')
     c.execute(r'CREATE TABLE poll_candidates (cand_id INTEGER, riding_id INTEGER, div_id TEXT, result INTEGER)')
+    c.execute(r'DROP TABLE IF EXISTS summary')
+    c.execute(r'CREATE TABLE summary (party TEXT, seats INTEGER, votes INTEGER, leader TEXT)')
     #since candidates is a double-nested list we have to unpack it separately
     cand_list = list()
     for riding_cands in candidates.values():
@@ -30,6 +33,13 @@ def save_to_db(candidates, ridings, poll_divs, year):
     c.executemany(r'INSERT INTO riding_candidates VALUES (?, ?, ?)', riding_candidates)
     poll_candidates = generate_poll_candidates(poll_divs)
     c.executemany(r'INSERT INTO poll_candidates VALUES (?, ?, ?, ?)', poll_candidates)
+    #add summary data
+    with open(f'raw_data/data_{year}/summary.csv', 'r') as summary_file:
+        c.executemany(r'INSERT INTO summary VALUES (?, ?, ?, ?)', csv.reader(summary_file))
+    #create some indexes so joining doesn't take forever
+    c.execute(r'CREATE INDEX cand_id ON candidates (cand_id)')
+    c.execute(r'CREATE INDEX poll_cand_div_id ON poll_candidates (div_id)')
+    c.execute(r'CREATE INDEX poll_cand_riding_id ON poll_candidates (riding_id)')
     conn.commit()
     conn.close()
     print(f'{year} data saved.')
