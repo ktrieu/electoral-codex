@@ -87,6 +87,9 @@ class Processor:
         poll_div = common_defs.PollDivision()
         poll_div.name = self.csv_adapter.poll_get_name(line)
         poll_div.div_id = self.csv_adapter.poll_get_id(line)
+        #assign the name if there's no id
+        if poll_div.div_id == '':
+            poll_div.div_id = poll_div.name
         poll_div.riding_id = riding_id
         merged_id = self.find_merge_id(result_info)
         if merged_id:
