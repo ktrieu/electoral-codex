@@ -64,3 +64,10 @@ class PollDivision:
         self.riding_id = 0
         self.name = ''
         self.results = collections.Counter()
+
+class Summary:
+    def __init__(self):
+        self.party = ''
+        self.seats = 0
+        self.votes = 0
+        self.leader = ''

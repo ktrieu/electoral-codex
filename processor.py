@@ -1,6 +1,7 @@
 import csv
 import os
 import common_defs
+import election
 import re
 import collections
 
@@ -136,16 +137,34 @@ class Processor:
             poll_divs.extend(divs_from_file.values())
         return poll_divs
 
+    def load_summary(self):
+        summary_dict = dict()
+        with open(f'{self.data_path}/summary.csv') as summary_file:
+            summary_csv = csv.reader(summary_file)
+            for line in summary_csv:
+                summary = common_defs.Summary()
+                summary.party = line[0]
+                summary.seats = line[1]
+                summary.votes = line[2]
+                summary.leader = line[3]
+                summary_dict[summary.party] = summary
+        return summary_dict
+
     def process_data(self):
+        election_data = election.Election()
         print(f'Loading data for {self.year}...')
         print('Loading candidates...')
-        cand_dict = self.load_candidates()
+        election_data.candidates = self.load_candidates()
         print('Candidates loaded.')
         ridings_dict = dict()
         #there is no global list of ridings and their ids
         #so we have to load them along with poll divisions
         print('Loading poll divisions and ridings....')
-        poll_divs = self.load_poll_divs(ridings_dict, cand_dict)
+        election_data.poll_divs = self.load_poll_divs(ridings_dict, election_data.candidates)
+        election_data.ridings = ridings_dict
         print('Poll divisions and ridings loaded.')
+        print('Loading summary data...')
+        election_data.summary = self.load_summary()
+        print('Summary data loaded.')
         print(f'{self.year} data loaded.')
-        return cand_dict, ridings_dict, poll_divs
+        return election_data
