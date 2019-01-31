@@ -57,6 +57,7 @@ class Riding:
         self.riding_id = 0
         self.name = ''
         self.results = collections.Counter()
+        self.total_votes = 0
 
 class PollDivision:
     def __init__(self):
@@ -64,6 +65,7 @@ class PollDivision:
         self.riding_id = 0
         self.name = ''
         self.results = collections.Counter()
+        self.total_votes = 0
 
 class Summary:
     def __init__(self):

@@ -27,21 +27,21 @@ class Election:
 
     def riding_to_tuple(self, riding):
         winner, margin = self.calc_margin(riding.results, self.candidates[riding.riding_id])
-        return (riding.riding_id, riding.name, winner, margin)
+        return (riding.riding_id, riding.name, winner, margin, riding.total_votes)
 
     def save_ridings(self, c):
         c.execute(r'DROP TABLE IF EXISTS ridings')
-        c.execute(r'CREATE TABLE ridings (riding_id INTEGER, name TEXT, winning_party TEXT, margin REAL)')
-        c.executemany(r'INSERT INTO ridings VALUES (?, ?, ?, ?)', map(self.riding_to_tuple, self.ridings.values()))
+        c.execute(r'CREATE TABLE ridings (riding_id INTEGER, name TEXT, winning_party TEXT, margin REAL, total_votes INTEGER)')
+        c.executemany(r'INSERT INTO ridings VALUES (?, ?, ?, ?, ?)', map(self.riding_to_tuple, self.ridings.values()))
 
     def polling_div_to_tuple(self, polling_div):
         winner, margin = self.calc_margin(polling_div.results, self.candidates[polling_div.riding_id])
-        return (polling_div.div_id, polling_div.riding_id, polling_div.name, winner, margin)
+        return (polling_div.div_id, polling_div.riding_id, polling_div.name, winner, margin, polling_div.total_votes)
 
     def save_poll_divs(self, c):
         c.execute(r'DROP TABLE IF EXISTS poll_divisions')
-        c.execute(r'CREATE TABLE poll_divisions (div_id TEXT, riding_id INTEGER, name TEXT, winning_party TEXT, margin REAL)')
-        c.executemany(r'INSERT INTO poll_divisions VALUES (?, ?, ?, ?, ?)', map(self.polling_div_to_tuple, self.poll_divs))
+        c.execute(r'CREATE TABLE poll_divisions (div_id TEXT, riding_id INTEGER, name TEXT, winning_party TEXT, margin REAL, total_votes INTEGER)')
+        c.executemany(r'INSERT INTO poll_divisions VALUES (?, ?, ?, ?, ?, ?)', map(self.polling_div_to_tuple, self.poll_divs))
 
     def generate_riding_candidates(self):
         riding_candidates = list()

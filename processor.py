@@ -96,7 +96,9 @@ class Processor:
             merged_dict[merged_id].append(poll_div.div_id)
         else:
             for cand in candidates:
-                poll_div.results[cand.cand_id] = int(line[cand.name])
+                votes = int(line[cand.name])
+                poll_div.total_votes += votes
+                poll_div.results[cand.cand_id] = votes
         return poll_div
 
     def poll_divs_from_file(self, ridings, candidates, file_name):
@@ -117,6 +119,7 @@ class Processor:
                     continue
                 poll_divs[poll_div.div_id] = poll_div
                 #add results to the riding-wide total
+                ridings[riding_id].total_votes += poll_div.total_votes
                 for cand_id, result in poll_div.results.items():
                     ridings[riding_id].results[cand_id] += result
         self.split_merged_poll_divs(poll_divs, merged_dict)
@@ -127,6 +130,9 @@ class Processor:
             #plus one because the merged poll division gets a share as well
             divisor = len(merge_to) + 1
             merged_div = poll_divs[merged]
+            for merge_to_id in merge_to:
+                poll_divs[merge_to_id].total_votes = merged_div.total_votes / divisor
+            merged_div.total_votes /= divisor
             for cand_id, result in merged_div.results.items():
                 merged_div.results[cand_id] = result / divisor
                 for merge_to_id in merge_to:
