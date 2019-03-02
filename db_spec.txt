@@ -41,3 +41,9 @@ poll_candidates:
 Notes:
 - similar to riding_candidates, with the addition of a polling division identifiers
 
+summary:
+(party TEXT, seats INTEGER, votes INTEGER, leader TEXT)
+
+Notes:
+- this is summary data for an entire party for the whole election
+- there is a special row with party == "ALL" which has vote and seat totals for the entire election
