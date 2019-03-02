@@ -19,10 +19,11 @@ Notes:
 - party is a "party code", as given in common_defs.py. Examples: LIB, CON, OTH, etc.
 
 poll_divisions:
-(div_id TEXT, riding_id INTEGER, name TEXT, winning_party TEXT, margin REAL, total_votes INTEGER)
+(div_num INTEGER, div_suffix INTEGER, riding_id INTEGER, name TEXT, winning_party TEXT, margin REAL, total_votes INTEGER)
 
 Notes:
-- div_id is text, not an integer. This is because poll numbers can be of the form 21A, etc.
+- div_num and div_suffix uniquely identify the poll division. They correspond to PD_NUM and PD_NBR_SFX
+  respectively in the shapefiles.
 - riding_id is a reference to a row in the table ridings
 - winning_party and margin are the same as their respective columns in ridings
 
@@ -35,8 +36,8 @@ Notes:
 - result is the reported vote count for that candidate in that riding
 
 poll_candidates:
-(cand_id INTEGER, riding_id INTEGER, div_id TEXT, result INTEGER)
+(cand_id INTEGER, riding_id INTEGER, div_num INTEGER, div_suffix INTEGER, result INTEGER)
 
 Notes:
-- similar to riding_candidates, with the addition of a polling division id.
+- similar to riding_candidates, with the addition of a polling division identifiers
 

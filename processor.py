@@ -80,26 +80,49 @@ class Processor:
         else:
             return None
 
+    #this parses a id in the form 12-1A into 12, 1, and A. Returns the number, the suffix, and the letter
+    #if they exist.
+    def parse_poll_div_id(self, div_id):
+        if '-' in div_id:
+            items = div_id.split('-')
+            num = items[0]
+            suffix = items[1]
+            if suffix[-1].isalpha():
+                return int(num), int(suffix[0:-1]), suffix[-1]
+            else:
+                return int(num), int(suffix), None
+        elif div_id[-1].isalpha():
+            return int(div_id[0:-1]), None, div_id[-1]
+        else:
+            return int(div_id), None, None
+
     def read_poll_div(self, riding_id, merged_dict, candidates, line):
         result_info = line[candidates[0].name]
         if self.reject_poll(result_info):
-            return None
+            return None, None
         poll_div = common_defs.PollDivision()
         poll_div.name = self.csv_adapter.poll_get_name(line)
-        poll_div.div_id = self.csv_adapter.poll_get_id(line)
+        div_id = self.csv_adapter.poll_get_id(line)
         #assign the name if there's no id
-        if poll_div.div_id == '':
-            poll_div.div_id = poll_div.name
+        if div_id == '':
+            poll_div.div_num = None
+            poll_div.div_suffix = None
+            alpha = poll_div.name
+        else:
+            num, suffix, alpha = self.parse_poll_div_id(div_id)
+            poll_div.div_num = num
+            poll_div.div_suffix = suffix
         poll_div.riding_id = riding_id
         merged_id = self.find_merge_id(result_info)
         if merged_id:
-            merged_dict[merged_id].append(poll_div.div_id)
+            poll_ids = self.parse_poll_div_id(merged_id)
+            merged_dict[poll_ids].append(poll_ids)
         else:
             for cand in candidates:
                 votes = int(line[cand.name])
                 poll_div.total_votes += votes
                 poll_div.results[cand.cand_id] = votes
-        return poll_div
+        return poll_div, alpha
 
     def poll_divs_from_file(self, ridings, candidates, file_name):
         riding_id = self.riding_num_from_file_name(file_name)
@@ -114,15 +137,16 @@ class Processor:
             next(poll_div_reader)
             cand_list = self.candidates_from_fields(poll_div_reader.fieldnames, candidates, riding_id)
             for line in poll_div_reader:
-                poll_div = self.read_poll_div(riding_id, merged_dict, cand_list, line)
+                poll_div, alpha = self.read_poll_div(riding_id, merged_dict, cand_list, line)
                 if poll_div is None:
                     continue
-                poll_divs[poll_div.div_id] = poll_div
+                poll_divs[(poll_div.div_num, poll_div.div_suffix, alpha)] = poll_div
                 #add results to the riding-wide total
                 ridings[riding_id].total_votes += poll_div.total_votes
                 for cand_id, result in poll_div.results.items():
                     ridings[riding_id].results[cand_id] += result
         self.split_merged_poll_divs(poll_divs, merged_dict)
+        poll_divs = self.deduplicate_poll_divs(poll_divs)
         return poll_divs
 
     def split_merged_poll_divs(self, poll_divs, merged_dict):
@@ -138,6 +162,20 @@ class Processor:
                 for merge_to_id in merge_to:
                     poll_div = poll_divs[merge_to_id]
                     poll_div.results[cand_id] = result / divisor
+
+    def deduplicate_poll_divs(self, poll_divs):
+        deduplicated = dict()
+        for poll_info, poll_div in poll_divs.items():
+            num = poll_info[0]
+            suffix = poll_info[1]
+            if (num, suffix) in deduplicated:
+                original = deduplicated[(num, suffix)]
+                for cand_id, votes in poll_div.results.items():
+                    original.results[cand_id] += votes
+                original.total_votes += poll_div.total_votes
+            else:
+                deduplicated[(num, suffix)] = poll_div
+        return deduplicated
 
     def load_poll_divs(self, ridings, candidates):
         poll_divs = list()

@@ -36,12 +36,12 @@ class Election:
 
     def polling_div_to_tuple(self, polling_div):
         winner, margin = self.calc_margin(polling_div.results, self.candidates[polling_div.riding_id])
-        return (polling_div.div_id, polling_div.riding_id, polling_div.name, winner, margin, polling_div.total_votes)
+        return (polling_div.div_num, polling_div.div_suffix, polling_div.riding_id, polling_div.name, winner, margin, polling_div.total_votes)
 
     def save_poll_divs(self, c):
         c.execute(r'DROP TABLE IF EXISTS poll_divisions')
-        c.execute(r'CREATE TABLE poll_divisions (div_id TEXT, riding_id INTEGER, name TEXT, winning_party TEXT, margin REAL, total_votes INTEGER)')
-        c.executemany(r'INSERT INTO poll_divisions VALUES (?, ?, ?, ?, ?, ?)', map(self.polling_div_to_tuple, self.poll_divs))
+        c.execute(r'CREATE TABLE poll_divisions (div_num INTEGER, div_suffix INTEGER, riding_id INTEGER, name TEXT, winning_party TEXT, margin REAL, total_votes INTEGER)')
+        c.executemany(r'INSERT INTO poll_divisions VALUES (?, ?, ?, ?, ?, ?, ?)', map(self.polling_div_to_tuple, self.poll_divs))
 
     def generate_riding_candidates(self):
         riding_candidates = list()
@@ -54,16 +54,16 @@ class Election:
         poll_candidates = list()
         for poll in self.poll_divs:
             for cand_id, result in poll.results.items():
-                poll_candidates.append((cand_id, poll.riding_id, poll.div_id, result))
+                poll_candidates.append((cand_id, poll.riding_id, poll.div_num, poll.div_suffix, result))
         return poll_candidates
 
     def save_cand_results(self, c):
         c.execute(r'DROP TABLE IF EXISTS riding_candidates')
         c.execute(r'CREATE TABLE riding_candidates (cand_id INTEGER, riding_id INTEGER, result INTEGER)')
         c.execute(r'DROP TABLE IF EXISTS poll_candidates')
-        c.execute(r'CREATE TABLE poll_candidates (cand_id INTEGER, riding_id INTEGER, div_id TEXT, result INTEGER)')
+        c.execute(r'CREATE TABLE poll_candidates (cand_id INTEGER, riding_id INTEGER, div_num INTEGER, div_suffix INTEGER, result INTEGER)')
         c.executemany(r'INSERT INTO riding_candidates VALUES (?, ?, ?)', self.generate_riding_candidates())
-        c.executemany(r'INSERT INTO poll_candidates VALUES (?, ?, ?, ?)', self.generate_poll_candidates())
+        c.executemany(r'INSERT INTO poll_candidates VALUES (?, ?, ?, ?, ?)', self.generate_poll_candidates())
 
     def summary_to_tuple(self, summary):
         return (summary.party, summary.seats, summary.votes, summary.leader)
