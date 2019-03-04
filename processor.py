@@ -197,6 +197,36 @@ class Processor:
                 summary_dict[summary.party] = summary
         return summary_dict
 
+    def calc_swings(self, election_data):
+        summary_percents = dict()
+        for party, summary in election_data.summary.items():
+            if party is not 'ALL':
+                summary_percents[party] = summary.votes / election_data.summary['ALL'].votes
+        riding_swings = dict()
+        for riding_id, riding in election_data.ridings.items():
+            swings = self.calc_result_swing(riding, summary_percents, election_data.candidates)
+            riding_swings[riding_id] = swings
+        div_swings = dict()
+        for div in election_data.poll_divs:
+            swings = self.calc_result_swing(div, summary_percents, election_data.candidates)
+            #don't add swings for divisions with no votes
+            if swings is not None:
+                div_swings[(div.riding_id, div.div_num, div.div_suffix)] = swings
+        return riding_swings, div_swings
+
+    # NOTE: division here means EITHER a riding or a poll division
+    def calc_result_swing(self, division, summary_percents, candidates):
+        if division.total_votes == 0:
+            return None
+        result_percents = collections.Counter()
+        swings = dict()
+        for _, cand in candidates[division.riding_id].items():
+            party = cand.party
+            result_percents[party] += division.results[cand.cand_id]
+        for party, vote in result_percents.items():
+            swings[str(party)] = (vote / division.total_votes) - summary_percents[str(party)]
+        return swings
+
     def process_data(self):
         election_data = election.Election()
         print(f'Loading data for {self.year}...')
@@ -213,5 +243,8 @@ class Processor:
         print('Loading summary data...')
         election_data.summary = self.load_summary()
         print('Summary data loaded.')
+        print('Calculating vote swings...')
+        election_data.riding_swings, election_data.div_swings = self.calc_swings(election_data)
+        print('Vote swings calculated.')
         print(f'{self.year} data loaded.')
         return election_data

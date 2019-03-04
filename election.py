@@ -4,6 +4,8 @@ class Election:
         self.ridings = dict()
         self.poll_divs = dict()
         self.summary = dict()
+        self.riding_swings = dict()
+        self.div_swings = dict()
 
     def candidate_to_tuple(self, candidate):
         return (candidate.cand_id, candidate.riding_id, candidate.name, candidate.party.name)
@@ -73,9 +75,28 @@ class Election:
         c.execute(r'CREATE TABLE summary (party TEXT, seats INTEGER, votes INTEGER, leader TEXT)')
         c.executemany(r'INSERT INTO summary VALUES (?, ?, ?, ?)', map(self.summary_to_tuple, self.summary.values()))
 
+    def save_swings(self, c):
+        c.execute(r'DROP TABLE IF EXISTS riding_swings')
+        c.execute(r'CREATE TABLE riding_swings (riding_id INTEGER, party TEXT, swing REAL)')
+        #no map here since we need info from the keys too
+        riding_swing_list = list()
+        for riding_id, swings in self.riding_swings.items():
+            for party, swing in swings.items():
+                riding_swing_list.append((riding_id, party, swing))
+        c.executemany(r'INSERT INTO riding_swings VALUES (?, ?, ?)', riding_swing_list)
+        c.execute(r'DROP TABlE IF EXISTS poll_div_swings')
+        c.execute(r'CREATE TABLE poll_div_swings (riding_id INTEGER, div_num INTEGER, div_suffix INTEGER, party TEXT, swing REAL)')
+        #ditto
+        div_swing_list = list()
+        for div_info, swings in self.div_swings.items():
+            for party, swing in swings.items():
+                div_swing_list.append((div_info[0], div_info[1], div_info[2], party, swing))
+        c.executemany(r'INSERT INTO poll_div_swings VALUES (?, ?, ?, ?, ?)', div_swing_list)
+
     def save(self, c):
-       self.save_ridings(c)
-       self.save_candidates(c)
-       self.save_poll_divs(c)
-       self.save_cand_results(c)
-       self.save_summary(c)
+        self.save_ridings(c)
+        self.save_candidates(c)
+        self.save_poll_divs(c)
+        self.save_cand_results(c)
+        self.save_summary(c)
+        self.save_swings(c)
