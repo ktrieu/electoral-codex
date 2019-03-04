@@ -191,8 +191,8 @@ class Processor:
             for line in summary_csv:
                 summary = common_defs.Summary()
                 summary.party = line[0]
-                summary.seats = line[1]
-                summary.votes = line[2]
+                summary.seats = int(line[1])
+                summary.votes = int(line[2])
                 summary.leader = line[3]
                 summary_dict[summary.party] = summary
         return summary_dict
