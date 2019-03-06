@@ -2,6 +2,8 @@ import common_defs
 import sqlite3
 import csv
 import processor
+import sys
+import os
 
 import raw_data.data_2004.adapter_2004
 import raw_data.data_2006.adapter_2006
@@ -18,10 +20,38 @@ csv_adapters = {
     '2015' : raw_data.data_2015.adapter_2015.Adapter2015
 }
 
-for year in years:
-    processor_obj = processor.Processor(year, csv_adapters[year])
-    election = processor_obj.process_data()
-    conn = sqlite3.connect(f'{year}.db')
-    election.save(conn.cursor())
-    conn.commit()
-    conn.close()
+def process_data():
+    for year in years:
+        processor_obj = processor.Processor(year, csv_adapters[year])
+        election = processor_obj.process_data()
+        conn = sqlite3.connect(f'{year}.db')
+        election.save(conn.cursor())
+        conn.commit()
+        conn.close()
+
+def dump_cands():
+    for year in years:
+        if os.path.exists(f'{year}.db'):
+            conn = sqlite3.connect(f'{year}.db')
+            candidates = conn.cursor().execute(r'SELECT cand_id, name FROM candidates')
+            with open(f'cands_{year}.csv', 'w', newline='') as cand_file:
+                cand_csv = csv.writer(cand_file)
+                cand_csv.writerow(('id', 'name', 'incumbent', 'party_leader', 'pm', 'mpp', 'premier', 'cabinet'))
+                for cand in candidates:
+                    cand_csv.writerow(cand)
+            conn.close()
+        else:
+            print(f'{year}.db does not exist. Run without arguments to generate database files.')
+
+
+if __name__ == '__main__':
+    if len(sys.argv) == 2:
+        if sys.argv[1] == '--dump_cands':
+            dump_cands()
+        else:
+            print('Invalid arguments.')
+    elif len(sys.argv == 1):
+        process_data()
+    else:
+        print('Invalid arguments.')
+
