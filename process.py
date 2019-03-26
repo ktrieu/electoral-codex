@@ -29,14 +29,16 @@ def process_data():
         conn.commit()
         conn.close()
 
+CAND_DUMP_QUERY = r'SELECT candidates.cand_id, candidates.name, ridings.name FROM candidates JOIN ridings ON ridings.riding_id == candidates.riding_id'
+
 def dump_cands():
     for year in years:
         if os.path.exists(f'{year}.db'):
             conn = sqlite3.connect(f'{year}.db')
-            candidates = conn.cursor().execute(r'SELECT cand_id, name FROM candidates')
-            with open(f'cands_{year}.csv', 'w', newline='') as cand_file:
+            candidates = conn.cursor().execute(CAND_DUMP_QUERY)
+            with open(f'cands_{year}.csv', 'w', newline='', encoding='utf-8') as cand_file:
                 cand_csv = csv.writer(cand_file)
-                cand_csv.writerow(('id', 'name', 'last_win_margin', 'party_leader', 'pm', 'mpp', 'premier', 'cabinet'))
+                cand_csv.writerow(('id', 'name', 'riding_name', 'last_win_margin', 'party_leader', 'pm', 'mpp', 'premier', 'cabinet'))
                 for cand in candidates:
                     cand_csv.writerow(cand)
             conn.close()

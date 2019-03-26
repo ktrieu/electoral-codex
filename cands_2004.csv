@@ -1,1686 +1,1686 @@
-id,name,last_win_margin,party_leader,pm,mpp,premier,cabinet
-0,R. John Efford
-1,Michael Kehoe
-2,Don C. Ferguson
-3,Rick Dalton
-4,Scott Simms
-5,John Lannon
-6,Rex Barnes
-7,Ed Sailor White
-8,Samuel Robert McLean
-9,Gerry Byrne
-10,Holly Pike
-11,Wynanne Downer
-12,Steve Durant
-13,Lawrence David O'Brien
-14,Lori-Ann Martino
-15,Shawn Crann
-16,Merrill Strachan
-17,Ern Condon
-18,Bill Matthews
-19,Justin Dollimont
-20,Larry Peckford
-21,Des McGrath
-22,Walter Noel
-23,Norman E Doyle
-24,Scott Vokey
-25,Janine Piller
-26,Siobhan Coady
-27,Loyola Hearn
-28,Peg Norman
-29,Stephen Daniel Willcott
-30,Lawrence MacAulay
-31,Dave MacKinnon
-32,Jeremy Stiles
-33,Peter McQuaid
-34,Shawn Murphy
-35,Dody Crane
-36,Will McFadden
-37,Baird Judson
-38,Darren Peters
-39,Joe McGuire
-40,Regena Kaye Russell
-41,Reg Harper
-42,Iren� Novaczek
-43,Wayne Easter
-44,Mary Crane
-45,Sharon Labchuk
-46,Ken Bingham
-47,Rodger Cuzner
-48,Seumas Gibson
-49,Shirley Hartery
-50,Kenzie MacNeil
-51,Susan L. Green
-52,Alexis MacDonald
-53,Peter G. MacKay
-54,Rebecca Mosher
-55,Michael John Savage
-56,Susan MacAlpine-Gillis
-57,Tracy Parsons
-58,Mike MacDonald
-59,Charles Spurr
-60,Michael Marshall
-61,Sheila Fougere
-62,Kevin Leslie Keefe
-63,Michael Oddy
-64,Alexa McDonough
-65,Geoff Regan
-66,Martin Willison
-67,Ken MacPhee
-68,Bill Carr
-69,Scott Brison
-70,Richard Hennigar
-71,Jim Hnatiuk
-72,Bob Mullan
-73,Kevin Stacey
-74,Skip Hambling
-75,Dianne Brushett
-76,Jack Moors
-77,Bill Casey
-78,Sheila G. Richardson
-79,Margaret E. Sagar
-80,Dale Stevens
-81,Greg Moors
-82,Steve Streatch
-83,David Fullerton
-84,Peter Stoffer
-85,John Chandler
-86,Gordon Earle
-87,Gerald Keddy
-88,Katie Morris Boudreau
-89,Mark Eyking
-90,B. Chris Gallant
-91,Howie MacDonald
-92,Cathy Th�riault
-93,John Hugh Edwards
-94,Chris Milburn
-95,Robert Thibault
-96,Jon Charles Carey
-97,Matthew Granger
-98,Edmund Arthur Bull
-99,Serge Rousselle
-100,Joel E. Bernard
-101,Yvon Godin
-102,Mario Lanteigne
-103,Dominic LeBlanc
-104,Angela Vautour
-105,Anna Girouard
-106,Omer Bourque
-107,Andy Scott
-108,Kent Fox
-109,Daron Letts
-110,John Carty
-111,John Herron
-112,Rob Moore
-113,David Raymond Amos
-114,Karin Bach
-115,Pat Hanratty
-116,Jean-Claude J.C. D'Amours
-117,Rodolphe Martin
-118,Benoit Violette
-119,Jovette Cyr
-120,Charles Isaac Hubbard
-121,Hilaire Rousselle
-122,Michael J. Morrison
-123,Garry Sanipass
-124,Claudette Bradshaw
-125,H�l�ne Lapointe
-126,Jean LeBlanc
-127,Judith Hamel
-128,Jim Dunlap
-129,David Szemerda
-130,Greg Thompson
-131,Erik Matthew Millett
-132,Patrick Webber
-133,Paul Zed
-134,Jim Wood
-135,Bob McVicar
-136,Tom Oland
-137,Jonathan Cormier
-138,Terry Albright
-139,Andy Savoy
-140,Mike Allen
-141,Scott Jones
-142,Jason Mapplebeck
-143,Gilbert Barrette
-144,Bernard Hugues Beauchesne
-145,Marc Lemay
-146,Patrick Rancourt
-147,Dennis Shushack
-148,Eleni Bakopanos
-149,Maria Mourani
-150,Jean E. Fortier
-151,F.X. De Longchamp
-152,Marsha Fine
-153,Lynette Tremblay
-154,Annick Bergeron
-155,Carole-Marie Allard
-156,Benjamin Le Bel
-157,Rosane Raymond
-158,Yves Desbois
-159,R�gent Millette
-160,Robert Carrier
-161,Louis-Philippe Verenka
-162,Yves Sabourin
-163,Elisabeth Clark
-164,Claude Sabourin
-165,Laurent Filion
-166,David H. McArthur
-167,Mario Laframboise
-168,Michael O'Grady
-169,Claude Drouin
-170,Alain Guay
-171,Philippe Gigu�re
-172,Jean-Fran�ois Barbe
-173,Michel Binette
-174,Serge Marcil
-175,Dominique Bellemare
-176,F�lix Malboeuf
-177,Alain Boire
-178,R�mi Pelletier
-179,Ligy Alakkattussery
-180,Dennis Dawson
-181,Christian Simard
-182,Stephan Asselin
-183,Nicolas Frichot
-184,Jeannine T. Desharnais
-185,Xavier Tr�gan
-186,Laurier Thibault
-187,Denis McKinnon
-188,Eric Labrecque
-189,Ann Julie Fortier
-190,Guy Andr�
-191,Denis Coderre
-192,Stefano Saykaly
-193,Genevi�ve Royer
-194,No�mi Lopinto
-195,Doris Provencher
-196,Philippe Gauvin
-197,Fr�d�ric Grenier
-198,Denis Paradis
-199,Louise Martineau
-200,Piper Huggins
-201,Peter Stastny
-202,Christian Ouellet
-203,Jacques Saada
-204,Nadia Alexan
-205,Robert Nicolas
-206,Marcel Lussier
-207,Yves Le Seigle
-208,C�cile Bissonnette
-209,Sophie Joncas
-210,Lucien Richard
-211,Yves Lessard
-212,Daniel Blouin
-213,Benoit Lapointe
-214,Jean-Marie Lalibert�
-215,Fran�ois Villeneuve
-216,Marilou Moisan-Domm
-217,Bertrand Proulx
-218,Benjamin Kasapoglu
-219,Richard Marceau
-220,Lisette Lepage
-221,Steeve Hudon
-222,Yves Jourdain
-223,Guy-L�onard Tremblay
-224,Michel Guimond
-225,Robert Lanct�t
-226,M�lanie Archambault
-227,Rosaire Turcot
-228,Denise Poirier-Rivard
-229,Marc-Andr� Gadoury
-230,Andr� Harvey
-231,Alcide Boudreault
-232,Robert Bouchard
-233,Paul Tremblay
-234,�ric Dubois
-235,David Price
-236,Gary Caldwell
-237,France Bonsant
-238,Martin Baller
-239,Laurier Busque
-240,Roger Gougeon
-241,Blake Evans
-242,Louis Lacroix
-243,Lyne Boisvert
-244,Pauline Picard
-245,Georges Farrah
-246,Philip Toone
-247,Raynald Blais
-248,Guy De Coste
-249,Bob Eichenberger
-250,Fran�oise Boivin
-251,Brian Gibb
-252,Gabriel Girard-Bernier
-253,G�rald Nicolas
-254,Stephane Salko
-255,Richard Nadeau
-256,Dominique Vaillancourt
-257,Benoit Bouvier
-258,David Gagnon
-259,Mario Bernier
-260,Antoine Th�or�t-Poupart
-261,Pierre Bibeau
-262,R�al M�nard
-263,Christine Dandenault
-264,Rolf Bramann
-265,Pablo Rodriguez
-266,Gianni Chiazzese
-267,Steve Boudrias
-268,�ric St-Hilaire
-269,H�l�ne H�roux
-270,Richard Lahaie
-271,Fran�ois Pilon
-272,Marcel Proulx
-273,Pierre Lalibert�
-274,Gail Walker
-275,Alain Charette
-276,Pierrette Bellefeuille
-277,Christian Legeais
-278,Liza Frulla
-279,Anthony Philbin
-280,Normand Chouinard
-281,Pierre-Albert S�vigny
-282,Cathy Duchesne
-283,Thierry St-Cyr
-284,Jean Claude Mercier
-285,Jean-Fran�ois Coderre
-286,Jacques Trudeau
-287,Daniel Bouchard
-288,Marco Geoffroy
-289,Pierre A. Paquette
-290,Wendy Gorchinsky
-291,Daniel Gigu�re
-292,Fran�ois Picard
-293,S�bastien Gagnon
-294,Michel Perron
-295,Gilles Lavoie
-296,Jocelyne Girard-Bujold
-297,Jean-S�bastien Busque
-298,Francis Scarpaleggia
-299,Peter Graham
-300,Jeff Howard
-301,Patrick Cardinal
-302,Maxime C�t�
-303,Daniel Quinn
-304,Jean-Claude Gob�
-305,Christian Prevost
-306,Francine Lalonde
-307,Andre Levert
-308,Andr� Langevin
-309,Paul Martin
-310,Jean-Paul B�dard
-311,Nicole Roy-Arcelin
-312,Marc-Boris St-Maurice
-313,Thierry Larriv�e
-314,Rebecca Blaikie
-315,Douglas Jack
-316,Dominique Boyer
-317,Brendan Naef
-318,Guillaume Desjardins
-319,Johanne Deschamps
-320,Jacques L�ger
-321,Jean-Fran�ois Thibault
-322,Fran�ois Gregoire
-323,Dylan Perceval-Maxwell
-324,Gilles Duceppe
-325,Nicky Tanguay
-326,Pierre Albert
-327,Ginette Boutet
-328,Pierre Lafleur
-329,Nicole Demers
-330,Pierre Losier-C�t�
-331,St�phane d'Amours
-332,Alain Gigu�re
-333,Damien Pichereau
-334,Raymonde Folco
-335,Jean-Paul Pratte
-336,Michel Allard
-337,Mica�l Poirier
-338,Polyvios Tsakanikas
-339,Pierre V�ronneau
-340,Paul Michaud
-341,Christian Jobin
-342,Gilles V�zina
-343,Christophe Vaillancourt
-344,Louise Foisy
-345,Sylvain Castonguay
-346,R�al Lapierre
-347,Robert Gladu
-348,Nicole Fournier-Sylvester
-349,Richard B�lisle
-350,David Fiset
-351,Caroline St-Hilaire
-352,Michel B�dard
-353,Anicet Gagn�
-354,Jean Bernatchez
-355,Odina Desrochers
-356,Jean Landry
-357,Rama Borne MacDonald
-358,H�l�ne Chalifour Scherrer
-359,Jean-Pierre Guay
-360,Clermont Gauthier
-361,Roger Clavet
-362,Robert Turcotte
-363,Michel Fragasso
-364,Jos�e Verner
-365,Henri Gauvin
-366,Jean-Guy Carignan
-367,Dominique Th�berge
-368,Bernard Cleary
-369,Yonnel Bonaventure
-370,Christopher Bojanowski
-371,Anthony Detroio
-372,Pierre Ducasse
-373,Pierre Paradis
-374,G�rard Asselin
-375,Les Parsons
-376,Nancy Girard
-377,Marc Bissonnette
-378,Serge M�nard
-379,Lyse G�n�reux
-380,Lise Bissonnette
-381,Marc B�langer
-382,Vahid Fortin-Vidah
-383,Jean-Yves Roy
-384,Jean-Guy C�t�
-385,Nicolas Deville
-386,G�rard Binet
-387,Yves Mailly
-388,Marc Boulianne
-389,Bruno V�zina
-390,Alexandre C�t�
-391,Daniel Brazeau
-392,Fran�ois Rivest
-393,Roger Gaudet
-394,Michel Paulette
-395,Serge Bellemare
-396,Irwin Cotler
-397,Matthew Fireman
-398,Adam Greenblatt
-399,Vincent Gagnon
-400,Diane Johnston
-401,S�bastien Beaudet
-402,Adam Sommerfeld
-403,Marlene Jennings
-404,Earl Wertheimer
-405,William R. McCullock
-406,Jay Dell
-407,Jean-Philippe Chartr�
-408,Rachel Hoffman
-409,Jessica Gal
-410,Maria Pia Ch�vez
-411,Guy St-Julien
-412,Fran�ois Dionne
-413,Yvon L�vesque
-414,Martin Fournier
-415,Pierre Corbeil
-416,Jean Lapierre
-417,Yan Lacombe
-418,Marc Rousseau
-419,Fran�ois Rebello
-420,Linda Sullivan
-421,Omar Aktouf
-422,Shaun Perceval-Maxwell
-423,Pierre Pettigrew
-424,Mustaque Sarker
-425,Christelle Dusablon-Pelletier
-426,Jimmy Garoufalis
-427,Andr� Parizeau
-428,Martine Carri�re
-429,Peter Macrisopoulos
-430,Adam Jastrzebski
-431,Andr� Frappier
-432,Bernard Patry
-433,Garnet Colly
-434,Theodore Kouretas
-435,Andrea Paine
-436,Jean-Fran�ois Labrecque
-437,Marie-H�l�ne Brunet
-438,Danielle Lustgarten
-439,David Smith
-440,Judith Grant
-441,L-Hubert Leduc
-442,Benoit Legros
-443,Thierry Vicente
-444,Gretchen Schwarz
-445,Claude Duplain
-446,Pierre Poulin
-447,Guy C�t�
-448,Howard M. Bruce
-449,Jean-Fran�ois Breton
-450,Jean-Philippe C�t�
-451,Pierre Gaudreault
-452,Pierre-Etienne Paradis
-453,Christiane Gagnon
-454,Antonine Yaccarini
-455,Jean B�dard
-456,Jean-Marie Fiset
-457,L�vis Brien
-458,Andr� Cardinal
-459,Beno�t Sauvageau
-460,Allen  F. MacKenzie
-461,Fran�ois Boudreau
-462,Jean-Fran�ois L�veque
-463,Ghislaine Provencher
-464,Daniel A. Proulx
-465,Daniel Blackburn
-466,Louis Plamondon
-467,Jean-Pierre Bonenfant
-468,Charles Bussi�res
-469,Christine St-Pierre
-470,Andr� Bellavance
-471,Lucie Laforest
-472,Pierre Poissant
-473,Jason S. Noble
-474,C�me Roy
-475,Denis Quimper
-476,Marjolaine Delauni�re
-477,Louise Thibault
-478,Guy Caron
-479,Yolaine Savignac
-480,Gilles-A. Perron
-481,Marie Martine B�dard
-482,�rick Gauthier
-483,Nicolas Du Cap
-484,Isabelle Mignault
-485,Marc-Andr� Drolet
-486,Paul Cr�te
-487,Andr� Clermont
-488,Fr�d�rick Garon
-489,Lorraine Auclair
-490,Catherine Brousseau
-491,Christian Marcoux
-492,Fran�ois C�t�
-493,Monique Guay
-494,Marcel Poirier
-495,Michel Mallette
-496,Ghislain Lavoie
-497,Michel Gauthier
-498,Marc-Andr� Gauthier
-499,Isabelle Tremblay
-500,Christian Bolduc
-501,Michel Sauv�
-502,Kenneth Higham
-503,Bernard Bigras
-504,Fran�ois Chevalier
-505,Beno�t Beauchamp
-506,Marc Savard
-507,Jean-Fran�ois Mongeau
-508,David Vachon
-509,Carole Lavall�e
-510,Janis Crawford
-511,Marie Henretta
-512,Michel Gaudette
-513,Andr�e Champagne
-514,Yvan Loubier
-515,Bruno Godbout
-516,Jo�lle Chevrier
-517,Michel Fecteau
-518,Jonathan Tr�panier
-519,Claude Genest
-520,Joseph Khoury
-521,Claude Bachand
-522,Yolande Thibeault
-523,Monique Garcia
-524,Patrick Clune
-525,Diane Joubert
-526,Normand Fournier
-527,Maka Kotto
-528,St�phane Dion
-529,Marc Rahm�
-530,Alex Neron
-531,Zaid Mahayni
-532,Fernand Deschamps
-533,Nilda Vargas
-534,Ken Fernandez
-535,William Fayad
-536,Almaz Aladass
-537,Massimo Pacetti
-538,Payam Eslami
-539,Paul-Alexis Fran�ois
-540,St�phane Ch�nier
-541,Ricardo Fellicetti
-542,Laura Colella
-543,Marie-Eve Bilodeau
-544,Pierre Cayou Audette
-545,Marcel Gagnon
-546,Martial Toupin
-547,Paul Giroux
-548,Pierre J.C. Allard
-549,Diane St-Jacques
-550,Jacques Parenteau
-551,Robert Vincent
-552,Francine Bri�re
-553,Sonia Bisson
-554,Bruno-Marie B�chard
-555,Serge Cardin
-556,Jeffrey Champagne
-557,R�al Leblanc
-558,Philippe Dion
-559,Pierre Gingras
-560,Patrick L�gar�
-561,Diane Bourgeois
-562,Martin Drapeau
-563,Normand Beaudet
-564,Jean-�ric Guindon
-565,Marc Tessier
-566,Paule Brunelle
-567,Linda Lavoie
-568,Jean-Guy Mercier
-569,Nick Discepola
-570,Bert Markgraf
-571,Charles Soucy
-572,Robert Ramage
-573,Meili Faille
-574,Julie C. Baribeau
-575,Nathalie Tousignant
-576,Francis-Pierre R�millard
-577,S�bastien Drouin
-578,St�phane Bergeron
-579,Philippe Morlighem
-580,Simon Vall�e
-581,Lucienne Robillard
-582,Brian Sarwer-Foner
-583,Eric Wilson Steedman
-584,David John Proctor
-585,Robert Gervais
-586,Louis La Rochelle
-587,Serge Lachapelle
-588,Mark Holland
-589,Ren� Soetens
-590,Kevin Modeste
-591,Karen MacDonald
-592,Brent St. Denis
-593,Carol Hughes
-594,Blaine Armstrong
-595,Lindsay Killen
-596,Russ Powers
-597,Gordon Guyatt
-598,David Januczkowski
-599,David Sweet
-600,Aileen Carroll
-601,Peter Bursztyn
-602,Patrick Brown
-603,Erich Jacoby-Hawkins
-604,Maria Minna
-605,Nick Nikopoulos
-606,Daniel Dufresne
-607,Edward Slota
-608,Miguel Figueroa
-609,Roger Carter
-610,Peter Tabuns
-611,Peter Davison
-612,Gurbax S. Malhi
-613,Fernando Miranda
-614,Raminder Gill
-615,Frank Chilelli
-616,Sharleen McDowall
-617,Ruby Dhalla
-618,Sam Hundal
-619,Gurdev Singh Mattu
-620,Kathy Pounder
-621,Nick Hudson
-622,Colleen Beaumier
-623,Tony Clement
-624,Tom Bose
-625,Sanjeev Goel
-626,Chris Moise
-627,Lloyd St. Amand
-628,John C. Turmel
-629,Greg Martin
-630,Barra L. Gots
-631,Helen-Anne Embry
-632,Lynn Bowering
-633,Paddy Torsney
-634,David Carter Laird
-635,Angela Reid
-636,Mike Wallace
-637,John Herman Wubs
-638,Janko Peric
-639,Gary Price
-640,Alex W. Gryc
-641,Gareth M. White
-642,John G. Gots
-643,Gary Goodyear
-644,John Oprea
-645,Dan Wicklum
-646,Stuart Langstaff
-647,Gordon O'Connor
-648,Rick Prashaw
-649,Jerry Pickard
-650,Kathleen Kevany
-651,Dave Van Kesteren
-652,Margaret Mondaca
-653,Rod Hetherington
-654,Tim Lang
-655,Bev Oda
-656,Durk Bruinsma
-657,Virginia Ervin
-658,Bruce Rogers
-659,Mario Silva
-660,Theresa Rodrigues
-661,Elmer Gale
-662,John Riddell
-663,Rui Pires
-664,Mark O'Brien
-665,Johan Boyden
-666,Sarah Thompson
-667,Yasmin Ratansi
-668,Dan King
-669,David Johnson
-670,Ryan Kidd
-671,Christopher Black
-672,Valerie Mah
-673,John Godfrey
-674,David Thomas
-675,David Turnbull
-676,Serge Abbat
-677,Murray Calder
-678,Rita Landry
-679,David Tilson
-680,Ursula Ellis
-681,Ted Alexander
-682,Joseph Volpe
-683,Bernie Tanz
-684,Corrinne Pr�vost
-685,Shel Goldstein
-686,Max Silverman
-687,Gar Knutson
-688,Joe Preston
-689,Ken DeVries
-690,Will Arlow
-691,Tim McCallum
-692,Julie-Ann Stodolny
-693,Susan Whelan
-694,David Tremblay
-695,Jeff Watson
-696,Robert A. Cruise
-697,Paul Forman
-698,Borys Wrzesnewskyj
-699,Lida Preyma
-700,Margo Pearson
-701,France Tremblay
-702,John Richmond
-703,Jean Augustine
-704,Margaret Anne McHugh
-705,John Capobianco
-706,Janice Murray
-707,John Huculiak
-708,Roy Cullen
-709,Anna Di Carlo
-710,Cesar Martello
-711,Mir Kamal
-712,George Szebik
-713,William Ubbens
-714,Rupinder Nannar
-715,Don Boudria
-716,Roy Fjarlie
-717,Tim Bloedow
-718,Martin Cauvier
-719,Alain Lalonde
-720,Ovid Jackson
-721,Alex Drossos
-722,Steven J. Taylor
-723,Larry Miller
-724,Sebastian Ostertag
-725,Brenda Chamberlain
-726,Jon Dearden
-727,Peter Ellis
-728,Lyne Rivard
-729,Manuel Couto
-730,Mike Nagy
-731,Phil Allt
-732,Bob Speller
-733,Carrie Sinkowski
-734,Steven Elgersma
-735,Diane Finley
-736,Colin Jones
-737,John O'Reilly
-738,Tim Holland
-739,Barry Devolin
-740,Peter Vogel
-741,Charles Olito
-742,Gil J. McElroy
-743,Gary Carr
-744,Dean Martin
-745,Frank Marchetti
-746,Anwar Naqvi
-747,Stan Keyes
-748,Jamil� Ghaddar
-749,Leon Patrick O'Connor
-750,Stephen Downey
-751,Michael James Baldasaro
-752,David Christopherson
-753,Anne Marie Pavlov
-754,Tony Valeri
-755,Sam Cino
-756,Fred Eisenberger
-757,Bob Mann
-758,Tony DePaulo
-759,Richard Safka
-760,Beth Phinney
-761,Paul Lane
-762,Chris Charlton
-763,Tom Jackson
-764,Jo Pavlov
-765,Paul Steckle
-766,Barb Fisher
-767,Dave Joslin
-768,Glen Smith
-769,Dave Vasey
-770,Grant Robertson
-771,Roger Valley
-772,Carl Chaboyer
-773,Susan Barclay
-774,Bill Brown
-775,Peter Milliken
-776,Rosie The Clown Elston
-777,Karl Eric Walker
-778,Blair MacLean
-779,Terry Marshall
-780,Don Rogers
-781,Janina Fisher Balfour
-782,Rob Hutchison
-783,Karen Redman
-784,Mark Corbiere
-785,Karol Vesely
-786,Thomas Ichim
-787,Richard Walsh-Bowers
-788,Lynn Myers
-789,Frank Luellau
-790,Kris Stapleton
-791,Len Carter
-792,Andrew Telegdi
-793,Pauline Richards
-794,Steve Strauss
-795,Frank Ellis
-796,Ciprian Mihalcea
-797,Edwin Laryea
-798,Larry McCormick
-799,Ross Sutherland
-800,John Baranyi
-801,Scott Jeffrey Reid
-802,George Walter Kolaczynski
-803,Bill Vankoughnet
-804,Joe Jordan
-805,Steve Armstrong
-806,Gord Brown
-807,Chris Bradshaw
-808,Pat O'Brien
-809,Derrall Bellaire
-810,John Mazzilli
-811,Irene Mathyssen
-812,Cameron Switzer
-813,Ed Moore
-814,Joe Fontana
-815,Gustavo Granados-Ocon
-816,Bronagh Joyce Morgan
-817,Rod Morley
-818,Tim Gatten
-819,Joe Swan
-820,Sue Barnes
-821,Steve Hunter
-822,Mike Menear
-823,Margaret Villamizar
-824,Rebecca Bromwich
-825,Gina Barber
-826,John McCallum
-827,Ed Wong
-828,Janice Hagan
-829,Joe Li
-830,Rose-Marie Ur
-831,Kevin Blake
-832,Allan James
-833,Bev Shipley
-834,Allan McKeown
-835,Navdeep Bains
-836,Larry Taylor
-837,Parvinder Sandhu
-838,David Gershuny
-839,Paul Simas
-840,Albina Guarnieri
-841,Andrew Seitz
-842,Riina DeFaria
-843,Sally Wong
-844,Jason Robert Hinchliffe
-845,Pierre Ch�nier
-846,Jim Gill
-847,Carolyn Parrish
-848,Bob Dechert
-849,David Greig
-850,Jeff Brownridge
-851,Simon Black
-852,Paul John Mark Szabo
-853,Dagmar Sullivan
-854,Neeraj Jain
-855,Phil Green
-856,Michael James Culkin
-857,Wajid Khan
-858,Peter Gibson Creighton
-859,Nina Tangri
-860,Otto Casanova
-861,Manjinder Rai
-862,David Pratt
-863,Pierre Poilievre
-864,Brad Powers
-865,Phil Brown
-866,Chris Walker
-867,Martha Hall Findlay
-868,Dorian Baxter
-869,Daryl Wyatt
-870,Belinda Stronach
-871,Ed Chudak
-872,Victor Pietrangelo
-873,Rob Nicholson
-874,Ted Mousseau
-875,Wayne Gates
-876,Debbie Zimmerman
-877,Dave Heatley
-878,Dean Allison
-879,David Bylsma
-880,Phil Rose
-881,Tom Ferguson
-882,Raymond Bonin
-883,Steve Lafleur
-884,Claude Gravelle
-885,Don Lavallee
-886,Mike Dupont
-887,Michel D. Ethier
-888,Steve Rutchinski
-889,Anthony Rota
-890,Al McDonald
-891,Les Wilcox
-892,Ross MacLean
-893,Dave Fluri
-894,Paul Macklin
-895,Doug Galt
-896,Steven Haylestrom
-897,Russ Christianson
-898,Lui Temelkovski
-899,Pamela Courtot
-900,Bernadette Manning
-901,Bob Callow
-902,Jim Conrad
-903,Maurice G Whittle
-904,M.A. Bonnie Brown
-905,Alison Myrden
-906,Rick Byers
-907,Zeshan Shahbaz
-908,Tania Orton
-909,Louise V. Parkes
-910,Colin Carrie
-911,Tim Sullivan
-912,Liisa Whalley
-913,Sid Ryan
-914,Richard Mahoney
-915,David Chernushenko
-916,Louis Lang
-917,Ed Broadbent
-918,Stuart Ryan
-919,Mike Murphy
-920,Michael Foster
-921,Robert G. Gauthier
-922,Carla Marie Dancey
-923,Marc Godbout
-924,Dan Biocchi
-925,Crystal Leblanc
-926,Walter Robinson
-927,David McGuinty
-928,Saroj Bains
-929,John Ford
-930,Alan Riddell
-931,Brad Thomson
-932,John Akpata
-933,Raymond Aubin
-934,Monia Mazigh
-935,Mauril B�langer
-936,Kevin Friday
-937,Carol Taylor
-938,Fran�oise Roy
-939,Rapha�l Thierrin
-940,Ric Dagenais
-941,Marlene Catterall
-942,Alexandre Legeais
-943,Neil Adair
-944,Marlene Rivier
-945,Mary-Sue Haliburton
-946,Sean Casey
-947,Russell Barth
-948,Murray Coulter
-949,Irene Tietz
-950,Alex Kreider
-951,Zo� Dorcas Kunschner
-952,James Bender
-953,Dave Mackenzie
-954,Kaye Sargent
-955,Leslie Bartley
-956,Sarmite (Sam) Bulte
-957,Lorne Gershuny
-958,Neil Spiegel
-959,Jurij Klufas
-960,Terry Parker
-961,Peggy Nash
-962,Andy Mitchell
-963,Keith Montgomery
-964,Glen Hodgson
-965,Jo-Anne Marie Boulding
-966,Brian Innes
-967,John Cowling
-968,Irma Nicolette Devries
-969,Gary Ralph Schellenberger
-970,Robert Roth
-971,Peter Adams
-972,Brent Wood
-973,James Jackson
-974,Linda Slavin
-975,Dan McTeague
-976,Tim Dobson
-977,Matthew Pollesel
-978,Gary Dale
-979,Bruce Knutson
-980,Dan Douglas
-981,Joseph Sahadat
-982,Tom Lawson
-983,Daryl Kramp
-984,Rob Jamieson
-985,Gordon S McLeod
-986,Cheryl Gallant
-987,Stanley Sambey
-988,Sue McSheffrey
-989,Bryon Wilfert
-990,Ellena Lam
-991,Pete Merrifield
-992,Tim Rudkins
-993,C. Nella Cotrupi
-994,Walt Lastewka
-995,Elaine Couto
-996,Leo Bonomi
-997,Linda Klassen
-998,Ted Mouradian
-999,Jim Fannon
-1000,Jane Elizabeth Paxton
-1001,Carolyn Bennett
-1002,Barry Cline
-1003,Norman Tobias
-1004,Peter Elgie
-1005,Roger Gallaway
-1006,John Elliott
-1007,Marcel Beaubien
-1008,Gary De Boer
-1009,Dave Core
-1010,Anthony Cramer
-1011,Greg Agar
-1012,Carmen Provenzano
-1013,Cameron Ross
-1014,Mike Taffarel
-1015,Julie Emmerson
-1016,Tony Martin
-1017,Jim Karygiannis
-1018,Tony J. Karadimas
-1019,Andrew Faust
-1020,Wayne Yeechong
-1021,D'Arcy Palmer
-1022,John Cannis
-1023,Greg Gogan
-1024,John Mihtis
-1025,Dorothy Sauras
-1026,Greg Bonser
-1027,John McKay
-1028,Tom Varesh
-1029,Brenda Thompson
-1030,Paul Charbonneau
-1031,Sheila White
-1032,Derek Lee
-1033,Tony Backhurst
-1034,Raymond Cho
-1035,Kathryn Holloway
-1036,Fauzia Khan
-1037,Tom Wappel
-1038,Dan Harris
-1039,Peter Van Dalen
-1040,Elizabeth Rowley
-1041,Heather Jewell
-1042,Paul Bonwick
-1043,Colin Mackinnon
-1044,Peter Vander Zaag
-1045,Helena Guergis
-1046,Peter Ellis
-1047,Paul DeVillers
-1048,Jen Hill
-1049,Peter Stock
-1050,Adrian Kooger
-1051,Ian Woods
-1052,Mary Lou Kirby
-1053,Bob Kilger
-1054,Guy Lauzon
-1055,Tom Manley
-1056,Elaine MacDonald
-1057,Diane Marleau
-1058,Dave Starbuck
-1059,Stephen L. Butcher
-1060,Luke Norton
-1061,Gerry McIntaggart
-1062,Susan Kadis
-1063,Josh Cooper
-1064,Simion Iron
-1065,Benjamin Fitzerman
-1066,Lloyd Helferty
-1067,Rick Morelli
-1068,Ken Boshcoff
-1069,David Leskowski
-1070,Johannes Scheibler
-1071,Doug Thompson
-1072,Russ Aegard
-1073,John Rafferty
-1074,Joe Comuzzi
-1075,Bev Sarafin
-1076,Bruce Hyer
-1077,Denis A. Carri�re
-1078,Carl Rose
-1079,Raymond Ch�nier
-1080,Marsha Gail Kriss
-1081,Charlie Angus
-1082,Andrew Van Oosten
-1083,Bill Graham
-1084,Michael Shapcott
-1085,Philip Fernandez
-1086,Kevin Peck
-1087,Megan Harris
-1088,Jay Wagner
-1089,Dan Goldstick
-1090,Gabriel Draven
-1091,Dennis Mills
-1092,Jack Layton
-1093,Loftus Cuddy
-1094,Scott Yee
-1095,Marcell Rodden
-1096,Jim Harris
-1097,Tony Ianno
-1098,David Watters
-1099,Asif Hossain
-1100,Nick Lin
-1101,Daniel Knezetic
-1102,Tristan Alexander Downe-Dewdney
-1103,Mark Viitala
-1104,Olivia Chow
-1105,Maurizio Bevilacqua
-1106,Paolo Fabrizio
-1107,Joe Spina
-1108,Walter Aolari
-1109,Russell Korus
-1110,Octavia Beckles
-1111,John Maloney
-1112,Ron Walker
-1113,Jody Di Bartolomeo
-1114,Ryan McLaughlin
-1115,Irma D. Ruiter
-1116,Mel Grunstein
-1117,Bruce Hood
-1118,Brent Bouteiller
-1119,Pat Woode
-1120,Noel Duignan
-1121,Mike Chong
-1122,Judi Longfield
-1123,Michael MacDonald
-1124,Ian MacNeil
-1125,Maret Sadem-Thompson
-1126,Jim Peterson
-1127,Ardavan Behrouzi
-1128,Jovan Boseovski
-1129,Bernadette Michael
-1130,Sharolyn Vettese
-1131,Yvonne Bobb
-1132,Rick Limoges
-1133,Rick Fuschi
-1134,Laura Chesnik
-1135,Joe Comartin
-1136,�lizabeth Powles
-1137,Richard Pollock
-1138,Jordan Katz
-1139,Brian Masse
-1140,Enver Villamizar
-1141,Rob Spring
-1142,Ken Dryden
-1143,Peter Flaherty
-1144,Max Royz
-1145,Michael Mostyn
-1146,Constantine Kritsonis
-1147,Kate Wilson
-1148,Stephen Sircelj
-1149,Peter Van Loan
-1150,Vicki Gunn
-1151,Bob Burrows
-1152,Sylvia Gerl
-1153,Alan Tonks
-1154,Stephen Halicki
-1155,Shirley Hawley
-1156,Jessica Fracassi
-1157,Paul Ferreira
-1158,Judy Sgro
-1159,Joseph Grubb
-1160,Leslie Soobrian
-1161,Tim McKellar
-1162,Sandra Romano Anthony
-1163,Murray Downing
-1164,Lisa Gallagher
-1165,Merv Tweed
-1166,Colin Atkins
-1167,David Kattenburg
-1168,Mike Abbey
-1169,Glen Murray
-1170,Steven John Fletcher
-1171,Dan Zupansky
-1172,Beatriz Alas
-1173,Andrew Basham
-1174,Peter Carney
-1175,Ron Evans
-1176,Bev Desjarlais
-1177,Bill Archer
-1178,C. David Nickarz
-1179,Don Dewar
-1180,Inky Mark
-1181,David C. Andres
-1182,Walter Kolisnyk
-1183,Lindy Clubb
-1184,Tanya Parks
-1185,Gavin Whittaker
-1186,Bryan McLeod
-1187,Robert Scott
-1188,Paul Sidon
-1189,Elijah Gair
-1190,Bill Blaikie
-1191,Terry Duguid
-1192,Joy Smith
-1193,Katharine Reimer
-1194,Rebecca Whittaker
-1195,Jacob Giesbrecht
-1196,Lorene Mahoney
-1197,Don Kuhl
-1198,Daren Van Den Bussche
-1199,Brian Pallister
-1200,Marc Payette
-1201,David Reimer
-1202,Allister Cucksey
-1203,Peter Epp
-1204,Vic Toews
-1205,Sarah Zaharia
-1206,Janine G. Gibson
-1207,Raymond Simard
-1208,Mathieu Allard
-1209,Ken Cooper
-1210,Jeannine Moquin-Perry
-1211,Chris Buors
-1212,G�rard Guay
-1213,Daniel Back�
-1214,Bruce Benson
-1215,James Bezan
-1216,Anthony Barendregt
-1217,Duane Nicol
-1218,Trevor Farley
-1219,David Northcott
-1220,Anna-Celestrya Carr
-1221,John M. Siedleski
-1222,Robert Eng
-1223,Douglas Edward Schweitzer
-1224,Robin (Pilar) Faye
-1225,Pat Martin
-1226,Rey D. Pagtakhan
-1227,Kris Stevenson
-1228,Eric Truijen
-1229,Darrell Rankin
-1230,Alon Weinberg
-1231,Judy Wasylycia-Leis
-1232,Reg Alcock
-1233,Rod Bruinooge
-1234,Jane MacDiarmid
-1235,Ron Cameron
-1236,Catherine Green
-1237,Anita Neville
-1238,James Allum
-1239,Ian Scott
-1240,Magnus Thompson
-1241,Raj Joshi
-1242,Andy Caisse
-1243,Andrew Dalgliesh
-1244,Del Price
-1245,Shawn McKee
-1246,Gerry Ritz
-1247,Diane Stephan
-1248,Kelsey Pearson
-1249,Tiffany Paulsen
-1250,Don Kossick
-1251,Lynne Yelich
-1252,Clayton A. Sundberg
-1253,Lynn Oliphant
-1254,Al Ducharme
-1255,Jeremy Harrison
-1256,Rick Laliberte
-1257,Marcella Gall
-1258,Earl Cook
-1259,Bill Caton
-1260,David Anderson
-1261,Bev Currie
-1262,Jeff Potts
-1263,John Williams
-1264,Harold Stephan
-1265,Dave Batters
-1266,Brian Rands
-1267,Dick Proctor
-1268,Patrick W. Jahn
-1269,Brian Fitzpatrick
-1270,Marc Loiselle
-1271,Don Hovdebo
-1272,Gary Anderson
-1273,Fiorindo Agi
-1274,Tom Lukiwski
-1275,Larry Spencer
-1276,Moe Kovatch
-1277,Allyce Herle
-1278,Deanna Robilliard
-1279,Lorne Edward Widger
-1280,Andrew Scheer
-1281,Mary Sylvia Nelson
-1282,Lorne Edmund Nystrom
-1283,Patrick Wolfe
-1284,Ron Schriml
-1285,Nettie Wiebe
-1286,Bradley R. Trost
-1287,Jim Pankiw
-1288,Larry Zarysky
-1289,Myron Luczka
-1290,Carol Skelton
-1291,Dennis Gruending
-1292,Rick Barsky
-1293,Chris Axworthy
-1294,Maurice Vellacott
-1295,David Greenfield
-1296,Priscilla Settee
-1297,Lonny McKague
-1298,Robert Stephen Stringer
-1299,Sigfredo Gonzalez
-1300,Robert Thomas Jacobson
-1301,Ed Komarnicki
-1302,Grant Devine
-1303,Ralph Goodale
-1304,Erin M. K. Weir
-1305,Doug Cryer
-1306,Darcy Robilliard
-1307,Ted Quewezance
-1308,Don Olson
-1309,Garry Breitkreuz
-1310,David Sawkiw
-1311,Ralph Pilchner
-1312,Doug Faulkner
-1313,Brian Jean
-1314,Robert Cree
-1315,Ian Hopfe
-1316,James Maxim
-1317,Elizabeth Thomas
-1318,Jason Corey Devine
-1319,Deepak Obhrai
-1320,Dean Kenneth Christie
-1321,Cathy McClusky
-1322,Margaret Peggy Askin
-1323,Jim Prentice
-1324,Michael Falconar
-1325,John Chan
-1326,Mark MacGillivray
-1327,Dale Muti
-1328,Art Hanger
-1329,Steve Garland
-1330,Morgan DuFord
-1331,Giorgio Cattabeni
-1332,Ted Haney
-1333,Diane Ablonczy
-1334,Richard Larson
-1335,Vinay Dey
-1336,Julia Turnbull
-1337,Lee Richardson
-1338,Trevor Grover
-1339,Phillip K. Liesemer
-1340,Keith Purdy
-1341,Jim Tanner
-1342,George Read
-1343,Jason Kenney
-1344,Brian Pincott
-1345,Avalon Roberts
-1346,Stephen J. Harper
-1347,Larry R. Heather
-1348,Mark de Pelham
-1349,Darcy Kraus
-1350,Daria Fox
-1351,Justin Thompson
-1352,James S. Kohut
-1353,Andr� Vachon
-1354,Danielle Roberts
-1355,Tim Patterson
-1356,Rob Anders
-1357,Adam Campbell
-1358,Arnold Baker
-1359,Max Leonard Cornelssen
-1360,Ellen Parker
-1361,Kevin Sorenson
-1362,David Kilgour
-1363,Naomi Rankin
-1364,Michael Garfinkle
-1365,Tim Uppal
-1366,Paul Reikie
-1367,Anne McLellan
-1368,Sean Tisdall
-1369,Laurie Hawn
-1370,Lyle Kenny
-1371,John Baloun
-1372,Peggy Morton
-1373,David J. Parker
-1374,Meghan McMaster
-1375,John Bethel
-1376,Janina Strudwick
-1377,Harlan Light
-1378,Ed Spronk
-1379,Peter Goldring
-1380,Bruce King
-1381,Bruce Sinclair
-1382,Doug McLachlan
-1383,James Rajotte
-1384,Moe Saeed
-1385,Mike Melymick
-1386,John Williams
-1387,Conrad A. Bitangcol
-1388,Maureen Towns
-1389,Margaret Marean
-1390,Chris Harwood
-1391,Ken Epp
-1392,Neil Mather
-1393,Hayley Phillips
-1394,Rona Ambrose
-1395,Jerry Paschen
-1396,Debby Carlson
-1397,Cameron Wakefield
-1398,Kevan Hunter
-1399,Rahim Jaffer
-1400,Dave Dowling
-1401,Malcolm Azania
-1402,Ken Nicol
-1403,Melanee Thomas
-1404,Dustin Sobie
-1405,Rick Casson
-1406,Ken Vanden Broek
-1407,Erin Marie Matthews
-1408,Chris Shade
-1409,Joyce Thomas
-1410,Ted Menzies
-1411,Laurel Denise Fadeeff
-1412,Bill Cocks
-1413,Monte Kenton Solberg
-1414,Kevin Dodd
-1415,Betty Stroh
-1416,Lyle Carlstrom
-1417,Charlie Penson
-1418,Benjamin Morrison Pettit
-1419,Susan Thompson
-1420,Luke Kurata
-1421,Jeff Sloychuk
-1422,Garfield John Marks
-1423,Bob Mills
-1424,Teena Cormack
-1425,Duff Stewart
-1426,Len Legault
-1427,Leon E. Benoit
-1428,James Kenney
-1429,Joe Dion
-1430,Peggy Kirkeby
-1431,Dave Chatters
-1432,John A. McDonald
-1433,Rick Bonnett
-1434,Tom Lampman
-1435,Tim Robson
-1436,Dale Johnston
-1437,Brent McKelvie
-1438,Judy Stewart
-1439,Jeff Horvath
-1440,Myron Thompson
-1441,Chris Foote
-1442,Peter Crossley
-1443,Noel Lapierre
-1444,Rob Merrifield
-1445,Jacob Strydhorst
-1446,Eric Stieglitz
-1447,Moe Gill
-1448,Scott Fast
-1449,Tim Felger
-1450,Karl Hann
-1451,David MacKay
-1452,Randy White
-1453,Harold J. Ludwig
-1454,Bill Cunningham
-1455,Bill Siksay
-1456,Shawn Hunsdale
-1457,Adam Desaulniers
-1458,George Drazenovic
-1459,Frank Cerminara
-1460,Hanne Gidora
-1461,Mary Pynenburg
-1462,Revel Kunz
-1463,Mike Redmond
-1464,Dana Green
-1465,P�ter P�l Horv�th
-1466,Peter Julian
-1467,Gurbux Saini
-1468,Rick Smith
-1469,Douglas Gook
-1470,Mike Orr
-1471,Bev Collins
-1472,Jeff Paetkau
-1473,Dick Harris
-1474,Carol Lee Chapman
-1475,Bob Besner
-1476,Rollie L. Keith
-1477,Ron Gray
-1478,Chuck Strahl
-1479,Norm Siefken
-1480,Dorothy-Jean O'Donnell
-1481,Aisha Coghlan
-1482,Shelley Leonhardt
-1483,John Cummins
-1484,Dana L. Miller
-1485,Itrath Syed
-1486,Blanche Juneau
-1487,Mike Bocking
-1488,Tammy Lea Meyer
-1489,Scott Etches
-1490,Randy Kamp
-1491,Keith Martin
-1492,Randall Garrison
-1493,Jen Fisher-Bradley
-1494,John Koury
-1495,Shawn  W. Giles
-1496,Jane Sterk
-1497,Gulzar Cheema
-1498,Nina Grewal
-1499,Joseph Theriault
-1500,David Walters
-1501,Barry Bell
-1502,John O'Fee
-1503,Brian Carroll
-1504,Arjun Singh
-1505,Betty Hinton
-1506,Grant Fraser
-1507,Vern Nielsen
-1508,Starleigh Grass
-1509,Huguette Plourde
-1510,Werner Schmidt
-1511,Michael Cassidyne-Hook
-1512,Kevin Ade
-1513,Ross Priest
-1514,Jim Abbott
-1515,Carmen Gustafson
-1516,Brent Bush
-1517,Kim Richter
-1518,Dean Morrison
-1519,Mark Warawa
-1520,Mel Kositsky
-1521,Patrick Meyer
-1522,Hira Chopra
-1523,Diana E. Lifton
-1524,Barbara Biley
-1525,James D Lunney
-1526,Michael Mann
-1527,David Wright
-1528,Scott Fraser
-1529,Lloyd Macilquham
-1530,Dave Quist
-1531,Brunie Brunie
-1532,Jeffrey Ian Warr
-1533,Harold Henn
-1534,Jean Crowder
-1535,Sukh Dhaliwal
-1536,Gurmant Grewal
-1537,Nazir Rizvi
-1538,John Hague
-1539,Nancy Clegg
-1540,Dave Haggard
-1541,Paul Forseth
-1542,Jack Hummelman
-1543,Steve McClurg
-1544,Carli Travers
-1545,Will Hansma
-1546,Claire A. Foss
-1547,Darrel Stinson
-1548,Blair T. Longley
-1549,Gordon Campbell
-1550,K. No. Daniels
-1551,Erin Nelson
-1552,Alice Brown
-1553,Don H. Bell
-1554,Andres Esteban Barker
-1555,Michael Hill
-1556,Ted White
-1557,Peggy Stortz
-1558,John Nelson
-1559,Vanessa Sutton
-1560,Stockwell Day
-1561,Jack William Peach
-1562,Lelannd Haver
-1563,Harry Naegel
-1564,Joyce Procure
-1565,Kwangyul Peck
-1566,Lewis Dahlby
-1567,Pat Goff
-1568,George Gidora
-1569,James Moore
-1570,Charley King
-1571,Richard Voigt
-1572,Arleene Thorpe
-1573,Jay Hill
-1574,Tara Rimstad
-1575,Hilary Crowley
-1576,Michael Hunter
-1577,Harley J. Harasym
-1578,Raymond Chan
-1579,Stephen H.F. Kronstein
-1580,Allan Warnke
-1581,Alice Wong
-1582,Dale Jackaman
-1583,David Mulroney
-1584,Gary Lunn
-1585,Mary Moreau
-1586,Andrew Lewis
-1587,Jennifer Burgis
-1588,Miles Richardson
-1589,Andy Burton
-1590,Rod Taylor
-1591,Frank Martin
-1592,Nathan Cullen
-1593,Roger Colin Benham
-1594,Doug Stanley
-1595,Farlie Paynter
-1596,Jim Gouk
-1597,Karine Cyr
-1598,Robert Schuster
-1599,Brian Sproule
-1600,Alex Atamanenko
-1601,Scott Leyland
-1602,Judy Higginbotham
-1603,Pat Taylor
-1604,Romeo De La Pena
-1605,Russ Hiebert
-1606,H. Pummy Kaur
-1607,Dan Sheel
-1608,Jasbir Singh Cheema
-1609,Gerhard Herwig
-1610,Chuck Cadman
-1611,Roy Tyler Whyte
-1612,Joyce Holmes
-1613,Sunny Athwal
-1614,Jim Karpoff
-1615,Hedy Fry
-1616,Kimball Cariou
-1617,Kennedy Stewart
-1618,Robbie Mattu
-1619,Alexander Frei
-1620,John Clarke
-1621,Gary Mitchell
-1622,Joe Pal
-1623,Shirley Chan
-1624,Ron Plowright
-1625,Louis James Lesosky
-1626,Libby Davies
-1627,Gloria Anne Kieler
-1628,Harvey Grigg
-1629,Marc Boyer
-1630,Noor Ahmed
-1631,Jack East
-1632,John Duncan
-1633,Pam Munroe
-1634,Catherine Bell
-1635,David Emerson
-1636,Jesse Johl
-1637,Jeannie Kwan
-1638,Jacob Rempel
-1639,Jason Mann
-1640,Donna Petersen
-1641,Tracey  Jastinder Mann
-1642,Ian Waddell
-1643,Stephen Owen
-1644,Donovan Young
-1645,Doug Warkentin
-1646,Stephen Rogers
-1647,Katrina Chowne
-1648,Connie Fogal
-1649,David Askew
-1650,Ujjal Dosanjh
-1651,Victor Soo Chan
-1652,Frank Wagner
-1653,H. Sandhu
-1654,Joe Sixpack Horrocks
-1655,Bev Meslo
-1656,Charles Boylan
-1657,Doug Perry
-1658,Stephen Von Sychowski
-1659,David Anderson
-1660,David Turner
-1661,Logan Wenham
-1662,Derek J. Skinner
-1663,Ariel Lade
-1664,Blair Wilson
-1665,John Reynolds
-1666,Marc Bombois
-1667,Anne Jamieson
-1668,Andrea Goldsmith
-1669,Nicholas Simons
-1670,Larry Bagnell
-1671,Pam Boyde
-1672,Philippe LeBlond
-1673,Sean Davey
-1674,James Hartle
-1675,Geoffrey Capp
-1676,Ethel Blondin-Andrew
-1677,Dennis Bevington
-1678,Chris O'Brien
-1679,Sean Mandeville
-1680,Nancy Karetak-Lindell
-1681,Manitok Thompson
-1682,Nedd Kenney
-1683,Duncan Cunningham
-1684,Bill Riddell
+id,name,riding_name,last_win_margin,party_leader,pm,mpp,premier,cabinet
+0,R. John Efford,Avalon
+1,Michael Kehoe,Avalon
+2,Don C. Ferguson,Avalon
+3,Rick Dalton,Avalon
+4,Scott Simms,Bonavista--Exploits
+5,John Lannon,Bonavista--Exploits
+6,Rex Barnes,Bonavista--Exploits
+7,Ed Sailor White,Bonavista--Exploits
+8,Samuel Robert McLean,Bonavista--Exploits
+9,Gerry Byrne,Humber--St. Barbe--Baie Verte
+10,Holly Pike,Humber--St. Barbe--Baie Verte
+11,Wynanne Downer,Humber--St. Barbe--Baie Verte
+12,Steve Durant,Humber--St. Barbe--Baie Verte
+13,Lawrence David O'Brien,Labrador
+14,Lori-Ann Martino,Labrador
+15,Shawn Crann,Labrador
+16,Merrill Strachan,Labrador
+17,Ern Condon,Labrador
+18,Bill Matthews,Random--Burin--St. George's
+19,Justin Dollimont,Random--Burin--St. George's
+20,Larry Peckford,Random--Burin--St. George's
+21,Des McGrath,Random--Burin--St. George's
+22,Walter Noel,St. John's North
+23,Norman E Doyle,St. John's North
+24,Scott Vokey,St. John's North
+25,Janine Piller,St. John's North
+26,Siobhan Coady,St. John's South
+27,Loyola Hearn,St. John's South
+28,Peg Norman,St. John's South
+29,Stephen Daniel Willcott,St. John's South
+30,Lawrence MacAulay,Cardigan
+31,Dave MacKinnon,Cardigan
+32,Jeremy Stiles,Cardigan
+33,Peter McQuaid,Cardigan
+34,Shawn Murphy,Charlottetown
+35,Dody Crane,Charlottetown
+36,Will McFadden,Charlottetown
+37,Baird Judson,Charlottetown
+38,Darren Peters,Charlottetown
+39,Joe McGuire,Egmont
+40,Regena Kaye Russell,Egmont
+41,Reg Harper,Egmont
+42,Irené Novaczek,Egmont
+43,Wayne Easter,Malpeque
+44,Mary Crane,Malpeque
+45,Sharon Labchuk,Malpeque
+46,Ken Bingham,Malpeque
+47,Rodger Cuzner,Cape Breton--Canso
+48,Seumas Gibson,Cape Breton--Canso
+49,Shirley Hartery,Cape Breton--Canso
+50,Kenzie MacNeil,Cape Breton--Canso
+51,Susan L. Green,Central Nova
+52,Alexis MacDonald,Central Nova
+53,Peter G. MacKay,Central Nova
+54,Rebecca Mosher,Central Nova
+55,Michael John Savage,Dartmouth--Cole Harbour
+56,Susan MacAlpine-Gillis,Dartmouth--Cole Harbour
+57,Tracy Parsons,Dartmouth--Cole Harbour
+58,Mike MacDonald,Dartmouth--Cole Harbour
+59,Charles Spurr,Dartmouth--Cole Harbour
+60,Michael Marshall,Dartmouth--Cole Harbour
+61,Sheila Fougere,Halifax
+62,Kevin Leslie Keefe,Halifax
+63,Michael Oddy,Halifax
+64,Alexa McDonough,Halifax
+65,Geoff Regan,Halifax West
+66,Martin Willison,Halifax West
+67,Ken MacPhee,Halifax West
+68,Bill Carr,Halifax West
+69,Scott Brison,Kings--Hants
+70,Richard Hennigar,Kings--Hants
+71,Jim Hnatiuk,Kings--Hants
+72,Bob Mullan,Kings--Hants
+73,Kevin Stacey,Kings--Hants
+74,Skip Hambling,Kings--Hants
+75,Dianne Brushett,North Nova
+76,Jack Moors,North Nova
+77,Bill Casey,North Nova
+78,Sheila G. Richardson,North Nova
+79,Margaret E. Sagar,North Nova
+80,Dale Stevens,Sackville--Eastern Shore
+81,Greg Moors,Sackville--Eastern Shore
+82,Steve Streatch,Sackville--Eastern Shore
+83,David Fullerton,Sackville--Eastern Shore
+84,Peter Stoffer,Sackville--Eastern Shore
+85,John Chandler,South Shore--St. Margaret's
+86,Gordon Earle,South Shore--St. Margaret's
+87,Gerald Keddy,South Shore--St. Margaret's
+88,Katie Morris Boudreau,South Shore--St. Margaret's
+89,Mark Eyking,Sydney--Victoria
+90,B. Chris Gallant,Sydney--Victoria
+91,Howie MacDonald,Sydney--Victoria
+92,Cathy Thériault,Sydney--Victoria
+93,John Hugh Edwards,Sydney--Victoria
+94,Chris Milburn,Sydney--Victoria
+95,Robert Thibault,West Nova
+96,Jon Charles Carey,West Nova
+97,Matthew Granger,West Nova
+98,Edmund Arthur Bull,West Nova
+99,Serge Rousselle,Acadie--Bathurst
+100,Joel E. Bernard,Acadie--Bathurst
+101,Yvon Godin,Acadie--Bathurst
+102,Mario Lanteigne,Acadie--Bathurst
+103,Dominic LeBlanc,Beauséjour
+104,Angela Vautour,Beauséjour
+105,Anna Girouard,Beauséjour
+106,Omer Bourque,Beauséjour
+107,Andy Scott,Fredericton
+108,Kent Fox,Fredericton
+109,Daron Letts,Fredericton
+110,John Carty,Fredericton
+111,John Herron,Fundy
+112,Rob Moore,Fundy
+113,David Raymond Amos,Fundy
+114,Karin Bach,Fundy
+115,Pat Hanratty,Fundy
+116,Jean-Claude J.C. D'Amours,Madawaska--Restigouche
+117,Rodolphe Martin,Madawaska--Restigouche
+118,Benoit Violette,Madawaska--Restigouche
+119,Jovette Cyr,Madawaska--Restigouche
+120,Charles Isaac Hubbard,Miramichi
+121,Hilaire Rousselle,Miramichi
+122,Michael J. Morrison,Miramichi
+123,Garry Sanipass,Miramichi
+124,Claudette Bradshaw,Moncton--Riverview--Dieppe
+125,Hélène Lapointe,Moncton--Riverview--Dieppe
+126,Jean LeBlanc,Moncton--Riverview--Dieppe
+127,Judith Hamel,Moncton--Riverview--Dieppe
+128,Jim Dunlap,St. Croix--Belleisle
+129,David Szemerda,St. Croix--Belleisle
+130,Greg Thompson,St. Croix--Belleisle
+131,Erik Matthew Millett,St. Croix--Belleisle
+132,Patrick Webber,St. Croix--Belleisle
+133,Paul Zed,Saint John
+134,Jim Wood,Saint John
+135,Bob McVicar,Saint John
+136,Tom Oland,Saint John
+137,Jonathan Cormier,Saint John
+138,Terry Albright,Saint John
+139,Andy Savoy,Tobique--Mactaquac
+140,Mike Allen,Tobique--Mactaquac
+141,Scott Jones,Tobique--Mactaquac
+142,Jason Mapplebeck,Tobique--Mactaquac
+143,Gilbert Barrette,Abitibi--Témiscamingue
+144,Bernard Hugues Beauchesne,Abitibi--Témiscamingue
+145,Marc Lemay,Abitibi--Témiscamingue
+146,Patrick Rancourt,Abitibi--Témiscamingue
+147,Dennis Shushack,Abitibi--Témiscamingue
+148,Eleni Bakopanos,Ahuntsic
+149,Maria Mourani,Ahuntsic
+150,Jean E. Fortier,Ahuntsic
+151,F.X. De Longchamp,Ahuntsic
+152,Marsha Fine,Ahuntsic
+153,Lynette Tremblay,Ahuntsic
+154,Annick Bergeron,Ahuntsic
+155,Carole-Marie Allard,Alfred-Pellan
+156,Benjamin Le Bel,Alfred-Pellan
+157,Rosane Raymond,Alfred-Pellan
+158,Yves Desbois,Alfred-Pellan
+159,Régent Millette,Alfred-Pellan
+160,Robert Carrier,Alfred-Pellan
+161,Louis-Philippe Verenka,Alfred-Pellan
+162,Yves Sabourin,Argenteuil--Mirabel
+163,Elisabeth Clark,Argenteuil--Mirabel
+164,Claude Sabourin,Argenteuil--Mirabel
+165,Laurent Filion,Argenteuil--Mirabel
+166,David H. McArthur,Argenteuil--Mirabel
+167,Mario Laframboise,Argenteuil--Mirabel
+168,Michael O'Grady,Argenteuil--Mirabel
+169,Claude Drouin,Beauce
+170,Alain Guay,Beauce
+171,Philippe Giguère,Beauce
+172,Jean-François Barbe,Beauce
+173,Michel Binette,Beauce
+174,Serge Marcil,Beauharnois--Salaberry
+175,Dominique Bellemare,Beauharnois--Salaberry
+176,Félix Malboeuf,Beauharnois--Salaberry
+177,Alain Boire,Beauharnois--Salaberry
+178,Rémi Pelletier,Beauharnois--Salaberry
+179,Ligy Alakkattussery,Beauharnois--Salaberry
+180,Dennis Dawson,Beauport
+181,Christian Simard,Beauport
+182,Stephan Asselin,Beauport
+183,Nicolas Frichot,Beauport
+184,Jeannine T. Desharnais,Beauport
+185,Xavier Trégan,Beauport
+186,Laurier Thibault,Berthier--Maskinongé
+187,Denis McKinnon,Berthier--Maskinongé
+188,Eric Labrecque,Berthier--Maskinongé
+189,Ann Julie Fortier,Berthier--Maskinongé
+190,Guy André,Berthier--Maskinongé
+191,Denis Coderre,Bourassa
+192,Stefano Saykaly,Bourassa
+193,Geneviève Royer,Bourassa
+194,Noémi Lopinto,Bourassa
+195,Doris Provencher,Bourassa
+196,Philippe Gauvin,Bourassa
+197,Frédéric Grenier,Bourassa
+198,Denis Paradis,Brome--Missisquoi
+199,Louise Martineau,Brome--Missisquoi
+200,Piper Huggins,Brome--Missisquoi
+201,Peter Stastny,Brome--Missisquoi
+202,Christian Ouellet,Brome--Missisquoi
+203,Jacques Saada,Brossard--La Prairie
+204,Nadia Alexan,Brossard--La Prairie
+205,Robert Nicolas,Brossard--La Prairie
+206,Marcel Lussier,Brossard--La Prairie
+207,Yves Le Seigle,Brossard--La Prairie
+208,Cécile Bissonnette,Brossard--La Prairie
+209,Sophie Joncas,Chambly--Borduas
+210,Lucien Richard,Chambly--Borduas
+211,Yves Lessard,Chambly--Borduas
+212,Daniel Blouin,Chambly--Borduas
+213,Benoit Lapointe,Chambly--Borduas
+214,Jean-Marie Laliberté,Charlesbourg
+215,François Villeneuve,Charlesbourg
+216,Marilou Moisan-Domm,Charlesbourg
+217,Bertrand Proulx,Charlesbourg
+218,Benjamin Kasapoglu,Charlesbourg
+219,Richard Marceau,Charlesbourg
+220,Lisette Lepage,Charlevoix--Montmorency
+221,Steeve Hudon,Charlevoix--Montmorency
+222,Yves Jourdain,Charlevoix--Montmorency
+223,Guy-Léonard Tremblay,Charlevoix--Montmorency
+224,Michel Guimond,Charlevoix--Montmorency
+225,Robert Lanctôt,Châteauguay--Saint-Constant
+226,Mélanie Archambault,Châteauguay--Saint-Constant
+227,Rosaire Turcot,Châteauguay--Saint-Constant
+228,Denise Poirier-Rivard,Châteauguay--Saint-Constant
+229,Marc-André Gadoury,Châteauguay--Saint-Constant
+230,André Harvey,Chicoutimi--Le Fjord
+231,Alcide Boudreault,Chicoutimi--Le Fjord
+232,Robert Bouchard,Chicoutimi--Le Fjord
+233,Paul Tremblay,Chicoutimi--Le Fjord
+234,Éric Dubois,Chicoutimi--Le Fjord
+235,David Price,Compton--Stanstead
+236,Gary Caldwell,Compton--Stanstead
+237,France Bonsant,Compton--Stanstead
+238,Martin Baller,Compton--Stanstead
+239,Laurier Busque,Compton--Stanstead
+240,Roger Gougeon,Drummond
+241,Blake Evans,Drummond
+242,Louis Lacroix,Drummond
+243,Lyne Boisvert,Drummond
+244,Pauline Picard,Drummond
+245,Georges Farrah,Gaspésie--Îles-de-la-Madeleine
+246,Philip Toone,Gaspésie--Îles-de-la-Madeleine
+247,Raynald Blais,Gaspésie--Îles-de-la-Madeleine
+248,Guy De Coste,Gaspésie--Îles-de-la-Madeleine
+249,Bob Eichenberger,Gaspésie--Îles-de-la-Madeleine
+250,Françoise Boivin,Gatineau
+251,Brian Gibb,Gatineau
+252,Gabriel Girard-Bernier,Gatineau
+253,Gérald Nicolas,Gatineau
+254,Stephane Salko,Gatineau
+255,Richard Nadeau,Gatineau
+256,Dominique Vaillancourt,Gatineau
+257,Benoit Bouvier,Hochelaga
+258,David Gagnon,Hochelaga
+259,Mario Bernier,Hochelaga
+260,Antoine Théorêt-Poupart,Hochelaga
+261,Pierre Bibeau,Hochelaga
+262,Réal Ménard,Hochelaga
+263,Christine Dandenault,Hochelaga
+264,Rolf Bramann,Hochelaga
+265,Pablo Rodriguez,Honoré-Mercier
+266,Gianni Chiazzese,Honoré-Mercier
+267,Steve Boudrias,Honoré-Mercier
+268,Éric St-Hilaire,Honoré-Mercier
+269,Hélène Héroux,Honoré-Mercier
+270,Richard Lahaie,Honoré-Mercier
+271,François Pilon,Honoré-Mercier
+272,Marcel Proulx,Hull--Aylmer
+273,Pierre Laliberté,Hull--Aylmer
+274,Gail Walker,Hull--Aylmer
+275,Alain Charette,Hull--Aylmer
+276,Pierrette Bellefeuille,Hull--Aylmer
+277,Christian Legeais,Hull--Aylmer
+278,Liza Frulla,Jeanne-Le Ber
+279,Anthony Philbin,Jeanne-Le Ber
+280,Normand Chouinard,Jeanne-Le Ber
+281,Pierre-Albert Sévigny,Jeanne-Le Ber
+282,Cathy Duchesne,Jeanne-Le Ber
+283,Thierry St-Cyr,Jeanne-Le Ber
+284,Jean Claude Mercier,Jeanne-Le Ber
+285,Jean-François Coderre,Joliette
+286,Jacques Trudeau,Joliette
+287,Daniel Bouchard,Joliette
+288,Marco Geoffroy,Joliette
+289,Pierre A. Paquette,Joliette
+290,Wendy Gorchinsky,Joliette
+291,Daniel Giguère,Jonquière--Alma
+292,François Picard,Jonquière--Alma
+293,Sébastien Gagnon,Jonquière--Alma
+294,Michel Perron,Jonquière--Alma
+295,Gilles Lavoie,Jonquière--Alma
+296,Jocelyne Girard-Bujold,Jonquière--Alma
+297,Jean-Sébastien Busque,Jonquière--Alma
+298,Francis Scarpaleggia,Lac-Saint-Louis
+299,Peter Graham,Lac-Saint-Louis
+300,Jeff Howard,Lac-Saint-Louis
+301,Patrick Cardinal,Lac-Saint-Louis
+302,Maxime Côté,Lac-Saint-Louis
+303,Daniel Quinn,Lac-Saint-Louis
+304,Jean-Claude Gobé,La Pointe-de-l'Île
+305,Christian Prevost,La Pointe-de-l'Île
+306,Francine Lalonde,La Pointe-de-l'Île
+307,Andre Levert,La Pointe-de-l'Île
+308,André Langevin,La Pointe-de-l'Île
+309,Paul Martin,LaSalle--Émard
+310,Jean-Paul Bédard,LaSalle--Émard
+311,Nicole Roy-Arcelin,LaSalle--Émard
+312,Marc-Boris St-Maurice,LaSalle--Émard
+313,Thierry Larrivée,LaSalle--Émard
+314,Rebecca Blaikie,LaSalle--Émard
+315,Douglas Jack,LaSalle--Émard
+316,Dominique Boyer,Laurentides--Labelle
+317,Brendan Naef,Laurentides--Labelle
+318,Guillaume Desjardins,Laurentides--Labelle
+319,Johanne Deschamps,Laurentides--Labelle
+320,Jacques Léger,Laurentides--Labelle
+321,Jean-François Thibault,Laurier
+322,François Gregoire,Laurier
+323,Dylan Perceval-Maxwell,Laurier
+324,Gilles Duceppe,Laurier
+325,Nicky Tanguay,Laurier
+326,Pierre Albert,Laurier
+327,Ginette Boutet,Laurier
+328,Pierre Lafleur,Laval
+329,Nicole Demers,Laval
+330,Pierre Losier-Côté,Laval
+331,Stéphane d'Amours,Laval
+332,Alain Giguère,Laval
+333,Damien Pichereau,Laval
+334,Raymonde Folco,Laval--Les Îles
+335,Jean-Paul Pratte,Laval--Les Îles
+336,Michel Allard,Laval--Les Îles
+337,Micaël Poirier,Laval--Les Îles
+338,Polyvios Tsakanikas,Laval--Les Îles
+339,Pierre Véronneau,Laval--Les Îles
+340,Paul Michaud,Laval--Les Îles
+341,Christian Jobin,Lévis--Bellechasse
+342,Gilles Vézina,Lévis--Bellechasse
+343,Christophe Vaillancourt,Lévis--Bellechasse
+344,Louise Foisy,Lévis--Bellechasse
+345,Sylvain Castonguay,Lévis--Bellechasse
+346,Réal Lapierre,Lévis--Bellechasse
+347,Robert Gladu,Longueuil
+348,Nicole Fournier-Sylvester,Longueuil
+349,Richard Bélisle,Longueuil
+350,David Fiset,Longueuil
+351,Caroline St-Hilaire,Longueuil
+352,Michel Bédard,Longueuil
+353,Anicet Gagné,Lotbinière--Chutes-de-la-Chaudière
+354,Jean Bernatchez,Lotbinière--Chutes-de-la-Chaudière
+355,Odina Desrochers,Lotbinière--Chutes-de-la-Chaudière
+356,Jean Landry,Lotbinière--Chutes-de-la-Chaudière
+357,Rama Borne MacDonald,Lotbinière--Chutes-de-la-Chaudière
+358,Hélène Chalifour Scherrer,Louis-Hébert
+359,Jean-Pierre Guay,Louis-Hébert
+360,Clermont Gauthier,Louis-Hébert
+361,Roger Clavet,Louis-Hébert
+362,Robert Turcotte,Louis-Hébert
+363,Michel Fragasso,Louis-Saint-Laurent
+364,Josée Verner,Louis-Saint-Laurent
+365,Henri Gauvin,Louis-Saint-Laurent
+366,Jean-Guy Carignan,Louis-Saint-Laurent
+367,Dominique Théberge,Louis-Saint-Laurent
+368,Bernard Cleary,Louis-Saint-Laurent
+369,Yonnel Bonaventure,Louis-Saint-Laurent
+370,Christopher Bojanowski,Louis-Saint-Laurent
+371,Anthony Detroio,Manicouagan
+372,Pierre Ducasse,Manicouagan
+373,Pierre Paradis,Manicouagan
+374,Gérard Asselin,Manicouagan
+375,Les Parsons,Manicouagan
+376,Nancy Girard,Marc-Aurèle-Fortin
+377,Marc Bissonnette,Marc-Aurèle-Fortin
+378,Serge Ménard,Marc-Aurèle-Fortin
+379,Lyse Généreux,Marc-Aurèle-Fortin
+380,Lise Bissonnette,Marc-Aurèle-Fortin
+381,Marc Bélanger,Matapédia--Matane
+382,Vahid Fortin-Vidah,Matapédia--Matane
+383,Jean-Yves Roy,Matapédia--Matane
+384,Jean-Guy Côté,Matapédia--Matane
+385,Nicolas Deville,Matapédia--Matane
+386,Gérard Binet,Mégantic--L'Érable
+387,Yves Mailly,Mégantic--L'Érable
+388,Marc Boulianne,Mégantic--L'Érable
+389,Bruno Vézina,Mégantic--L'Érable
+390,Alexandre Côté,Mégantic--L'Érable
+391,Daniel Brazeau,Montcalm
+392,François Rivest,Montcalm
+393,Roger Gaudet,Montcalm
+394,Michel Paulette,Montcalm
+395,Serge Bellemare,Montcalm
+396,Irwin Cotler,Mount Royal
+397,Matthew Fireman,Mount Royal
+398,Adam Greenblatt,Mount Royal
+399,Vincent Gagnon,Mount Royal
+400,Diane Johnston,Mount Royal
+401,Sébastien Beaudet,Mount Royal
+402,Adam Sommerfeld,Mount Royal
+403,Marlene Jennings,Notre-Dame-de-Grâce--Lachine
+404,Earl Wertheimer,Notre-Dame-de-Grâce--Lachine
+405,William R. McCullock,Notre-Dame-de-Grâce--Lachine
+406,Jay Dell,Notre-Dame-de-Grâce--Lachine
+407,Jean-Philippe Chartré,Notre-Dame-de-Grâce--Lachine
+408,Rachel Hoffman,Notre-Dame-de-Grâce--Lachine
+409,Jessica Gal,Notre-Dame-de-Grâce--Lachine
+410,Maria Pia Chávez,Notre-Dame-de-Grâce--Lachine
+411,Guy St-Julien,Nunavik--Eeyou
+412,François Dionne,Nunavik--Eeyou
+413,Yvon Lévesque,Nunavik--Eeyou
+414,Martin Fournier,Nunavik--Eeyou
+415,Pierre Corbeil,Nunavik--Eeyou
+416,Jean Lapierre,Outremont
+417,Yan Lacombe,Outremont
+418,Marc Rousseau,Outremont
+419,François Rebello,Outremont
+420,Linda Sullivan,Outremont
+421,Omar Aktouf,Outremont
+422,Shaun Perceval-Maxwell,Outremont
+423,Pierre Pettigrew,Papineau
+424,Mustaque Sarker,Papineau
+425,Christelle Dusablon-Pelletier,Papineau
+426,Jimmy Garoufalis,Papineau
+427,André Parizeau,Papineau
+428,Martine Carrière,Papineau
+429,Peter Macrisopoulos,Papineau
+430,Adam Jastrzebski,Papineau
+431,André Frappier,Papineau
+432,Bernard Patry,Pierrefonds--Dollard
+433,Garnet Colly,Pierrefonds--Dollard
+434,Theodore Kouretas,Pierrefonds--Dollard
+435,Andrea Paine,Pierrefonds--Dollard
+436,Jean-François Labrecque,Pierrefonds--Dollard
+437,Marie-Hélène Brunet,Pierrefonds--Dollard
+438,Danielle Lustgarten,Pierrefonds--Dollard
+439,David Smith,Pontiac
+440,Judith Grant,Pontiac
+441,L-Hubert Leduc,Pontiac
+442,Benoit Legros,Pontiac
+443,Thierry Vicente,Pontiac
+444,Gretchen Schwarz,Pontiac
+445,Claude Duplain,Portneuf
+446,Pierre Poulin,Portneuf
+447,Guy Côté,Portneuf
+448,Howard M. Bruce,Portneuf
+449,Jean-François Breton,Portneuf
+450,Jean-Philippe Côté,Québec
+451,Pierre Gaudreault,Québec
+452,Pierre-Etienne Paradis,Québec
+453,Christiane Gagnon,Québec
+454,Antonine Yaccarini,Québec
+455,Jean Bédard,Québec
+456,Jean-Marie Fiset,Québec
+457,Lévis Brien,Repentigny
+458,André Cardinal,Repentigny
+459,Benoît Sauvageau,Repentigny
+460,Allen  F. MacKenzie,Repentigny
+461,François Boudreau,Repentigny
+462,Jean-François Léveque,Repentigny
+463,Ghislaine Provencher,Richelieu
+464,Daniel A. Proulx,Richelieu
+465,Daniel Blackburn,Richelieu
+466,Louis Plamondon,Richelieu
+467,Jean-Pierre Bonenfant,Richelieu
+468,Charles Bussières,Richelieu
+469,Christine St-Pierre,Richmond--Arthabaska
+470,André Bellavance,Richmond--Arthabaska
+471,Lucie Laforest,Richmond--Arthabaska
+472,Pierre Poissant,Richmond--Arthabaska
+473,Jason S. Noble,Richmond--Arthabaska
+474,Côme Roy,Rimouski--Témiscouata
+475,Denis Quimper,Rimouski--Témiscouata
+476,Marjolaine Delaunière,Rimouski--Témiscouata
+477,Louise Thibault,Rimouski--Témiscouata
+478,Guy Caron,Rimouski--Témiscouata
+479,Yolaine Savignac,Rivière-des-Mille-Îles
+480,Gilles-A. Perron,Rivière-des-Mille-Îles
+481,Marie Martine Bédard,Rivière-des-Mille-Îles
+482,Érick Gauthier,Rivière-des-Mille-Îles
+483,Nicolas Du Cap,Rivière-des-Mille-Îles
+484,Isabelle Mignault,Rivière-du-Loup--Montmagny
+485,Marc-André Drolet,Rivière-du-Loup--Montmagny
+486,Paul Crête,Rivière-du-Loup--Montmagny
+487,André Clermont,Rivière-du-Loup--Montmagny
+488,Frédérick Garon,Rivière-du-Loup--Montmagny
+489,Lorraine Auclair,Rivière-du-Nord
+490,Catherine Brousseau,Rivière-du-Nord
+491,Christian Marcoux,Rivière-du-Nord
+492,François Côté,Rivière-du-Nord
+493,Monique Guay,Rivière-du-Nord
+494,Marcel Poirier,Rivière-du-Nord
+495,Michel Mallette,Roberval
+496,Ghislain Lavoie,Roberval
+497,Michel Gauthier,Roberval
+498,Marc-André Gauthier,Roberval
+499,Isabelle Tremblay,Roberval
+500,Christian Bolduc,Rosemont--La Petite-Patrie
+501,Michel Sauvé,Rosemont--La Petite-Patrie
+502,Kenneth Higham,Rosemont--La Petite-Patrie
+503,Bernard Bigras,Rosemont--La Petite-Patrie
+504,François Chevalier,Rosemont--La Petite-Patrie
+505,Benoît Beauchamp,Rosemont--La Petite-Patrie
+506,Marc Savard,Saint-Bruno--Saint-Hubert
+507,Jean-François Mongeau,Saint-Bruno--Saint-Hubert
+508,David Vachon,Saint-Bruno--Saint-Hubert
+509,Carole Lavallée,Saint-Bruno--Saint-Hubert
+510,Janis Crawford,Saint-Bruno--Saint-Hubert
+511,Marie Henretta,Saint-Bruno--Saint-Hubert
+512,Michel Gaudette,Saint-Hyacinthe--Bagot
+513,Andrée Champagne,Saint-Hyacinthe--Bagot
+514,Yvan Loubier,Saint-Hyacinthe--Bagot
+515,Bruno Godbout,Saint-Hyacinthe--Bagot
+516,Joëlle Chevrier,Saint-Hyacinthe--Bagot
+517,Michel Fecteau,Saint-Jean
+518,Jonathan Trépanier,Saint-Jean
+519,Claude Genest,Saint-Jean
+520,Joseph Khoury,Saint-Jean
+521,Claude Bachand,Saint-Jean
+522,Yolande Thibeault,Saint-Lambert
+523,Monique Garcia,Saint-Lambert
+524,Patrick Clune,Saint-Lambert
+525,Diane Joubert,Saint-Lambert
+526,Normand Fournier,Saint-Lambert
+527,Maka Kotto,Saint-Lambert
+528,Stéphane Dion,Saint-Laurent--Cartierville
+529,Marc Rahmé,Saint-Laurent--Cartierville
+530,Alex Neron,Saint-Laurent--Cartierville
+531,Zaid Mahayni,Saint-Laurent--Cartierville
+532,Fernand Deschamps,Saint-Laurent--Cartierville
+533,Nilda Vargas,Saint-Laurent--Cartierville
+534,Ken Fernandez,Saint-Laurent--Cartierville
+535,William Fayad,Saint-Laurent--Cartierville
+536,Almaz Aladass,Saint-Laurent--Cartierville
+537,Massimo Pacetti,Saint-Léonard--Saint-Michel
+538,Payam Eslami,Saint-Léonard--Saint-Michel
+539,Paul-Alexis François,Saint-Léonard--Saint-Michel
+540,Stéphane Chénier,Saint-Léonard--Saint-Michel
+541,Ricardo Fellicetti,Saint-Léonard--Saint-Michel
+542,Laura Colella,Saint-Léonard--Saint-Michel
+543,Marie-Eve Bilodeau,Saint-Maurice--Champlain
+544,Pierre Cayou Audette,Saint-Maurice--Champlain
+545,Marcel Gagnon,Saint-Maurice--Champlain
+546,Martial Toupin,Saint-Maurice--Champlain
+547,Paul Giroux,Saint-Maurice--Champlain
+548,Pierre J.C. Allard,Saint-Maurice--Champlain
+549,Diane St-Jacques,Shefford
+550,Jacques Parenteau,Shefford
+551,Robert Vincent,Shefford
+552,Francine Brière,Shefford
+553,Sonia Bisson,Shefford
+554,Bruno-Marie Béchard,Sherbrooke
+555,Serge Cardin,Sherbrooke
+556,Jeffrey Champagne,Sherbrooke
+557,Réal Leblanc,Sherbrooke
+558,Philippe Dion,Sherbrooke
+559,Pierre Gingras,Terrebonne--Blainville
+560,Patrick Légaré,Terrebonne--Blainville
+561,Diane Bourgeois,Terrebonne--Blainville
+562,Martin Drapeau,Terrebonne--Blainville
+563,Normand Beaudet,Terrebonne--Blainville
+564,Jean-Éric Guindon,Trois-Rivières
+565,Marc Tessier,Trois-Rivières
+566,Paule Brunelle,Trois-Rivières
+567,Linda Lavoie,Trois-Rivières
+568,Jean-Guy Mercier,Trois-Rivières
+569,Nick Discepola,Vaudreuil-Soulanges
+570,Bert Markgraf,Vaudreuil-Soulanges
+571,Charles Soucy,Vaudreuil-Soulanges
+572,Robert Ramage,Vaudreuil-Soulanges
+573,Meili Faille,Vaudreuil-Soulanges
+574,Julie C. Baribeau,Vaudreuil-Soulanges
+575,Nathalie Tousignant,Verchères--Les Patriotes
+576,Francis-Pierre Rémillard,Verchères--Les Patriotes
+577,Sébastien Drouin,Verchères--Les Patriotes
+578,Stéphane Bergeron,Verchères--Les Patriotes
+579,Philippe Morlighem,Verchères--Les Patriotes
+580,Simon Vallée,Verchères--Les Patriotes
+581,Lucienne Robillard,Westmount--Ville-Marie
+582,Brian Sarwer-Foner,Westmount--Ville-Marie
+583,Eric Wilson Steedman,Westmount--Ville-Marie
+584,David John Proctor,Westmount--Ville-Marie
+585,Robert Gervais,Westmount--Ville-Marie
+586,Louis La Rochelle,Westmount--Ville-Marie
+587,Serge Lachapelle,Westmount--Ville-Marie
+588,Mark Holland,Ajax--Pickering
+589,René Soetens,Ajax--Pickering
+590,Kevin Modeste,Ajax--Pickering
+591,Karen MacDonald,Ajax--Pickering
+592,Brent St. Denis,Algoma--Manitoulin--Kapuskasing
+593,Carol Hughes,Algoma--Manitoulin--Kapuskasing
+594,Blaine Armstrong,Algoma--Manitoulin--Kapuskasing
+595,Lindsay Killen,Algoma--Manitoulin--Kapuskasing
+596,Russ Powers,Ancaster--Dundas--Flamborough--Westdale
+597,Gordon Guyatt,Ancaster--Dundas--Flamborough--Westdale
+598,David Januczkowski,Ancaster--Dundas--Flamborough--Westdale
+599,David Sweet,Ancaster--Dundas--Flamborough--Westdale
+600,Aileen Carroll,Barrie
+601,Peter Bursztyn,Barrie
+602,Patrick Brown,Barrie
+603,Erich Jacoby-Hawkins,Barrie
+604,Maria Minna,Beaches--East York
+605,Nick Nikopoulos,Beaches--East York
+606,Daniel Dufresne,Beaches--East York
+607,Edward Slota,Beaches--East York
+608,Miguel Figueroa,Beaches--East York
+609,Roger Carter,Beaches--East York
+610,Peter Tabuns,Beaches--East York
+611,Peter Davison,Beaches--East York
+612,Gurbax S. Malhi,Bramalea--Gore--Malton
+613,Fernando Miranda,Bramalea--Gore--Malton
+614,Raminder Gill,Bramalea--Gore--Malton
+615,Frank Chilelli,Bramalea--Gore--Malton
+616,Sharleen McDowall,Bramalea--Gore--Malton
+617,Ruby Dhalla,Brampton--Springdale
+618,Sam Hundal,Brampton--Springdale
+619,Gurdev Singh Mattu,Brampton--Springdale
+620,Kathy Pounder,Brampton--Springdale
+621,Nick Hudson,Brampton--Springdale
+622,Colleen Beaumier,Brampton West
+623,Tony Clement,Brampton West
+624,Tom Bose,Brampton West
+625,Sanjeev Goel,Brampton West
+626,Chris Moise,Brampton West
+627,Lloyd St. Amand,Brant
+628,John C. Turmel,Brant
+629,Greg Martin,Brant
+630,Barra L. Gots,Brant
+631,Helen-Anne Embry,Brant
+632,Lynn Bowering,Brant
+633,Paddy Torsney,Burlington
+634,David Carter Laird,Burlington
+635,Angela Reid,Burlington
+636,Mike Wallace,Burlington
+637,John Herman Wubs,Burlington
+638,Janko Peric,Cambridge
+639,Gary Price,Cambridge
+640,Alex W. Gryc,Cambridge
+641,Gareth M. White,Cambridge
+642,John G. Gots,Cambridge
+643,Gary Goodyear,Cambridge
+644,John Oprea,Cambridge
+645,Dan Wicklum,Carleton--Lanark
+646,Stuart Langstaff,Carleton--Lanark
+647,Gordon O'Connor,Carleton--Lanark
+648,Rick Prashaw,Carleton--Lanark
+649,Jerry Pickard,Chatham-Kent--Essex
+650,Kathleen Kevany,Chatham-Kent--Essex
+651,Dave Van Kesteren,Chatham-Kent--Essex
+652,Margaret Mondaca,Chatham-Kent--Essex
+653,Rod Hetherington,Chatham-Kent--Essex
+654,Tim Lang,Clarington--Scugog--Uxbridge
+655,Bev Oda,Clarington--Scugog--Uxbridge
+656,Durk Bruinsma,Clarington--Scugog--Uxbridge
+657,Virginia Ervin,Clarington--Scugog--Uxbridge
+658,Bruce Rogers,Clarington--Scugog--Uxbridge
+659,Mario Silva,Davenport
+660,Theresa Rodrigues,Davenport
+661,Elmer Gale,Davenport
+662,John Riddell,Davenport
+663,Rui Pires,Davenport
+664,Mark O'Brien,Davenport
+665,Johan Boyden,Davenport
+666,Sarah Thompson,Davenport
+667,Yasmin Ratansi,Don Valley East
+668,Dan King,Don Valley East
+669,David Johnson,Don Valley East
+670,Ryan Kidd,Don Valley East
+671,Christopher Black,Don Valley East
+672,Valerie Mah,Don Valley East
+673,John Godfrey,Don Valley West
+674,David Thomas,Don Valley West
+675,David Turnbull,Don Valley West
+676,Serge Abbat,Don Valley West
+677,Murray Calder,Dufferin--Caledon
+678,Rita Landry,Dufferin--Caledon
+679,David Tilson,Dufferin--Caledon
+680,Ursula Ellis,Dufferin--Caledon
+681,Ted Alexander,Dufferin--Caledon
+682,Joseph Volpe,Eglinton--Lawrence
+683,Bernie Tanz,Eglinton--Lawrence
+684,Corrinne Prévost,Eglinton--Lawrence
+685,Shel Goldstein,Eglinton--Lawrence
+686,Max Silverman,Eglinton--Lawrence
+687,Gar Knutson,Elgin--Middlesex--London
+688,Joe Preston,Elgin--Middlesex--London
+689,Ken DeVries,Elgin--Middlesex--London
+690,Will Arlow,Elgin--Middlesex--London
+691,Tim McCallum,Elgin--Middlesex--London
+692,Julie-Ann Stodolny,Elgin--Middlesex--London
+693,Susan Whelan,Essex
+694,David Tremblay,Essex
+695,Jeff Watson,Essex
+696,Robert A. Cruise,Essex
+697,Paul Forman,Essex
+698,Borys Wrzesnewskyj,Etobicoke Centre
+699,Lida Preyma,Etobicoke Centre
+700,Margo Pearson,Etobicoke Centre
+701,France Tremblay,Etobicoke Centre
+702,John Richmond,Etobicoke Centre
+703,Jean Augustine,Etobicoke--Lakeshore
+704,Margaret Anne McHugh,Etobicoke--Lakeshore
+705,John Capobianco,Etobicoke--Lakeshore
+706,Janice Murray,Etobicoke--Lakeshore
+707,John Huculiak,Etobicoke--Lakeshore
+708,Roy Cullen,Etobicoke North
+709,Anna Di Carlo,Etobicoke North
+710,Cesar Martello,Etobicoke North
+711,Mir Kamal,Etobicoke North
+712,George Szebik,Etobicoke North
+713,William Ubbens,Etobicoke North
+714,Rupinder Nannar,Etobicoke North
+715,Don Boudria,Glengarry--Prescott--Russell
+716,Roy Fjarlie,Glengarry--Prescott--Russell
+717,Tim Bloedow,Glengarry--Prescott--Russell
+718,Martin Cauvier,Glengarry--Prescott--Russell
+719,Alain Lalonde,Glengarry--Prescott--Russell
+720,Ovid Jackson,Grey--Bruce--Owen Sound
+721,Alex Drossos,Grey--Bruce--Owen Sound
+722,Steven J. Taylor,Grey--Bruce--Owen Sound
+723,Larry Miller,Grey--Bruce--Owen Sound
+724,Sebastian Ostertag,Grey--Bruce--Owen Sound
+725,Brenda Chamberlain,Guelph
+726,Jon Dearden,Guelph
+727,Peter Ellis,Guelph
+728,Lyne Rivard,Guelph
+729,Manuel Couto,Guelph
+730,Mike Nagy,Guelph
+731,Phil Allt,Guelph
+732,Bob Speller,Haldimand--Norfolk
+733,Carrie Sinkowski,Haldimand--Norfolk
+734,Steven Elgersma,Haldimand--Norfolk
+735,Diane Finley,Haldimand--Norfolk
+736,Colin Jones,Haldimand--Norfolk
+737,John O'Reilly,Haliburton--Kawartha Lakes--Brock
+738,Tim Holland,Haliburton--Kawartha Lakes--Brock
+739,Barry Devolin,Haliburton--Kawartha Lakes--Brock
+740,Peter Vogel,Haliburton--Kawartha Lakes--Brock
+741,Charles Olito,Haliburton--Kawartha Lakes--Brock
+742,Gil J. McElroy,Haliburton--Kawartha Lakes--Brock
+743,Gary Carr,Halton
+744,Dean Martin,Halton
+745,Frank Marchetti,Halton
+746,Anwar Naqvi,Halton
+747,Stan Keyes,Hamilton Centre
+748,Jamilé Ghaddar,Hamilton Centre
+749,Leon Patrick O'Connor,Hamilton Centre
+750,Stephen Downey,Hamilton Centre
+751,Michael James Baldasaro,Hamilton Centre
+752,David Christopherson,Hamilton Centre
+753,Anne Marie Pavlov,Hamilton Centre
+754,Tony Valeri,Hamilton East--Stoney Creek
+755,Sam Cino,Hamilton East--Stoney Creek
+756,Fred Eisenberger,Hamilton East--Stoney Creek
+757,Bob Mann,Hamilton East--Stoney Creek
+758,Tony DePaulo,Hamilton East--Stoney Creek
+759,Richard Safka,Hamilton East--Stoney Creek
+760,Beth Phinney,Hamilton Mountain
+761,Paul Lane,Hamilton Mountain
+762,Chris Charlton,Hamilton Mountain
+763,Tom Jackson,Hamilton Mountain
+764,Jo Pavlov,Hamilton Mountain
+765,Paul Steckle,Huron--Bruce
+766,Barb Fisher,Huron--Bruce
+767,Dave Joslin,Huron--Bruce
+768,Glen Smith,Huron--Bruce
+769,Dave Vasey,Huron--Bruce
+770,Grant Robertson,Huron--Bruce
+771,Roger Valley,Kenora
+772,Carl Chaboyer,Kenora
+773,Susan Barclay,Kenora
+774,Bill Brown,Kenora
+775,Peter Milliken,Kingston and the Islands
+776,Rosie The Clown Elston,Kingston and the Islands
+777,Karl Eric Walker,Kingston and the Islands
+778,Blair MacLean,Kingston and the Islands
+779,Terry Marshall,Kingston and the Islands
+780,Don Rogers,Kingston and the Islands
+781,Janina Fisher Balfour,Kingston and the Islands
+782,Rob Hutchison,Kingston and the Islands
+783,Karen Redman,Kitchener Centre
+784,Mark Corbiere,Kitchener Centre
+785,Karol Vesely,Kitchener Centre
+786,Thomas Ichim,Kitchener Centre
+787,Richard Walsh-Bowers,Kitchener Centre
+788,Lynn Myers,Kitchener--Conestoga
+789,Frank Luellau,Kitchener--Conestoga
+790,Kris Stapleton,Kitchener--Conestoga
+791,Len Carter,Kitchener--Conestoga
+792,Andrew Telegdi,Kitchener--Waterloo
+793,Pauline Richards,Kitchener--Waterloo
+794,Steve Strauss,Kitchener--Waterloo
+795,Frank Ellis,Kitchener--Waterloo
+796,Ciprian Mihalcea,Kitchener--Waterloo
+797,Edwin Laryea,Kitchener--Waterloo
+798,Larry McCormick,Lanark--Frontenac--Lennox and Addington
+799,Ross Sutherland,Lanark--Frontenac--Lennox and Addington
+800,John Baranyi,Lanark--Frontenac--Lennox and Addington
+801,Scott Jeffrey Reid,Lanark--Frontenac--Lennox and Addington
+802,George Walter Kolaczynski,Lanark--Frontenac--Lennox and Addington
+803,Bill Vankoughnet,Lanark--Frontenac--Lennox and Addington
+804,Joe Jordan,Leeds--Grenville
+805,Steve Armstrong,Leeds--Grenville
+806,Gord Brown,Leeds--Grenville
+807,Chris Bradshaw,Leeds--Grenville
+808,Pat O'Brien,London--Fanshawe
+809,Derrall Bellaire,London--Fanshawe
+810,John Mazzilli,London--Fanshawe
+811,Irene Mathyssen,London--Fanshawe
+812,Cameron Switzer,London--Fanshawe
+813,Ed Moore,London--Fanshawe
+814,Joe Fontana,London North Centre
+815,Gustavo Granados-Ocon,London North Centre
+816,Bronagh Joyce Morgan,London North Centre
+817,Rod Morley,London North Centre
+818,Tim Gatten,London North Centre
+819,Joe Swan,London North Centre
+820,Sue Barnes,London West
+821,Steve Hunter,London West
+822,Mike Menear,London West
+823,Margaret Villamizar,London West
+824,Rebecca Bromwich,London West
+825,Gina Barber,London West
+826,John McCallum,Markham--Unionville
+827,Ed Wong,Markham--Unionville
+828,Janice Hagan,Markham--Unionville
+829,Joe Li,Markham--Unionville
+830,Rose-Marie Ur,Middlesex--Kent--Lambton
+831,Kevin Blake,Middlesex--Kent--Lambton
+832,Allan James,Middlesex--Kent--Lambton
+833,Bev Shipley,Middlesex--Kent--Lambton
+834,Allan McKeown,Middlesex--Kent--Lambton
+835,Navdeep Bains,Mississauga--Brampton South
+836,Larry Taylor,Mississauga--Brampton South
+837,Parvinder Sandhu,Mississauga--Brampton South
+838,David Gershuny,Mississauga--Brampton South
+839,Paul Simas,Mississauga--Brampton South
+840,Albina Guarnieri,Mississauga East--Cooksville
+841,Andrew Seitz,Mississauga East--Cooksville
+842,Riina DeFaria,Mississauga East--Cooksville
+843,Sally Wong,Mississauga East--Cooksville
+844,Jason Robert Hinchliffe,Mississauga East--Cooksville
+845,Pierre Chénier,Mississauga East--Cooksville
+846,Jim Gill,Mississauga East--Cooksville
+847,Carolyn Parrish,Mississauga--Erindale
+848,Bob Dechert,Mississauga--Erindale
+849,David Greig,Mississauga--Erindale
+850,Jeff Brownridge,Mississauga--Erindale
+851,Simon Black,Mississauga--Erindale
+852,Paul John Mark Szabo,Mississauga South
+853,Dagmar Sullivan,Mississauga South
+854,Neeraj Jain,Mississauga South
+855,Phil Green,Mississauga South
+856,Michael James Culkin,Mississauga South
+857,Wajid Khan,Mississauga--Streetsville
+858,Peter Gibson Creighton,Mississauga--Streetsville
+859,Nina Tangri,Mississauga--Streetsville
+860,Otto Casanova,Mississauga--Streetsville
+861,Manjinder Rai,Mississauga--Streetsville
+862,David Pratt,Nepean--Carleton
+863,Pierre Poilievre,Nepean--Carleton
+864,Brad Powers,Nepean--Carleton
+865,Phil Brown,Nepean--Carleton
+866,Chris Walker,Nepean--Carleton
+867,Martha Hall Findlay,Newmarket--Aurora
+868,Dorian Baxter,Newmarket--Aurora
+869,Daryl Wyatt,Newmarket--Aurora
+870,Belinda Stronach,Newmarket--Aurora
+871,Ed Chudak,Newmarket--Aurora
+872,Victor Pietrangelo,Niagara Falls
+873,Rob Nicholson,Niagara Falls
+874,Ted Mousseau,Niagara Falls
+875,Wayne Gates,Niagara Falls
+876,Debbie Zimmerman,Niagara West--Glanbrook
+877,Dave Heatley,Niagara West--Glanbrook
+878,Dean Allison,Niagara West--Glanbrook
+879,David Bylsma,Niagara West--Glanbrook
+880,Phil Rose,Niagara West--Glanbrook
+881,Tom Ferguson,Niagara West--Glanbrook
+882,Raymond Bonin,Nickel Belt
+883,Steve Lafleur,Nickel Belt
+884,Claude Gravelle,Nickel Belt
+885,Don Lavallee,Nickel Belt
+886,Mike Dupont,Nickel Belt
+887,Michel D. Ethier,Nickel Belt
+888,Steve Rutchinski,Nickel Belt
+889,Anthony Rota,Nipissing--Timiskaming
+890,Al McDonald,Nipissing--Timiskaming
+891,Les Wilcox,Nipissing--Timiskaming
+892,Ross MacLean,Nipissing--Timiskaming
+893,Dave Fluri,Nipissing--Timiskaming
+894,Paul Macklin,Northumberland--Quinte West
+895,Doug Galt,Northumberland--Quinte West
+896,Steven Haylestrom,Northumberland--Quinte West
+897,Russ Christianson,Northumberland--Quinte West
+898,Lui Temelkovski,Oak Ridges--Markham
+899,Pamela Courtot,Oak Ridges--Markham
+900,Bernadette Manning,Oak Ridges--Markham
+901,Bob Callow,Oak Ridges--Markham
+902,Jim Conrad,Oak Ridges--Markham
+903,Maurice G Whittle,Oak Ridges--Markham
+904,M.A. Bonnie Brown,Oakville
+905,Alison Myrden,Oakville
+906,Rick Byers,Oakville
+907,Zeshan Shahbaz,Oakville
+908,Tania Orton,Oakville
+909,Louise V. Parkes,Oshawa
+910,Colin Carrie,Oshawa
+911,Tim Sullivan,Oshawa
+912,Liisa Whalley,Oshawa
+913,Sid Ryan,Oshawa
+914,Richard Mahoney,Ottawa Centre
+915,David Chernushenko,Ottawa Centre
+916,Louis Lang,Ottawa Centre
+917,Ed Broadbent,Ottawa Centre
+918,Stuart Ryan,Ottawa Centre
+919,Mike Murphy,Ottawa Centre
+920,Michael Foster,Ottawa Centre
+921,Robert G. Gauthier,Ottawa Centre
+922,Carla Marie Dancey,Ottawa Centre
+923,Marc Godbout,Ottawa--Orléans
+924,Dan Biocchi,Ottawa--Orléans
+925,Crystal Leblanc,Ottawa--Orléans
+926,Walter Robinson,Ottawa--Orléans
+927,David McGuinty,Ottawa South
+928,Saroj Bains,Ottawa South
+929,John Ford,Ottawa South
+930,Alan Riddell,Ottawa South
+931,Brad Thomson,Ottawa South
+932,John Akpata,Ottawa South
+933,Raymond Aubin,Ottawa South
+934,Monia Mazigh,Ottawa South
+935,Mauril Bélanger,Ottawa--Vanier
+936,Kevin Friday,Ottawa--Vanier
+937,Carol Taylor,Ottawa--Vanier
+938,Françoise Roy,Ottawa--Vanier
+939,Raphaël Thierrin,Ottawa--Vanier
+940,Ric Dagenais,Ottawa--Vanier
+941,Marlene Catterall,Ottawa West--Nepean
+942,Alexandre Legeais,Ottawa West--Nepean
+943,Neil Adair,Ottawa West--Nepean
+944,Marlene Rivier,Ottawa West--Nepean
+945,Mary-Sue Haliburton,Ottawa West--Nepean
+946,Sean Casey,Ottawa West--Nepean
+947,Russell Barth,Ottawa West--Nepean
+948,Murray Coulter,Oxford
+949,Irene Tietz,Oxford
+950,Alex Kreider,Oxford
+951,Zoé Dorcas Kunschner,Oxford
+952,James Bender,Oxford
+953,Dave Mackenzie,Oxford
+954,Kaye Sargent,Oxford
+955,Leslie Bartley,Oxford
+956,Sarmite (Sam) Bulte,Parkdale--High Park
+957,Lorne Gershuny,Parkdale--High Park
+958,Neil Spiegel,Parkdale--High Park
+959,Jurij Klufas,Parkdale--High Park
+960,Terry Parker,Parkdale--High Park
+961,Peggy Nash,Parkdale--High Park
+962,Andy Mitchell,Parry Sound--Muskoka
+963,Keith Montgomery,Parry Sound--Muskoka
+964,Glen Hodgson,Parry Sound--Muskoka
+965,Jo-Anne Marie Boulding,Parry Sound--Muskoka
+966,Brian Innes,Perth--Wellington
+967,John Cowling,Perth--Wellington
+968,Irma Nicolette Devries,Perth--Wellington
+969,Gary Ralph Schellenberger,Perth--Wellington
+970,Robert Roth,Perth--Wellington
+971,Peter Adams,Peterborough
+972,Brent Wood,Peterborough
+973,James Jackson,Peterborough
+974,Linda Slavin,Peterborough
+975,Dan McTeague,Pickering--Scarborough East
+976,Tim Dobson,Pickering--Scarborough East
+977,Matthew Pollesel,Pickering--Scarborough East
+978,Gary Dale,Pickering--Scarborough East
+979,Bruce Knutson,Prince Edward--Hastings
+980,Dan Douglas,Prince Edward--Hastings
+981,Joseph Sahadat,Prince Edward--Hastings
+982,Tom Lawson,Prince Edward--Hastings
+983,Daryl Kramp,Prince Edward--Hastings
+984,Rob Jamieson,Renfrew--Nipissing--Pembroke
+985,Gordon S McLeod,Renfrew--Nipissing--Pembroke
+986,Cheryl Gallant,Renfrew--Nipissing--Pembroke
+987,Stanley Sambey,Renfrew--Nipissing--Pembroke
+988,Sue McSheffrey,Renfrew--Nipissing--Pembroke
+989,Bryon Wilfert,Richmond Hill
+990,Ellena Lam,Richmond Hill
+991,Pete Merrifield,Richmond Hill
+992,Tim Rudkins,Richmond Hill
+993,C. Nella Cotrupi,Richmond Hill
+994,Walt Lastewka,St. Catharines
+995,Elaine Couto,St. Catharines
+996,Leo Bonomi,St. Catharines
+997,Linda Klassen,St. Catharines
+998,Ted Mouradian,St. Catharines
+999,Jim Fannon,St. Catharines
+1000,Jane Elizabeth Paxton,St. Catharines
+1001,Carolyn Bennett,St. Paul's
+1002,Barry Cline,St. Paul's
+1003,Norman Tobias,St. Paul's
+1004,Peter Elgie,St. Paul's
+1005,Roger Gallaway,Sarnia--Lambton
+1006,John Elliott,Sarnia--Lambton
+1007,Marcel Beaubien,Sarnia--Lambton
+1008,Gary De Boer,Sarnia--Lambton
+1009,Dave Core,Sarnia--Lambton
+1010,Anthony Cramer,Sarnia--Lambton
+1011,Greg Agar,Sarnia--Lambton
+1012,Carmen Provenzano,Sault Ste. Marie
+1013,Cameron Ross,Sault Ste. Marie
+1014,Mike Taffarel,Sault Ste. Marie
+1015,Julie Emmerson,Sault Ste. Marie
+1016,Tony Martin,Sault Ste. Marie
+1017,Jim Karygiannis,Scarborough--Agincourt
+1018,Tony J. Karadimas,Scarborough--Agincourt
+1019,Andrew Faust,Scarborough--Agincourt
+1020,Wayne Yeechong,Scarborough--Agincourt
+1021,D'Arcy Palmer,Scarborough--Agincourt
+1022,John Cannis,Scarborough Centre
+1023,Greg Gogan,Scarborough Centre
+1024,John Mihtis,Scarborough Centre
+1025,Dorothy Sauras,Scarborough Centre
+1026,Greg Bonser,Scarborough Centre
+1027,John McKay,Scarborough--Guildwood
+1028,Tom Varesh,Scarborough--Guildwood
+1029,Brenda Thompson,Scarborough--Guildwood
+1030,Paul Charbonneau,Scarborough--Guildwood
+1031,Sheila White,Scarborough--Guildwood
+1032,Derek Lee,Scarborough--Rouge River
+1033,Tony Backhurst,Scarborough--Rouge River
+1034,Raymond Cho,Scarborough--Rouge River
+1035,Kathryn Holloway,Scarborough--Rouge River
+1036,Fauzia Khan,Scarborough--Rouge River
+1037,Tom Wappel,Scarborough Southwest
+1038,Dan Harris,Scarborough Southwest
+1039,Peter Van Dalen,Scarborough Southwest
+1040,Elizabeth Rowley,Scarborough Southwest
+1041,Heather Jewell,Scarborough Southwest
+1042,Paul Bonwick,Simcoe--Grey
+1043,Colin Mackinnon,Simcoe--Grey
+1044,Peter Vander Zaag,Simcoe--Grey
+1045,Helena Guergis,Simcoe--Grey
+1046,Peter Ellis,Simcoe--Grey
+1047,Paul DeVillers,Simcoe North
+1048,Jen Hill,Simcoe North
+1049,Peter Stock,Simcoe North
+1050,Adrian Kooger,Simcoe North
+1051,Ian Woods,Simcoe North
+1052,Mary Lou Kirby,Simcoe North
+1053,Bob Kilger,Stormont--Dundas--South Glengarry
+1054,Guy Lauzon,Stormont--Dundas--South Glengarry
+1055,Tom Manley,Stormont--Dundas--South Glengarry
+1056,Elaine MacDonald,Stormont--Dundas--South Glengarry
+1057,Diane Marleau,Sudbury
+1058,Dave Starbuck,Sudbury
+1059,Stephen L. Butcher,Sudbury
+1060,Luke Norton,Sudbury
+1061,Gerry McIntaggart,Sudbury
+1062,Susan Kadis,Thornhill
+1063,Josh Cooper,Thornhill
+1064,Simion Iron,Thornhill
+1065,Benjamin Fitzerman,Thornhill
+1066,Lloyd Helferty,Thornhill
+1067,Rick Morelli,Thornhill
+1068,Ken Boshcoff,Thunder Bay--Rainy River
+1069,David Leskowski,Thunder Bay--Rainy River
+1070,Johannes Scheibler,Thunder Bay--Rainy River
+1071,Doug Thompson,Thunder Bay--Rainy River
+1072,Russ Aegard,Thunder Bay--Rainy River
+1073,John Rafferty,Thunder Bay--Rainy River
+1074,Joe Comuzzi,Thunder Bay--Superior North
+1075,Bev Sarafin,Thunder Bay--Superior North
+1076,Bruce Hyer,Thunder Bay--Superior North
+1077,Denis A. Carrière,Thunder Bay--Superior North
+1078,Carl Rose,Thunder Bay--Superior North
+1079,Raymond Chénier,Timmins--James Bay
+1080,Marsha Gail Kriss,Timmins--James Bay
+1081,Charlie Angus,Timmins--James Bay
+1082,Andrew Van Oosten,Timmins--James Bay
+1083,Bill Graham,Toronto Centre
+1084,Michael Shapcott,Toronto Centre
+1085,Philip Fernandez,Toronto Centre
+1086,Kevin Peck,Toronto Centre
+1087,Megan Harris,Toronto Centre
+1088,Jay Wagner,Toronto Centre
+1089,Dan Goldstick,Toronto Centre
+1090,Gabriel Draven,Toronto Centre
+1091,Dennis Mills,Toronto--Danforth
+1092,Jack Layton,Toronto--Danforth
+1093,Loftus Cuddy,Toronto--Danforth
+1094,Scott Yee,Toronto--Danforth
+1095,Marcell Rodden,Toronto--Danforth
+1096,Jim Harris,Toronto--Danforth
+1097,Tony Ianno,Trinity--Spadina
+1098,David Watters,Trinity--Spadina
+1099,Asif Hossain,Trinity--Spadina
+1100,Nick Lin,Trinity--Spadina
+1101,Daniel Knezetic,Trinity--Spadina
+1102,Tristan Alexander Downe-Dewdney,Trinity--Spadina
+1103,Mark Viitala,Trinity--Spadina
+1104,Olivia Chow,Trinity--Spadina
+1105,Maurizio Bevilacqua,Vaughan
+1106,Paolo Fabrizio,Vaughan
+1107,Joe Spina,Vaughan
+1108,Walter Aolari,Vaughan
+1109,Russell Korus,Vaughan
+1110,Octavia Beckles,Vaughan
+1111,John Maloney,Welland
+1112,Ron Walker,Welland
+1113,Jody Di Bartolomeo,Welland
+1114,Ryan McLaughlin,Welland
+1115,Irma D. Ruiter,Welland
+1116,Mel Grunstein,Welland
+1117,Bruce Hood,Wellington--Halton Hills
+1118,Brent Bouteiller,Wellington--Halton Hills
+1119,Pat Woode,Wellington--Halton Hills
+1120,Noel Duignan,Wellington--Halton Hills
+1121,Mike Chong,Wellington--Halton Hills
+1122,Judi Longfield,Whitby--Oshawa
+1123,Michael MacDonald,Whitby--Oshawa
+1124,Ian MacNeil,Whitby--Oshawa
+1125,Maret Sadem-Thompson,Whitby--Oshawa
+1126,Jim Peterson,Willowdale
+1127,Ardavan Behrouzi,Willowdale
+1128,Jovan Boseovski,Willowdale
+1129,Bernadette Michael,Willowdale
+1130,Sharolyn Vettese,Willowdale
+1131,Yvonne Bobb,Willowdale
+1132,Rick Limoges,Windsor--Tecumseh
+1133,Rick Fuschi,Windsor--Tecumseh
+1134,Laura Chesnik,Windsor--Tecumseh
+1135,Joe Comartin,Windsor--Tecumseh
+1136,Élizabeth Powles,Windsor--Tecumseh
+1137,Richard Pollock,Windsor West
+1138,Jordan Katz,Windsor West
+1139,Brian Masse,Windsor West
+1140,Enver Villamizar,Windsor West
+1141,Rob Spring,Windsor West
+1142,Ken Dryden,York Centre
+1143,Peter Flaherty,York Centre
+1144,Max Royz,York Centre
+1145,Michael Mostyn,York Centre
+1146,Constantine Kritsonis,York Centre
+1147,Kate Wilson,York--Simcoe
+1148,Stephen Sircelj,York--Simcoe
+1149,Peter Van Loan,York--Simcoe
+1150,Vicki Gunn,York--Simcoe
+1151,Bob Burrows,York--Simcoe
+1152,Sylvia Gerl,York--Simcoe
+1153,Alan Tonks,York South--Weston
+1154,Stephen Halicki,York South--Weston
+1155,Shirley Hawley,York South--Weston
+1156,Jessica Fracassi,York South--Weston
+1157,Paul Ferreira,York South--Weston
+1158,Judy Sgro,York West
+1159,Joseph Grubb,York West
+1160,Leslie Soobrian,York West
+1161,Tim McKellar,York West
+1162,Sandra Romano Anthony,York West
+1163,Murray Downing,Brandon--Souris
+1164,Lisa Gallagher,Brandon--Souris
+1165,Merv Tweed,Brandon--Souris
+1166,Colin Atkins,Brandon--Souris
+1167,David Kattenburg,Brandon--Souris
+1168,Mike Abbey,Brandon--Souris
+1169,Glen Murray,Charleswood--St. James
+1170,Steven John Fletcher,Charleswood--St. James
+1171,Dan Zupansky,Charleswood--St. James
+1172,Beatriz Alas,Charleswood--St. James
+1173,Andrew Basham,Charleswood--St. James
+1174,Peter Carney,Charleswood--St. James
+1175,Ron Evans,Churchill
+1176,Bev Desjarlais,Churchill
+1177,Bill Archer,Churchill
+1178,C. David Nickarz,Churchill
+1179,Don Dewar,Dauphin--Swan River
+1180,Inky Mark,Dauphin--Swan River
+1181,David C. Andres,Dauphin--Swan River
+1182,Walter Kolisnyk,Dauphin--Swan River
+1183,Lindy Clubb,Dauphin--Swan River
+1184,Tanya Parks,Elmwood--Transcona
+1185,Gavin Whittaker,Elmwood--Transcona
+1186,Bryan McLeod,Elmwood--Transcona
+1187,Robert Scott,Elmwood--Transcona
+1188,Paul Sidon,Elmwood--Transcona
+1189,Elijah Gair,Elmwood--Transcona
+1190,Bill Blaikie,Elmwood--Transcona
+1191,Terry Duguid,Kildonan--St. Paul
+1192,Joy Smith,Kildonan--St. Paul
+1193,Katharine Reimer,Kildonan--St. Paul
+1194,Rebecca Whittaker,Kildonan--St. Paul
+1195,Jacob Giesbrecht,Kildonan--St. Paul
+1196,Lorene Mahoney,Kildonan--St. Paul
+1197,Don Kuhl,Portage--Lisgar
+1198,Daren Van Den Bussche,Portage--Lisgar
+1199,Brian Pallister,Portage--Lisgar
+1200,Marc Payette,Portage--Lisgar
+1201,David Reimer,Portage--Lisgar
+1202,Allister Cucksey,Portage--Lisgar
+1203,Peter Epp,Provencher
+1204,Vic Toews,Provencher
+1205,Sarah Zaharia,Provencher
+1206,Janine G. Gibson,Provencher
+1207,Raymond Simard,Saint Boniface
+1208,Mathieu Allard,Saint Boniface
+1209,Ken Cooper,Saint Boniface
+1210,Jeannine Moquin-Perry,Saint Boniface
+1211,Chris Buors,Saint Boniface
+1212,Gérard Guay,Saint Boniface
+1213,Daniel Backé,Saint Boniface
+1214,Bruce Benson,Selkirk--Interlake
+1215,James Bezan,Selkirk--Interlake
+1216,Anthony Barendregt,Selkirk--Interlake
+1217,Duane Nicol,Selkirk--Interlake
+1218,Trevor Farley,Selkirk--Interlake
+1219,David Northcott,Winnipeg Centre
+1220,Anna-Celestrya Carr,Winnipeg Centre
+1221,John M. Siedleski,Winnipeg Centre
+1222,Robert Eng,Winnipeg Centre
+1223,Douglas Edward Schweitzer,Winnipeg Centre
+1224,Robin (Pilar) Faye,Winnipeg Centre
+1225,Pat Martin,Winnipeg Centre
+1226,Rey D. Pagtakhan,Winnipeg North
+1227,Kris Stevenson,Winnipeg North
+1228,Eric Truijen,Winnipeg North
+1229,Darrell Rankin,Winnipeg North
+1230,Alon Weinberg,Winnipeg North
+1231,Judy Wasylycia-Leis,Winnipeg North
+1232,Reg Alcock,Winnipeg South
+1233,Rod Bruinooge,Winnipeg South
+1234,Jane MacDiarmid,Winnipeg South
+1235,Ron Cameron,Winnipeg South
+1236,Catherine Green,Winnipeg South
+1237,Anita Neville,Winnipeg South Centre
+1238,James Allum,Winnipeg South Centre
+1239,Ian Scott,Winnipeg South Centre
+1240,Magnus Thompson,Winnipeg South Centre
+1241,Raj Joshi,Winnipeg South Centre
+1242,Andy Caisse,Winnipeg South Centre
+1243,Andrew Dalgliesh,Winnipeg South Centre
+1244,Del Price,Battlefords--Lloydminster
+1245,Shawn McKee,Battlefords--Lloydminster
+1246,Gerry Ritz,Battlefords--Lloydminster
+1247,Diane Stephan,Battlefords--Lloydminster
+1248,Kelsey Pearson,Battlefords--Lloydminster
+1249,Tiffany Paulsen,Blackstrap
+1250,Don Kossick,Blackstrap
+1251,Lynne Yelich,Blackstrap
+1252,Clayton A. Sundberg,Blackstrap
+1253,Lynn Oliphant,Blackstrap
+1254,Al Ducharme,Churchill River
+1255,Jeremy Harrison,Churchill River
+1256,Rick Laliberte,Churchill River
+1257,Marcella Gall,Churchill River
+1258,Earl Cook,Churchill River
+1259,Bill Caton,Cypress Hills--Grasslands
+1260,David Anderson,Cypress Hills--Grasslands
+1261,Bev Currie,Cypress Hills--Grasslands
+1262,Jeff Potts,Cypress Hills--Grasslands
+1263,John Williams,Palliser
+1264,Harold Stephan,Palliser
+1265,Dave Batters,Palliser
+1266,Brian Rands,Palliser
+1267,Dick Proctor,Palliser
+1268,Patrick W. Jahn,Prince Albert
+1269,Brian Fitzpatrick,Prince Albert
+1270,Marc Loiselle,Prince Albert
+1271,Don Hovdebo,Prince Albert
+1272,Gary Anderson,Regina--Lumsden--Lake Centre
+1273,Fiorindo Agi,Regina--Lumsden--Lake Centre
+1274,Tom Lukiwski,Regina--Lumsden--Lake Centre
+1275,Larry Spencer,Regina--Lumsden--Lake Centre
+1276,Moe Kovatch,Regina--Lumsden--Lake Centre
+1277,Allyce Herle,Regina--Qu'Appelle
+1278,Deanna Robilliard,Regina--Qu'Appelle
+1279,Lorne Edward Widger,Regina--Qu'Appelle
+1280,Andrew Scheer,Regina--Qu'Appelle
+1281,Mary Sylvia Nelson,Regina--Qu'Appelle
+1282,Lorne Edmund Nystrom,Regina--Qu'Appelle
+1283,Patrick Wolfe,Saskatoon--Humboldt
+1284,Ron Schriml,Saskatoon--Humboldt
+1285,Nettie Wiebe,Saskatoon--Humboldt
+1286,Bradley R. Trost,Saskatoon--Humboldt
+1287,Jim Pankiw,Saskatoon--Humboldt
+1288,Larry Zarysky,Saskatoon--Humboldt
+1289,Myron Luczka,Saskatoon--Rosetown--Biggar
+1290,Carol Skelton,Saskatoon--Rosetown--Biggar
+1291,Dennis Gruending,Saskatoon--Rosetown--Biggar
+1292,Rick Barsky,Saskatoon--Rosetown--Biggar
+1293,Chris Axworthy,Saskatoon--Wanuskewin
+1294,Maurice Vellacott,Saskatoon--Wanuskewin
+1295,David Greenfield,Saskatoon--Wanuskewin
+1296,Priscilla Settee,Saskatoon--Wanuskewin
+1297,Lonny McKague,Souris--Moose Mountain
+1298,Robert Stephen Stringer,Souris--Moose Mountain
+1299,Sigfredo Gonzalez,Souris--Moose Mountain
+1300,Robert Thomas Jacobson,Souris--Moose Mountain
+1301,Ed Komarnicki,Souris--Moose Mountain
+1302,Grant Devine,Souris--Moose Mountain
+1303,Ralph Goodale,Wascana
+1304,Erin M. K. Weir,Wascana
+1305,Doug Cryer,Wascana
+1306,Darcy Robilliard,Wascana
+1307,Ted Quewezance,Yorkton--Melville
+1308,Don Olson,Yorkton--Melville
+1309,Garry Breitkreuz,Yorkton--Melville
+1310,David Sawkiw,Yorkton--Melville
+1311,Ralph Pilchner,Yorkton--Melville
+1312,Doug Faulkner,Athabasca
+1313,Brian Jean,Athabasca
+1314,Robert Cree,Athabasca
+1315,Ian Hopfe,Athabasca
+1316,James Maxim,Calgary East
+1317,Elizabeth Thomas,Calgary East
+1318,Jason Corey Devine,Calgary East
+1319,Deepak Obhrai,Calgary East
+1320,Dean Kenneth Christie,Calgary East
+1321,Cathy McClusky,Calgary North Centre
+1322,Margaret Peggy Askin,Calgary North Centre
+1323,Jim Prentice,Calgary North Centre
+1324,Michael Falconar,Calgary North Centre
+1325,John Chan,Calgary North Centre
+1326,Mark MacGillivray,Calgary North Centre
+1327,Dale Muti,Calgary Northeast
+1328,Art Hanger,Calgary Northeast
+1329,Steve Garland,Calgary Northeast
+1330,Morgan DuFord,Calgary Northeast
+1331,Giorgio Cattabeni,Calgary Northeast
+1332,Ted Haney,Calgary--Nose Hill
+1333,Diane Ablonczy,Calgary--Nose Hill
+1334,Richard Larson,Calgary--Nose Hill
+1335,Vinay Dey,Calgary--Nose Hill
+1336,Julia Turnbull,Calgary South Centre
+1337,Lee Richardson,Calgary South Centre
+1338,Trevor Grover,Calgary South Centre
+1339,Phillip K. Liesemer,Calgary South Centre
+1340,Keith Purdy,Calgary South Centre
+1341,Jim Tanner,Calgary Southeast
+1342,George Read,Calgary Southeast
+1343,Jason Kenney,Calgary Southeast
+1344,Brian Pincott,Calgary Southeast
+1345,Avalon Roberts,Calgary Southwest
+1346,Stephen J. Harper,Calgary Southwest
+1347,Larry R. Heather,Calgary Southwest
+1348,Mark de Pelham,Calgary Southwest
+1349,Darcy Kraus,Calgary Southwest
+1350,Daria Fox,Calgary Southwest
+1351,Justin Thompson,Calgary West
+1352,James S. Kohut,Calgary West
+1353,André Vachon,Calgary West
+1354,Danielle Roberts,Calgary West
+1355,Tim Patterson,Calgary West
+1356,Rob Anders,Calgary West
+1357,Adam Campbell,Crowfoot
+1358,Arnold Baker,Crowfoot
+1359,Max Leonard Cornelssen,Crowfoot
+1360,Ellen Parker,Crowfoot
+1361,Kevin Sorenson,Crowfoot
+1362,David Kilgour,Edmonton--Beaumont
+1363,Naomi Rankin,Edmonton--Beaumont
+1364,Michael Garfinkle,Edmonton--Beaumont
+1365,Tim Uppal,Edmonton--Beaumont
+1366,Paul Reikie,Edmonton--Beaumont
+1367,Anne McLellan,Edmonton Centre
+1368,Sean Tisdall,Edmonton Centre
+1369,Laurie Hawn,Edmonton Centre
+1370,Lyle Kenny,Edmonton Centre
+1371,John Baloun,Edmonton Centre
+1372,Peggy Morton,Edmonton Centre
+1373,David J. Parker,Edmonton Centre
+1374,Meghan McMaster,Edmonton Centre
+1375,John Bethel,Edmonton East
+1376,Janina Strudwick,Edmonton East
+1377,Harlan Light,Edmonton East
+1378,Ed Spronk,Edmonton East
+1379,Peter Goldring,Edmonton East
+1380,Bruce King,Edmonton--Leduc
+1381,Bruce Sinclair,Edmonton--Leduc
+1382,Doug McLachlan,Edmonton--Leduc
+1383,James Rajotte,Edmonton--Leduc
+1384,Moe Saeed,Edmonton--St. Albert
+1385,Mike Melymick,Edmonton--St. Albert
+1386,John Williams,Edmonton--St. Albert
+1387,Conrad A. Bitangcol,Edmonton--St. Albert
+1388,Maureen Towns,Edmonton--Sherwood Park
+1389,Margaret Marean,Edmonton--Sherwood Park
+1390,Chris Harwood,Edmonton--Sherwood Park
+1391,Ken Epp,Edmonton--Sherwood Park
+1392,Neil Mather,Edmonton--Spruce Grove
+1393,Hayley Phillips,Edmonton--Spruce Grove
+1394,Rona Ambrose,Edmonton--Spruce Grove
+1395,Jerry Paschen,Edmonton--Spruce Grove
+1396,Debby Carlson,Edmonton--Strathcona
+1397,Cameron Wakefield,Edmonton--Strathcona
+1398,Kevan Hunter,Edmonton--Strathcona
+1399,Rahim Jaffer,Edmonton--Strathcona
+1400,Dave Dowling,Edmonton--Strathcona
+1401,Malcolm Azania,Edmonton--Strathcona
+1402,Ken Nicol,Lethbridge
+1403,Melanee Thomas,Lethbridge
+1404,Dustin Sobie,Lethbridge
+1405,Rick Casson,Lethbridge
+1406,Ken Vanden Broek,Lethbridge
+1407,Erin Marie Matthews,Lethbridge
+1408,Chris Shade,Macleod
+1409,Joyce Thomas,Macleod
+1410,Ted Menzies,Macleod
+1411,Laurel Denise Fadeeff,Macleod
+1412,Bill Cocks,Medicine Hat
+1413,Monte Kenton Solberg,Medicine Hat
+1414,Kevin Dodd,Medicine Hat
+1415,Betty Stroh,Medicine Hat
+1416,Lyle Carlstrom,Peace River
+1417,Charlie Penson,Peace River
+1418,Benjamin Morrison Pettit,Peace River
+1419,Susan Thompson,Peace River
+1420,Luke Kurata,Red Deer
+1421,Jeff Sloychuk,Red Deer
+1422,Garfield John Marks,Red Deer
+1423,Bob Mills,Red Deer
+1424,Teena Cormack,Red Deer
+1425,Duff Stewart,Vegreville--Wainwright
+1426,Len Legault,Vegreville--Wainwright
+1427,Leon E. Benoit,Vegreville--Wainwright
+1428,James Kenney,Vegreville--Wainwright
+1429,Joe Dion,Westlock--St. Paul
+1430,Peggy Kirkeby,Westlock--St. Paul
+1431,Dave Chatters,Westlock--St. Paul
+1432,John A. McDonald,Westlock--St. Paul
+1433,Rick Bonnett,Wetaskiwin
+1434,Tom Lampman,Wetaskiwin
+1435,Tim Robson,Wetaskiwin
+1436,Dale Johnston,Wetaskiwin
+1437,Brent McKelvie,Wetaskiwin
+1438,Judy Stewart,Wild Rose
+1439,Jeff Horvath,Wild Rose
+1440,Myron Thompson,Wild Rose
+1441,Chris Foote,Wild Rose
+1442,Peter Crossley,Yellowhead
+1443,Noel Lapierre,Yellowhead
+1444,Rob Merrifield,Yellowhead
+1445,Jacob Strydhorst,Yellowhead
+1446,Eric Stieglitz,Yellowhead
+1447,Moe Gill,Abbotsford
+1448,Scott Fast,Abbotsford
+1449,Tim Felger,Abbotsford
+1450,Karl Hann,Abbotsford
+1451,David MacKay,Abbotsford
+1452,Randy White,Abbotsford
+1453,Harold J. Ludwig,Abbotsford
+1454,Bill Cunningham,Burnaby--Douglas
+1455,Bill Siksay,Burnaby--Douglas
+1456,Shawn Hunsdale,Burnaby--Douglas
+1457,Adam Desaulniers,Burnaby--Douglas
+1458,George Drazenovic,Burnaby--Douglas
+1459,Frank Cerminara,Burnaby--Douglas
+1460,Hanne Gidora,Burnaby--Douglas
+1461,Mary Pynenburg,Burnaby--New Westminster
+1462,Revel Kunz,Burnaby--New Westminster
+1463,Mike Redmond,Burnaby--New Westminster
+1464,Dana Green,Burnaby--New Westminster
+1465,Péter Pál Horváth,Burnaby--New Westminster
+1466,Peter Julian,Burnaby--New Westminster
+1467,Gurbux Saini,Cariboo--Prince George
+1468,Rick Smith,Cariboo--Prince George
+1469,Douglas Gook,Cariboo--Prince George
+1470,Mike Orr,Cariboo--Prince George
+1471,Bev Collins,Cariboo--Prince George
+1472,Jeff Paetkau,Cariboo--Prince George
+1473,Dick Harris,Cariboo--Prince George
+1474,Carol Lee Chapman,Cariboo--Prince George
+1475,Bob Besner,Chilliwack--Fraser Canyon
+1476,Rollie L. Keith,Chilliwack--Fraser Canyon
+1477,Ron Gray,Chilliwack--Fraser Canyon
+1478,Chuck Strahl,Chilliwack--Fraser Canyon
+1479,Norm Siefken,Chilliwack--Fraser Canyon
+1480,Dorothy-Jean O'Donnell,Chilliwack--Fraser Canyon
+1481,Aisha Coghlan,Chilliwack--Fraser Canyon
+1482,Shelley Leonhardt,Delta--Richmond East
+1483,John Cummins,Delta--Richmond East
+1484,Dana L. Miller,Delta--Richmond East
+1485,Itrath Syed,Delta--Richmond East
+1486,Blanche Juneau,Dewdney--Alouette
+1487,Mike Bocking,Dewdney--Alouette
+1488,Tammy Lea Meyer,Dewdney--Alouette
+1489,Scott Etches,Dewdney--Alouette
+1490,Randy Kamp,Dewdney--Alouette
+1491,Keith Martin,Esquimalt--Juan de Fuca
+1492,Randall Garrison,Esquimalt--Juan de Fuca
+1493,Jen Fisher-Bradley,Esquimalt--Juan de Fuca
+1494,John Koury,Esquimalt--Juan de Fuca
+1495,Shawn  W. Giles,Esquimalt--Juan de Fuca
+1496,Jane Sterk,Esquimalt--Juan de Fuca
+1497,Gulzar Cheema,Fleetwood--Port Kells
+1498,Nina Grewal,Fleetwood--Port Kells
+1499,Joseph Theriault,Fleetwood--Port Kells
+1500,David Walters,Fleetwood--Port Kells
+1501,Barry Bell,Fleetwood--Port Kells
+1502,John O'Fee,Kamloops--Thompson
+1503,Brian Carroll,Kamloops--Thompson
+1504,Arjun Singh,Kamloops--Thompson
+1505,Betty Hinton,Kamloops--Thompson
+1506,Grant Fraser,Kamloops--Thompson
+1507,Vern Nielsen,Kelowna
+1508,Starleigh Grass,Kelowna
+1509,Huguette Plourde,Kelowna
+1510,Werner Schmidt,Kelowna
+1511,Michael Cassidyne-Hook,Kelowna
+1512,Kevin Ade,Kelowna
+1513,Ross Priest,Kootenay--Columbia
+1514,Jim Abbott,Kootenay--Columbia
+1515,Carmen Gustafson,Kootenay--Columbia
+1516,Brent Bush,Kootenay--Columbia
+1517,Kim Richter,Langley
+1518,Dean Morrison,Langley
+1519,Mark Warawa,Langley
+1520,Mel Kositsky,Langley
+1521,Patrick Meyer,Langley
+1522,Hira Chopra,Nanaimo--Alberni
+1523,Diana E. Lifton,Nanaimo--Alberni
+1524,Barbara Biley,Nanaimo--Alberni
+1525,James D Lunney,Nanaimo--Alberni
+1526,Michael Mann,Nanaimo--Alberni
+1527,David Wright,Nanaimo--Alberni
+1528,Scott Fraser,Nanaimo--Alberni
+1529,Lloyd Macilquham,Nanaimo--Cowichan
+1530,Dave Quist,Nanaimo--Cowichan
+1531,Brunie Brunie,Nanaimo--Cowichan
+1532,Jeffrey Ian Warr,Nanaimo--Cowichan
+1533,Harold Henn,Nanaimo--Cowichan
+1534,Jean Crowder,Nanaimo--Cowichan
+1535,Sukh Dhaliwal,Newton--North Delta
+1536,Gurmant Grewal,Newton--North Delta
+1537,Nazir Rizvi,Newton--North Delta
+1538,John Hague,Newton--North Delta
+1539,Nancy Clegg,Newton--North Delta
+1540,Dave Haggard,New Westminster--Coquitlam
+1541,Paul Forseth,New Westminster--Coquitlam
+1542,Jack Hummelman,New Westminster--Coquitlam
+1543,Steve McClurg,New Westminster--Coquitlam
+1544,Carli Travers,New Westminster--Coquitlam
+1545,Will Hansma,North Okanagan--Shuswap
+1546,Claire A. Foss,North Okanagan--Shuswap
+1547,Darrel Stinson,North Okanagan--Shuswap
+1548,Blair T. Longley,North Okanagan--Shuswap
+1549,Gordon Campbell,North Okanagan--Shuswap
+1550,K. No. Daniels,North Okanagan--Shuswap
+1551,Erin Nelson,North Okanagan--Shuswap
+1552,Alice Brown,North Okanagan--Shuswap
+1553,Don H. Bell,North Vancouver
+1554,Andres Esteban Barker,North Vancouver
+1555,Michael Hill,North Vancouver
+1556,Ted White,North Vancouver
+1557,Peggy Stortz,North Vancouver
+1558,John Nelson,North Vancouver
+1559,Vanessa Sutton,Okanagan--Coquihalla
+1560,Stockwell Day,Okanagan--Coquihalla
+1561,Jack William Peach,Okanagan--Coquihalla
+1562,Lelannd Haver,Okanagan--Coquihalla
+1563,Harry Naegel,Okanagan--Coquihalla
+1564,Joyce Procure,Okanagan--Coquihalla
+1565,Kwangyul Peck,Port Moody--Westwood--Port Coquitlam
+1566,Lewis Dahlby,Port Moody--Westwood--Port Coquitlam
+1567,Pat Goff,Port Moody--Westwood--Port Coquitlam
+1568,George Gidora,Port Moody--Westwood--Port Coquitlam
+1569,James Moore,Port Moody--Westwood--Port Coquitlam
+1570,Charley King,Port Moody--Westwood--Port Coquitlam
+1571,Richard Voigt,Port Moody--Westwood--Port Coquitlam
+1572,Arleene Thorpe,Prince George--Peace River
+1573,Jay Hill,Prince George--Peace River
+1574,Tara Rimstad,Prince George--Peace River
+1575,Hilary Crowley,Prince George--Peace River
+1576,Michael Hunter,Prince George--Peace River
+1577,Harley J. Harasym,Prince George--Peace River
+1578,Raymond Chan,Richmond
+1579,Stephen H.F. Kronstein,Richmond
+1580,Allan Warnke,Richmond
+1581,Alice Wong,Richmond
+1582,Dale Jackaman,Richmond
+1583,David Mulroney,Saanich--Gulf Islands
+1584,Gary Lunn,Saanich--Gulf Islands
+1585,Mary Moreau,Saanich--Gulf Islands
+1586,Andrew Lewis,Saanich--Gulf Islands
+1587,Jennifer Burgis,Saanich--Gulf Islands
+1588,Miles Richardson,Skeena--Bulkley Valley
+1589,Andy Burton,Skeena--Bulkley Valley
+1590,Rod Taylor,Skeena--Bulkley Valley
+1591,Frank Martin,Skeena--Bulkley Valley
+1592,Nathan Cullen,Skeena--Bulkley Valley
+1593,Roger Colin Benham,Skeena--Bulkley Valley
+1594,Doug Stanley,Southern Interior
+1595,Farlie Paynter,Southern Interior
+1596,Jim Gouk,Southern Interior
+1597,Karine Cyr,Southern Interior
+1598,Robert Schuster,Southern Interior
+1599,Brian Sproule,Southern Interior
+1600,Alex Atamanenko,Southern Interior
+1601,Scott Leyland,Southern Interior
+1602,Judy Higginbotham,South Surrey--White Rock--Cloverdale
+1603,Pat Taylor,South Surrey--White Rock--Cloverdale
+1604,Romeo De La Pena,South Surrey--White Rock--Cloverdale
+1605,Russ Hiebert,South Surrey--White Rock--Cloverdale
+1606,H. Pummy Kaur,South Surrey--White Rock--Cloverdale
+1607,Dan Sheel,Surrey North
+1608,Jasbir Singh Cheema,Surrey North
+1609,Gerhard Herwig,Surrey North
+1610,Chuck Cadman,Surrey North
+1611,Roy Tyler Whyte,Surrey North
+1612,Joyce Holmes,Surrey North
+1613,Sunny Athwal,Surrey North
+1614,Jim Karpoff,Surrey North
+1615,Hedy Fry,Vancouver Centre
+1616,Kimball Cariou,Vancouver Centre
+1617,Kennedy Stewart,Vancouver Centre
+1618,Robbie Mattu,Vancouver Centre
+1619,Alexander Frei,Vancouver Centre
+1620,John Clarke,Vancouver Centre
+1621,Gary Mitchell,Vancouver Centre
+1622,Joe Pal,Vancouver Centre
+1623,Shirley Chan,Vancouver East
+1624,Ron Plowright,Vancouver East
+1625,Louis James Lesosky,Vancouver East
+1626,Libby Davies,Vancouver East
+1627,Gloria Anne Kieler,Vancouver East
+1628,Harvey Grigg,Vancouver East
+1629,Marc Boyer,Vancouver East
+1630,Noor Ahmed,Vancouver Island North
+1631,Jack East,Vancouver Island North
+1632,John Duncan,Vancouver Island North
+1633,Pam Munroe,Vancouver Island North
+1634,Catherine Bell,Vancouver Island North
+1635,David Emerson,Vancouver Kingsway
+1636,Jesse Johl,Vancouver Kingsway
+1637,Jeannie Kwan,Vancouver Kingsway
+1638,Jacob Rempel,Vancouver Kingsway
+1639,Jason Mann,Vancouver Kingsway
+1640,Donna Petersen,Vancouver Kingsway
+1641,Tracey  Jastinder Mann,Vancouver Kingsway
+1642,Ian Waddell,Vancouver Kingsway
+1643,Stephen Owen,Vancouver Quadra
+1644,Donovan Young,Vancouver Quadra
+1645,Doug Warkentin,Vancouver Quadra
+1646,Stephen Rogers,Vancouver Quadra
+1647,Katrina Chowne,Vancouver Quadra
+1648,Connie Fogal,Vancouver Quadra
+1649,David Askew,Vancouver Quadra
+1650,Ujjal Dosanjh,Vancouver South
+1651,Victor Soo Chan,Vancouver South
+1652,Frank Wagner,Vancouver South
+1653,H. Sandhu,Vancouver South
+1654,Joe Sixpack Horrocks,Vancouver South
+1655,Bev Meslo,Vancouver South
+1656,Charles Boylan,Vancouver South
+1657,Doug Perry,Vancouver South
+1658,Stephen Von Sychowski,Vancouver South
+1659,David Anderson,Victoria
+1660,David Turner,Victoria
+1661,Logan Wenham,Victoria
+1662,Derek J. Skinner,Victoria
+1663,Ariel Lade,Victoria
+1664,Blair Wilson,West Vancouver--Sunshine Coast
+1665,John Reynolds,West Vancouver--Sunshine Coast
+1666,Marc Bombois,West Vancouver--Sunshine Coast
+1667,Anne Jamieson,West Vancouver--Sunshine Coast
+1668,Andrea Goldsmith,West Vancouver--Sunshine Coast
+1669,Nicholas Simons,West Vancouver--Sunshine Coast
+1670,Larry Bagnell,Yukon
+1671,Pam Boyde,Yukon
+1672,Philippe LeBlond,Yukon
+1673,Sean Davey,Yukon
+1674,James Hartle,Yukon
+1675,Geoffrey Capp,Yukon
+1676,Ethel Blondin-Andrew,Western Arctic
+1677,Dennis Bevington,Western Arctic
+1678,Chris O'Brien,Western Arctic
+1679,Sean Mandeville,Western Arctic
+1680,Nancy Karetak-Lindell,Nunavut
+1681,Manitok Thompson,Nunavut
+1682,Nedd Kenney,Nunavut
+1683,Duncan Cunningham,Nunavut
+1684,Bill Riddell,Nunavut
