@@ -36,7 +36,7 @@ def dump_cands():
             candidates = conn.cursor().execute(r'SELECT cand_id, name FROM candidates')
             with open(f'cands_{year}.csv', 'w', newline='') as cand_file:
                 cand_csv = csv.writer(cand_file)
-                cand_csv.writerow(('id', 'name', 'incumbent', 'party_leader', 'pm', 'mpp', 'premier', 'cabinet'))
+                cand_csv.writerow(('id', 'name', 'last_win_margin', 'party_leader', 'pm', 'mpp', 'premier', 'cabinet'))
                 for cand in candidates:
                     cand_csv.writerow(cand)
             conn.close()

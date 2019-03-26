@@ -1,4 +1,4 @@
-id,name,incumbent,party_leader,pm,mpp,premier,cabinet
+id,name,last_win_margin,party_leader,pm,mpp,premier,cabinet
 0,Eugene Conway
 1,Shannon Hillier
 2,Fabian Manning
