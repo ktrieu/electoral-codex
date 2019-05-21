@@ -38,7 +38,7 @@ def dump_cands():
             candidates = conn.cursor().execute(CAND_DUMP_QUERY)
             with open(f'cands_{year}.csv', 'w', newline='', encoding='utf-8') as cand_file:
                 cand_csv = csv.writer(cand_file)
-                cand_csv.writerow(('id', 'name', 'riding_name', 'last_win_margin', 'party_leader', 'pm', 'mpp', 'premier', 'cabinet'))
+                cand_csv.writerow(('id', 'name', 'riding_name', 'last_win_margin', 'party_leader', 'pm', 'mpp', 'premier'))
                 for cand in candidates:
                     cand_csv.writerow(cand)
             conn.close()
@@ -52,7 +52,7 @@ if __name__ == '__main__':
             dump_cands()
         else:
             print('Invalid arguments.')
-    elif len(sys.argv == 1):
+    elif len(sys.argv) == 1:
         process_data()
     else:
         print('Invalid arguments.')
