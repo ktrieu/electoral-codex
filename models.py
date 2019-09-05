@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import DefaultDict
+from sqlite3 import Cursor
 from collections import defaultdict
 
 ids: DefaultDict[type, int] = defaultdict(int)
@@ -33,7 +34,7 @@ class Candidate:
             name TEXT NOT NULL,
             party TEXT NOT NULL,
             incumbent INTEGER NOT NULL,
-            pk INTEGER NOT NULL PRIMARY KEY,
+            pk INTEGER NOT NULL PRIMARY KEY
         )
         '''
 
@@ -56,18 +57,18 @@ class RidingResult:
     cand_id: int
     riding_num: int
     votes: int
-    pk: int = field(default_factory=id_factory)
+    pk: int = field(default_factory=lambda: id_factory(RidingResult))
 
     @classmethod
     def get_schema(cls):
         return '''
         CREATE TABLE riding_result (
             cand_id INTEGER NOT NULL,
-            FOREIGN KEY(cand_id) REFERENCES candidate(pk)
             riding_num INTEGER NOT NULL,
-            FOREIGN KEY(riding_num) REFERENCES riding(number),
             votes INTEGER NOT NULL,
-            pk INTEGER NOT NULL PRIMARY KEY
+            pk INTEGER NOT NULL PRIMARY KEY,
+            FOREIGN KEY(cand_id) REFERENCES candidate(pk),
+            FOREIGN KEY(riding_num) REFERENCES riding(number)
         )
         '''
 
@@ -77,7 +78,7 @@ class PollingStation:
     subdivision: int
     name: str
     riding_num: int
-    pk: int = field(default_factory=id_factory)
+    pk: int = field(default_factory=lambda: id_factory(PollingStation))
 
     @classmethod
     def get_schema(cls):
@@ -86,9 +87,9 @@ class PollingStation:
             number INTEGER NOT NULL,
             subdivision INTEGER,
             name TEXT NOT NULL,
-            riding_id INTEGER NOT NULL,
-            FOREIGN KEY(riding_num) REFERENCES riding(number),
-            pk INTEGER NOT NULL PRIMARY KEY
+            riding_num INTEGER NOT NULL,
+            pk INTEGER NOT NULL PRIMARY KEY,
+            FOREIGN KEY(riding_num) REFERENCES riding(number)
         )
         '''
 
@@ -104,11 +105,11 @@ class PollingStationResult:
         return '''
         CREATE TABLE polling_station_result (
             cand_id INTEGER NOT NULL,
-            FOREIGN KEY (cand_id) REFERENCES candidate(pk),
             station_id INTEGER NOT NULL,
-            FOREIGN KEY (station_id) REFERENCES polling_station(pk),
             votes INTEGER,
             pk INTEGER NOT NULL PRIMARY KEY,
+            FOREIGN KEY(cand_id) REFERENCES candidate(pk),
+            FOREIGN KEY(station_id) REFERENCES polling_station(pk)
         )
         '''
 
