@@ -113,4 +113,16 @@ class PollingStationResult:
         )
         '''
 
+def drop_tables(cursor: Cursor):
+    cursor.execute(r'DROP TABLE IF EXISTS candidate')
+    cursor.execute(r'DROP TABLE IF EXISTS riding')
+    cursor.execute(r'DROP TABLE IF EXISTS riding_result')
+    cursor.execute(r'DROP TABLE IF EXISTS polling_station')
+    cursor.execute(r'DROP TABLE IF EXISTS polling_station_result')
 
+def create_tables(cursor: Cursor):
+    cursor.execute(Candidate.get_schema())
+    cursor.execute(Riding.get_schema())
+    cursor.execute(RidingResult.get_schema())
+    cursor.execute(PollingStation.get_schema())
+    cursor.execute(PollingStationResult.get_schema())
